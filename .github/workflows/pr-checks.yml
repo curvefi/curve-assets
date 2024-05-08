@@ -47,7 +47,7 @@ jobs:
                 errorOutputText="- Error with \`$file\`: $errorText"
                 echo "::error file=$file::$errorText"
                 echo "$errorOutputText" >> $GITHUB_OUTPUT
-              elif [[ ! $file =~ ^images/assets(-[a-z]+)?/[a-z0-9]+\.png$ ]] ;
+              elif [[ ! $file =~ ^images/assets(-[a-z]+)*/[a-z0-9]+\.png$ ]] ;
               then
                 errorText="The new icon's filename must be entirely lowercase"
                 errorOutputText="- Error with \`$file\`: $errorText"
