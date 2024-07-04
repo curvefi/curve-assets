@@ -23,3 +23,13 @@ Example:
 - This is NOT a correct filename for the CRV token on Ethereum: `/images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.jpg` (incorrect file extension)
 
 Once you've opened a PR, we'll review and merge it. Once the PR is merged, the token icon should show up on all sites within minutes.
+
+## Using this repository's icons on your website
+
+We use [jsDelivr](https://github.com/jsdelivr/jsdelivr), a free CDN for open-source files, which allows to serve any file found in this repo in a fast and reliable way, for free.
+
+It's simple:
+
+1. This is the base url: `https://cdn.jsdelivr.net/gh/curvefi/curve-assets/`
+2. Append to it the relative path of any icon in this repository: for example, for the CRV icon on Ethereum: `images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png`
+3. That's it, you can serve icon anywhere you want with the complete url: for example, for the CRV icon: [`https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png`](https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png)
