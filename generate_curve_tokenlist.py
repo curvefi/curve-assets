@@ -1,4 +1,3 @@
-import asyncio
 import json
 import logging
 import os
@@ -22,7 +21,7 @@ logger = logging.getLogger("rich")
 PINATA_TOKEN = os.environ.get("PINATA_TOKEN")
 
 
-async def main():
+def main(networks_to_process=None):
     tokens = []
     token_map = {}
 
@@ -36,16 +35,23 @@ async def main():
         existing_token_map = {}
         logger.info("[yellow]No existing token list found. Creating new one.[/yellow]")
 
-    for network in os.listdir("images"):
+    networks = networks_to_process if networks_to_process else os.listdir("images")
+
+    for network in networks:
         network_path = os.path.join("images", network)
+        network_name = (
+            "gnosis" if network == "assets-xdai" else (network[7:] if network.startswith("assets-") else "ethereum")
+        )
+
         if os.path.isdir(network_path):
-            logger.info(f"[blue]Processing network: {network}[/blue]")
-            rpc_url = DRPC_URL % (network, DRPC_KEY)
+            logger.info(f"[blue]Processing network: {network_name}[/blue]")
+            rpc_url = DRPC_URL % (network_name, DRPC_KEY)
             w3 = Web3(Web3.HTTPProvider(rpc_url))
 
             addresses = [image[:-4] for image in os.listdir(network_path) if image.endswith(".png")]
 
-            token_info_batch = await get_token_info_batch(w3, addresses)
+            token_info_batch = get_token_info_batch(w3, addresses)
+            breakpoint()
 
             for info in token_info_batch:
                 token_key = f"{network}_{info['address']}"
@@ -60,7 +66,7 @@ async def main():
                     logger.info(f"[green]Pinned new logo for {info['symbol']}[/green]")
 
                 token = {
-                    "chainId": NETWORKS.get(network, network),
+                    "chainId": NETWORKS[network_name].chain_id,
                     "address": info["address"],
                     "name": info["name"],
                     "symbol": info["symbol"],
@@ -90,4 +96,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main(["assets-arbitrum"])

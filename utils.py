@@ -5,7 +5,7 @@ from eth_abi import decode
 from rich.logging import RichHandler
 from web3 import Web3
 
-from constants import ERC20_ABI, MULTICALL_ABI, MULTICALL_ADDRESSES
+from constants import ERC20_ABI, MULTICALL_ABI, NETWORKS
 
 logging.basicConfig(
     level="INFO",
@@ -17,28 +17,35 @@ logging.basicConfig(
 logger = logging.getLogger("rich")
 
 
-def multicall(w3: Web3, calls: list, block_identifier: int = "latest"):
-    multicall_contract = w3.eth.contract(address=MULTICALL_ADDRESSES[w3.eth.chain_id], abi=MULTICALL_ABI)
+def multicall(w3: Web3, calls: list, block_identifier: int = "latest", batch_size: int = 1000):
+    network = next((net for net in NETWORKS.values() if net.chain_id == w3.eth.chain_id), None)
+    if not network:
+        raise ValueError(f"Unsupported chain ID: {w3.eth.chain_id}")
 
-    aggregate_calls = []
-    for call in calls:
-        contract, fn_name, args = call
-        call_data = contract.encodeABI(fn_name=fn_name, args=args)
-        aggregate_calls.append((contract.address, call_data))
+    multicall_contract = w3.eth.contract(address=network.multicall_address, abi=MULTICALL_ABI)
 
-    result = multicall_contract.functions.aggregate(aggregate_calls).call(block_identifier=block_identifier)
+    all_decoded_results = []
+    for i in range(0, len(calls), batch_size):
+        batch_calls = calls[i: i + batch_size]
 
-    decoded_results = []
-    for i, call in enumerate(calls):
-        contract, fn_name, _ = call
-        function = contract.get_function_by_name(fn_name)
-        output_types = [output["type"] for output in function.abi["outputs"]]
-        decoded_results.append(decode(output_types, result[1][i]))
+        aggregate_calls = []
+        for call in batch_calls:
+            contract, fn_name, args = call
+            call_data = contract.encodeABI(fn_name=fn_name, args=args)
+            aggregate_calls.append((contract.address, call_data))
 
-    return decoded_results
+        result = multicall_contract.functions.aggregate(aggregate_calls).call(block_identifier=block_identifier)
+
+        for j, call in enumerate(batch_calls):
+            contract, fn_name, _ = call
+            function = contract.get_function_by_name(fn_name)
+            output_types = [output["type"] for output in function.abi["outputs"]]
+            all_decoded_results.append(decode(output_types, result[1][j]))
+
+    return all_decoded_results
 
 
-async def get_token_info_batch(w3, addresses):
+def get_token_info_batch(w3, addresses):
     calls = []
     for address in addresses:
         contract = w3.eth.contract(address=Web3.to_checksum_address(address), abi=ERC20_ABI)
