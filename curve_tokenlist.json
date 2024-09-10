@@ -1,0 +1,403 @@
+{
+  "name": "Curve Token List",
+  "logoURI": "ipfs://QmZiiqV3J9rQp5wjTwbcpPr25iPxBtoZDJ9im8neqrkvBm",
+  "keywords": [
+    "curve",
+    "defi"
+  ],
+  "tags": {},
+  "timestamp": "2024-09-10T10:30:25.286004+00:00",
+  "tokens": [
+    {
+      "chainId": 100,
+      "address": "0xaf204776c7245bf4147c2612bf6e5972ee483701",
+      "name": "Savings xDAI",
+      "symbol": "sDAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmYD3Tmqxh4ZFZfmu52WW4QTrvVSZCdN375ChgnqGgc5aF"
+    },
+    {
+      "chainId": 100,
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmWZxSp5kUMZrUuKmZX1owW5uXirbVab1bvnhEizoarqsS"
+    },
+    {
+      "chainId": 100,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "ipfs://QmTWtCLQo15Dz2XKbBDkYQN6jyVmMGb2ZLyV9hcYPpJ1uj"
+    },
+    {
+      "chainId": 100,
+      "address": "0xabef652195f98a91e490f047a5006b71c85f058d",
+      "name": "Curve.Fi USD Stablecoin from Mainnet",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "ipfs://QmfRgRUmtmkggrN6WxKuDXD1PP7XM3CnVq9J2hLNM4ftRU"
+    },
+    {
+      "chainId": 100,
+      "address": "0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445",
+      "name": "StakeWise Staked GNO",
+      "symbol": "sGNO",
+      "decimals": 18,
+      "logoURI": "ipfs://QmYxdXMhhbAQJETDeLDqqVGZ6zTcuco91cGYFZspTGcgjw"
+    },
+    {
+      "chainId": 100,
+      "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+      "name": "Gnosis Token on xDai",
+      "symbol": "GNO",
+      "decimals": 18,
+      "logoURI": "ipfs://QmQRX3mjV41uBaDJfESNQVmNVeHNBZp3ddVBsWoiM4tqQY"
+    },
+    {
+      "chainId": 100,
+      "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+      "name": "Tether USD on xDai",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "ipfs://QmebZg6NffSM2wcCSB97rDoszcRnLYuqQL2cQAorPP9iBN"
+    },
+    {
+      "chainId": 100,
+      "address": "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd",
+      "name": "Curve DAO Token on xDai",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "ipfs://Qmbe8tE1uEhihQwhuf19bjKuQJMe4E7Pxs6Qf6uGXxtfkU"
+    },
+    {
+      "chainId": 100,
+      "address": "0xcb444e90d8198415266c6a2724b7900fb12fc56e",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "ipfs://QmeBpksABjsnVRjgFSSycYqT1zGiG8wBL5Ut3zkhXFVWyV"
+    },
+    {
+      "chainId": 100,
+      "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+      "name": "Wrapped XDAI",
+      "symbol": "WXDAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmaHFogcDqgUL5gv9KeKbW7b63GChnqVJppKN4NBBJPV12"
+    },
+    {
+      "chainId": 100,
+      "address": "0x6ac78efae880282396a335ca2f79863a1e6831d4",
+      "name": "StakeWise Reward GNO",
+      "symbol": "rGNO",
+      "decimals": 18,
+      "logoURI": "ipfs://QmSxFPtqqdHmF6c364zCa51F7pU8kXTraSPVg1P8Z5Z2dW"
+    },
+    {
+      "chainId": 100,
+      "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+      "name": "USD//C on xDai",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "ipfs://QmVG1v4CKF1FhfuZHYa1EXJoc4hi7WsmKrKocmTQvgEktQ"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "ipfs://QmebZg6NffSM2wcCSB97rDoszcRnLYuqQL2cQAorPP9iBN"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xffffffffea09fb06d082fd1275cd48b191cbcd1d",
+      "name": "Tether USD",
+      "symbol": "xcUSDT",
+      "decimals": 6,
+      "logoURI": "ipfs://QmebZg6NffSM2wcCSB97rDoszcRnLYuqQL2cQAorPP9iBN"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x322e86852e492a7ee17f28a78c663da38fb33bfb",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "ipfs://Qmd1dYvPbaJ4J9GCism4hjLpL9ntQs8E2H1MvaHEVVb6uh"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xca01a1d0993565291051daff390892518acfad3a",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "ipfs://Qmbgx9miErBfYHcka5j5qSaY8D8gqwAra8TegfFsWbCkhX"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "ipfs://QmZ5UFDQ6RxqpNc4MiE7mWG2C94NQUZ21rNBYJeonywkBc"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x8f552a71efe5eefc207bf75485b356a0b3f01ec9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "ipfs://QmVG1v4CKF1FhfuZHYa1EXJoc4hi7WsmKrKocmTQvgEktQ"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108",
+      "name": "Liquid staked DOT",
+      "symbol": "stDOT",
+      "decimals": 10,
+      "logoURI": "ipfs://QmSksNUZnnnsg6TV6F7NurTnqtdMUEhzMRGR9bZVXbrD1J"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xc806b0600cbafa0b197562a9f7e3b9856866e9bf",
+      "name": "Deuterium",
+      "symbol": "d2O",
+      "decimals": 18,
+      "logoURI": "ipfs://QmTzNX59KhpwjBMjGVwbhBr1ZKhcwbT7eeibHsYqfFY6r7"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xc234a67a4f840e61ade794be47de455361b52413",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmR9SXSZtg1muTqBeJfy6hkJXfQv91zCpSzgT1FWWmfxBi"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c",
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "decimals": 18,
+      "logoURI": "ipfs://QmUUtU6hH3soZPJfidkEeznjYfSaK7cHzqnApbqesPiTi6"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xffffffff5ac1f9a51a93f5c527385edf7fe98a52",
+      "name": "interBTC",
+      "symbol": "xcIBTC",
+      "decimals": 8,
+      "logoURI": "ipfs://QmawrCCkiRK2rzxcEoPyPioEVGY5xPxbVLRgnJxJaHRRy9"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+      "name": "xcDOT",
+      "symbol": "xcDOT",
+      "decimals": 10,
+      "logoURI": "ipfs://QmUizd8tvDxhmMzmASN7tMLZtBLynAcjd32L2EfDbsxnkr"
+    }
+  ],
+  "tokenMap": {
+    "100_0xaf204776c7245bf4147c2612bf6e5972ee483701": {
+      "chainId": 100,
+      "address": "0xaf204776c7245bf4147c2612bf6e5972ee483701",
+      "name": "Savings xDAI",
+      "symbol": "sDAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmYD3Tmqxh4ZFZfmu52WW4QTrvVSZCdN375ChgnqGgc5aF"
+    },
+    "100_0x3f56e0c36d275367b8c502090edf38289b3dea0d": {
+      "chainId": 100,
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmWZxSp5kUMZrUuKmZX1owW5uXirbVab1bvnhEizoarqsS"
+    },
+    "100_0x59d9356e565ab3a36dd77763fc0d87feaf85508c": {
+      "chainId": 100,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "ipfs://QmTWtCLQo15Dz2XKbBDkYQN6jyVmMGb2ZLyV9hcYPpJ1uj"
+    },
+    "100_0xabef652195f98a91e490f047a5006b71c85f058d": {
+      "chainId": 100,
+      "address": "0xabef652195f98a91e490f047a5006b71c85f058d",
+      "name": "Curve.Fi USD Stablecoin from Mainnet",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "ipfs://QmfRgRUmtmkggrN6WxKuDXD1PP7XM3CnVq9J2hLNM4ftRU"
+    },
+    "100_0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445": {
+      "chainId": 100,
+      "address": "0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445",
+      "name": "StakeWise Staked GNO",
+      "symbol": "sGNO",
+      "decimals": 18,
+      "logoURI": "ipfs://QmYxdXMhhbAQJETDeLDqqVGZ6zTcuco91cGYFZspTGcgjw"
+    },
+    "100_0x9c58bacc331c9aa871afd802db6379a98e80cedb": {
+      "chainId": 100,
+      "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+      "name": "Gnosis Token on xDai",
+      "symbol": "GNO",
+      "decimals": 18,
+      "logoURI": "ipfs://QmQRX3mjV41uBaDJfESNQVmNVeHNBZp3ddVBsWoiM4tqQY"
+    },
+    "100_0x4ecaba5870353805a9f068101a40e0f32ed605c6": {
+      "chainId": 100,
+      "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+      "name": "Tether USD on xDai",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "ipfs://QmebZg6NffSM2wcCSB97rDoszcRnLYuqQL2cQAorPP9iBN"
+    },
+    "100_0x712b3d230f3c1c19db860d80619288b1f0bdd0bd": {
+      "chainId": 100,
+      "address": "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd",
+      "name": "Curve DAO Token on xDai",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "ipfs://Qmbe8tE1uEhihQwhuf19bjKuQJMe4E7Pxs6Qf6uGXxtfkU"
+    },
+    "100_0xcb444e90d8198415266c6a2724b7900fb12fc56e": {
+      "chainId": 100,
+      "address": "0xcb444e90d8198415266c6a2724b7900fb12fc56e",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "ipfs://QmeBpksABjsnVRjgFSSycYqT1zGiG8wBL5Ut3zkhXFVWyV"
+    },
+    "100_0xe91d153e0b41518a2ce8dd3d7944fa863463a97d": {
+      "chainId": 100,
+      "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+      "name": "Wrapped XDAI",
+      "symbol": "WXDAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmaHFogcDqgUL5gv9KeKbW7b63GChnqVJppKN4NBBJPV12"
+    },
+    "100_0x6ac78efae880282396a335ca2f79863a1e6831d4": {
+      "chainId": 100,
+      "address": "0x6ac78efae880282396a335ca2f79863a1e6831d4",
+      "name": "StakeWise Reward GNO",
+      "symbol": "rGNO",
+      "decimals": 18,
+      "logoURI": "ipfs://QmSxFPtqqdHmF6c364zCa51F7pU8kXTraSPVg1P8Z5Z2dW"
+    },
+    "100_0xddafbb505ad214d7b80b1f830fccc89b60fb7a83": {
+      "chainId": 100,
+      "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+      "name": "USD//C on xDai",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "ipfs://QmVG1v4CKF1FhfuZHYa1EXJoc4hi7WsmKrKocmTQvgEktQ"
+    },
+    "1284_0x8e70cd5b4ff3f62659049e74b6649c6603a0e594": {
+      "chainId": 1284,
+      "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "ipfs://QmebZg6NffSM2wcCSB97rDoszcRnLYuqQL2cQAorPP9iBN"
+    },
+    "1284_0xffffffffea09fb06d082fd1275cd48b191cbcd1d": {
+      "chainId": 1284,
+      "address": "0xffffffffea09fb06d082fd1275cd48b191cbcd1d",
+      "name": "Tether USD",
+      "symbol": "xcUSDT",
+      "decimals": 6,
+      "logoURI": "ipfs://QmebZg6NffSM2wcCSB97rDoszcRnLYuqQL2cQAorPP9iBN"
+    },
+    "1284_0x322e86852e492a7ee17f28a78c663da38fb33bfb": {
+      "chainId": 1284,
+      "address": "0x322e86852e492a7ee17f28a78c663da38fb33bfb",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "ipfs://Qmd1dYvPbaJ4J9GCism4hjLpL9ntQs8E2H1MvaHEVVb6uh"
+    },
+    "1284_0xca01a1d0993565291051daff390892518acfad3a": {
+      "chainId": 1284,
+      "address": "0xca01a1d0993565291051daff390892518acfad3a",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "ipfs://Qmbgx9miErBfYHcka5j5qSaY8D8gqwAra8TegfFsWbCkhX"
+    },
+    "1284_0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d": {
+      "chainId": 1284,
+      "address": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "ipfs://QmZ5UFDQ6RxqpNc4MiE7mWG2C94NQUZ21rNBYJeonywkBc"
+    },
+    "1284_0x8f552a71efe5eefc207bf75485b356a0b3f01ec9": {
+      "chainId": 1284,
+      "address": "0x8f552a71efe5eefc207bf75485b356a0b3f01ec9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "ipfs://QmVG1v4CKF1FhfuZHYa1EXJoc4hi7WsmKrKocmTQvgEktQ"
+    },
+    "1284_0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108": {
+      "chainId": 1284,
+      "address": "0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108",
+      "name": "Liquid staked DOT",
+      "symbol": "stDOT",
+      "decimals": 10,
+      "logoURI": "ipfs://QmSksNUZnnnsg6TV6F7NurTnqtdMUEhzMRGR9bZVXbrD1J"
+    },
+    "1284_0xc806b0600cbafa0b197562a9f7e3b9856866e9bf": {
+      "chainId": 1284,
+      "address": "0xc806b0600cbafa0b197562a9f7e3b9856866e9bf",
+      "name": "Deuterium",
+      "symbol": "d2O",
+      "decimals": 18,
+      "logoURI": "ipfs://QmTzNX59KhpwjBMjGVwbhBr1ZKhcwbT7eeibHsYqfFY6r7"
+    },
+    "1284_0xc234a67a4f840e61ade794be47de455361b52413": {
+      "chainId": 1284,
+      "address": "0xc234a67a4f840e61ade794be47de455361b52413",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "ipfs://QmR9SXSZtg1muTqBeJfy6hkJXfQv91zCpSzgT1FWWmfxBi"
+    },
+    "1284_0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c": {
+      "chainId": 1284,
+      "address": "0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c",
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "decimals": 18,
+      "logoURI": "ipfs://QmUUtU6hH3soZPJfidkEeznjYfSaK7cHzqnApbqesPiTi6"
+    },
+    "1284_0xffffffff5ac1f9a51a93f5c527385edf7fe98a52": {
+      "chainId": 1284,
+      "address": "0xffffffff5ac1f9a51a93f5c527385edf7fe98a52",
+      "name": "interBTC",
+      "symbol": "xcIBTC",
+      "decimals": 8,
+      "logoURI": "ipfs://QmawrCCkiRK2rzxcEoPyPioEVGY5xPxbVLRgnJxJaHRRy9"
+    },
+    "1284_0xffffffff1fcacbd218edc0eba20fc2308c778080": {
+      "chainId": 1284,
+      "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+      "name": "xcDOT",
+      "symbol": "xcDOT",
+      "decimals": 10,
+      "logoURI": "ipfs://QmUizd8tvDxhmMzmASN7tMLZtBLynAcjd32L2EfDbsxnkr"
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -21,7 +21,6 @@ poetry.lock
 Thumbs.db
 
 # Project-specific
-curve_tokenlist.json
 images/
 
 # Logs

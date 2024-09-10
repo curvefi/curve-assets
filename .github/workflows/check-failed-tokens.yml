@@ -1,0 +1,57 @@
+name: Check Failed Tokens
+
+on:
+  workflow_run:
+    workflows: ["Update Token List"]
+    types:
+      - completed
+
+jobs:
+  check-failed-tokens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download failed tokens report
+        uses: actions/download-artifact@v3
+        with:
+          name: failed-tokens-report
+          path: ./
+
+      - name: Check failed tokens report
+        run: |
+          if [ -f failed_tokens_report.json ]; then
+            if [ "$(jq 'length' failed_tokens_report.json)" -gt 0 ]; then
+              echo "Failed tokens found:"
+              jq '.' failed_tokens_report.json
+              exit 1
+            else
+              echo "No failed tokens found."
+            fi
+          else
+            echo "failed_tokens_report.json not found. This is unexpected."
+            exit 1
+          fi
+
+      - name: Comment on PR if error
+        uses: actions/github-script@v6
+        if: failure()
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const fs = require('fs');
+            const failedTokens = JSON.parse(fs.readFileSync('failed_tokens_report.json', 'utf8'));
+            let comment = '### Failed Tokens Report\n\nThe following tokens failed to be processed:\n\n';
+            for (const [network, tokens] of Object.entries(failedTokens)) {
+              comment += `**${network}**:\n`;
+              tokens.forEach(token => {
+                comment += `- ${token}\n`;
+              });
+            }
+            comment += '\nPlease check these tokens and address any issues.';
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.name,
+              body: comment
+            })

@@ -2,6 +2,9 @@ import os
 from dataclasses import dataclass
 from typing import Dict
 
+NATIVE_TOKEN_ADDRESS = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+
+
 # ABI for ERC20 token
 ERC20_ABI = [
     {"constant": True, "inputs": [], "name": "name", "outputs": [{"name": "", "type": "string"}], "type": "function"},
@@ -19,26 +22,13 @@ ERC20_ABI = [
 DRPC_URL = "https://lb.drpc.org/ogrpc?network=%s&dkey=%s"
 DRPC_KEY = os.environ.get("DRPC_KEY")
 
-# Multicall contract addresses for different networks
-MULTICALL_ADDRESSES = {
-    "ethereum": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
-    "polygon": "0x275617327c958bD06b5D6b871E7f491D76113dd8",
-    "arbitrum": "0x842eC2c7D803033Edf55E478F461FC547Bc54EB2",
-    "optimism": "0x2DC0E2aa608532Da689e89e237dF582B783E552C",
-    "base": "0x091e99cb1C49331a94dD62755D168E941AbD0693",
-    "gnosis": "0xcA11bde05977b3631167028862bE2a173976CA11",
-    "avalanche": "0xcA11bde05977b3631167028862bE2a173976CA11",
-    "fantom": "0xcA11bde05977b3631167028862bE2a173976CA11",
-    "celo": "0xcA11bde05977b3631167028862bE2a173976CA11",
-    "kava": "0x4E075eA4Cf2cB39Db4d67e2F9dA09f5E5dF3f9D9",
-}
-
 
 # Network: chain_id mapping
 @dataclass(frozen=True)
 class Network:
     chain_id: int
     multicall_address: str
+    rpc_url: str = ""  # Add this field for custom RPC URLs
 
 
 NETWORKS: Dict[str, Network] = {
@@ -51,7 +41,13 @@ NETWORKS: Dict[str, Network] = {
     "avalanche": Network(43114, "0xcA11bde05977b3631167028862bE2a173976CA11"),
     "fantom": Network(250, "0xcA11bde05977b3631167028862bE2a173976CA11"),
     "celo": Network(42220, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "kava": Network(2222, "0x4E075eA4Cf2cB39Db4d67e2F9dA09f5E5dF3f9D9"),
+    "kava": Network(2222, "0x30A62aA52Fa099C4B227869EB6aeaDEda054d121"),
+    "moonbeam": Network(1284, "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F"),
+    "bsc": Network(56, "0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb"),
+    "fraxtal": Network(252, "0xcA11bde05977b3631167028862bE2a173976CA11"),
+    "mantle": Network(5000, "0xcA11bde05977b3631167028862bE2a173976CA11"),
+    "aurora": Network(1313161554, "0xcA11bde05977b3631167028862bE2a173976CA11"),
+    "x-layer": Network(1261120, "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F", "https://xlayerrpc.okx.com"),
 }
 
 # Multicall ABI
