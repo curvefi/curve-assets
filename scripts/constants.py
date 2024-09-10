@@ -49,7 +49,7 @@ NETWORKS: Dict[str, Network] = {
     "fraxtal": Network(252, MULTICALL_ADDRESS),
     "mantle": Network(5000, MULTICALL_ADDRESS),
     "aurora": Network(1313161554, MULTICALL_ADDRESS),
-    "x-layer": Network(1261120, MULTICALL_ADDRESS, "https://xlayerrpc.okx.com"),
+    "x-layer": Network(196, MULTICALL_ADDRESS, "https://xlayerrpc.okx.com"),
 }
 
 # Multicall ABI

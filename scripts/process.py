@@ -8,7 +8,7 @@ from web3 import Web3
 
 from scripts.constants import DRPC_KEY, DRPC_URL, NETWORKS
 from scripts.models import validate_token, validate_tokenlist
-from scripts.utils import get_token_info_batch, pin_to_ipfs
+from scripts.utils import get_network_name, get_token_info_batch, pin_to_ipfs
 
 console = Console()
 
@@ -65,9 +65,7 @@ def process_network(
     network: str, existing_tokens: List[Dict], all_failed_tokens: Dict[str, List[str]]
 ) -> Tuple[List[Dict], List[Dict]]:
     network_path = os.path.join("images", network)
-    network_name = (
-        "gnosis" if network == "assets-xdai" else (network[7:] if network.startswith("assets-") else "ethereum")
-    )
+    network_name = get_network_name(network)
 
     if not os.path.isdir(network_path):
         console.print(f"[yellow]Network directory not found: {network_path}[/yellow]")

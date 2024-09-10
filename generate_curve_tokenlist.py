@@ -11,9 +11,10 @@ from typing import List, Optional
 from rich.console import Console
 from rich.theme import Theme
 
+from scripts.constants import NETWORKS
 from scripts.process import process_network, update_tokenlist
 from scripts.scan import display_summary, scan_images_folder
-from scripts.utils import load_json, save_json
+from scripts.utils import get_network_name, load_json, save_json
 
 # Create a custom theme for our logs
 custom_theme = Theme(
@@ -36,6 +37,8 @@ def main(networks_to_ignore: Optional[List[str]] = None) -> None:
         existing_tokenlist = load_json("curve_tokenlist.json")
         existing_tokens = existing_tokenlist.get("tokens", [])
 
+        # Remove the part that loads the failed_tokens_report.json
+
         networks, tokens_to_append, errors = scan_images_folder()
         if networks_to_ignore:
             networks = [net for net in networks if net not in networks_to_ignore]
@@ -47,6 +50,7 @@ def main(networks_to_ignore: Optional[List[str]] = None) -> None:
         all_skipped_tokens = []
 
         for network in networks:
+            network_name = get_network_name(network)
             network_tokens, skipped_tokens = process_network(network, existing_tokens, all_failed_tokens)
             processed_tokens.extend(network_tokens)
             all_skipped_tokens.extend(skipped_tokens)
@@ -55,15 +59,13 @@ def main(networks_to_ignore: Optional[List[str]] = None) -> None:
             updated_tokenlist = update_tokenlist(processed_tokens, all_skipped_tokens, existing_tokenlist)
             save_json(updated_tokenlist, "curve_tokenlist.json")
 
-            # Update existing_tokenlist for the next iteration
-            existing_tokenlist = updated_tokenlist
-            existing_tokens = existing_tokenlist.get("tokens", [])
-
-        if all_failed_tokens:
-            save_json(all_failed_tokens, "failed_tokens_report.json")
+        # Check if there are any failed tokens
+        if os.path.exists("failed_tokens_report.txt") and os.path.getsize("failed_tokens_report.txt") > 0:
             console.print(
-                "[red]Some tokens failed to return data or validate. Check failed_tokens_report.json for details.[/red]"
+                "[yellow]Some tokens failed to return data or validate. Check failed_tokens_report.txt for details.[/yellow]"
             )
+        else:
+            console.print("[green]All tokens processed successfully![/green]")
 
         console.print("[green]Token list generation completed![/green]")
     except Exception as e:

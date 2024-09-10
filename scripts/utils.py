@@ -13,6 +13,10 @@ from scripts.constants import ERC20_ABI, MULTICALL_ABI, NATIVE_TOKEN_ADDRESS, NE
 console = Console()
 
 
+def get_network_name(network: str) -> str:
+    return "gnosis" if network == "assets-xdai" else (network[7:] if network.startswith("assets-") else "ethereum")
+
+
 def load_json(file_path: str) -> Dict:
     try:
         with open(file_path, "r") as f:
