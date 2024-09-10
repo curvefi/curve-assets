@@ -24,6 +24,7 @@ PINATA_TOKEN = os.environ.get("PINATA_TOKEN")
 def main(networks_to_process=None):
     tokens = []
     token_map = {}
+    all_failed_tokens = {}
 
     # Load existing tokenlist if it exists
     try:
@@ -50,8 +51,13 @@ def main(networks_to_process=None):
 
             addresses = [image[:-4] for image in os.listdir(network_path) if image.endswith(".png")]
 
-            token_info_batch = get_token_info_batch(w3, addresses)
-            breakpoint()
+            token_info_batch, failed_tokens = get_token_info_batch(w3, addresses)
+
+            if failed_tokens:
+                all_failed_tokens[network_name] = failed_tokens
+                logger.warning(
+                    f"[yellow]Failed to fetch data for {len(failed_tokens)} tokens on {network_name}[/yellow]"
+                )
 
             for info in token_info_batch:
                 token_key = f"{network}_{info['address']}"
@@ -60,21 +66,38 @@ def main(networks_to_process=None):
                 logo_path = f"images/{network}/{info['address']}.png"
                 if existing_token.get("logoURI", "").startswith("ipfs://"):
                     logo_uri = existing_token["logoURI"]
-                    logger.info(f"[cyan]Using existing IPFS hash for {info['symbol']}[/cyan]")
+                    logger.info(f"[cyan]Using existing IPFS hash for {info['address']}[/cyan]")
                 else:
                     logo_uri = pin_to_ipfs(logo_path, PINATA_TOKEN)
-                    logger.info(f"[green]Pinned new logo for {info['symbol']}[/green]")
+                    logger.info(f"[green]Pinned new logo for {info['address']}[/green]")
 
                 token = {
                     "chainId": NETWORKS[network_name].chain_id,
                     "address": info["address"],
-                    "name": info["name"],
-                    "symbol": info["symbol"],
-                    "decimals": info["decimals"],
+                    "name": info["name"] or existing_token.get("name"),
+                    "symbol": info["symbol"] or existing_token.get("symbol"),
+                    "decimals": info["decimals"] or existing_token.get("decimals"),
                     "logoURI": logo_uri,
                 }
                 tokens.append(token)
                 token_map[token_key] = token
+
+    # Generate failed tokens report with error messages
+    if all_failed_tokens:
+        with open("failed_tokens_report.json", "w") as f:
+            json.dump(all_failed_tokens, f, indent=2)
+
+        # Generate a more detailed error report
+        with open("failed_tokens_error_report.txt", "w") as f:
+            for network, tokens in all_failed_tokens.items():
+                f.write(f"Network: {network}\n")
+                for token, error in tokens:
+                    f.write(f"  Token: {token}\n")
+
+        logger.warning(
+            "[red]Some tokens failed to return data. Check failed_tokens_report.json"
+            "and failed_tokens_error_report.txt for details.[/red]"
+        )
 
     current_timestamp = datetime.now(timezone.utc).isoformat()
 
