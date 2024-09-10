@@ -6,9 +6,9 @@ from typing import Dict, List, Optional, Tuple
 from rich.console import Console
 from web3 import Web3
 
-from constants import DRPC_KEY, DRPC_URL, NETWORKS
-from models import validate_token, validate_tokenlist
-from utils import get_token_info_batch, pin_to_ipfs
+from scripts.constants import DRPC_KEY, DRPC_URL, NETWORKS
+from scripts.models import validate_token, validate_tokenlist
+from scripts.utils import get_token_info_batch, pin_to_ipfs
 
 console = Console()
 
@@ -109,8 +109,17 @@ def process_network(
 
 def update_tokenlist(new_tokens: List[Dict], skipped_tokens: List[Dict], existing_tokenlist: Dict) -> Dict:
     current_timestamp = datetime.now(timezone.utc).isoformat()
-    all_tokens = new_tokens + skipped_tokens
-    token_map = {f"{token['chainId']}_{token['address']}": token for token in all_tokens}
+
+    # Merge new tokens with existing tokens
+    existing_tokens = existing_tokenlist.get("tokens", [])
+    all_tokens = existing_tokens + new_tokens
+
+    # Remove duplicates based on chainId and address
+    unique_tokens = {f"{token['chainId']}_{token['address'].lower()}": token for token in all_tokens}
+    all_tokens = list(unique_tokens.values())
+
+    # Update token map
+    token_map = {f"{token['chainId']}_{token['address'].lower()}": token for token in all_tokens}
 
     updated_tokenlist = {
         "name": existing_tokenlist.get("name", "Curve Token List"),

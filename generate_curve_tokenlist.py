@@ -1,11 +1,19 @@
+# flake8: noqa: E402
 import os
+import sys
+
+# Add the project root directory to the Python path
+project_root = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, project_root)
+
 from typing import List, Optional
 
 from rich.console import Console
 from rich.theme import Theme
 
-from process import process_network, update_tokenlist
-from utils import load_json, save_json
+from scripts.process import process_network, update_tokenlist
+from scripts.scan import display_summary, scan_images_folder
+from scripts.utils import load_json, save_json
 
 # Create a custom theme for our logs
 custom_theme = Theme(
@@ -21,16 +29,18 @@ custom_theme = Theme(
 console = Console(theme=custom_theme)
 
 
-def main(networks_to_process: Optional[List[str]] = None, networks_to_ignore: Optional[List[str]] = None) -> None:
+def main(networks_to_ignore: Optional[List[str]] = None) -> None:
     console.print("[info]Starting token list generation...[/info]")
 
     try:
         existing_tokenlist = load_json("curve_tokenlist.json")
         existing_tokens = existing_tokenlist.get("tokens", [])
 
-        networks = networks_to_process or os.listdir("images")
+        networks, tokens_to_append, errors = scan_images_folder()
         if networks_to_ignore:
             networks = [net for net in networks if net not in networks_to_ignore]
+
+        display_summary(networks, tokens_to_append, errors)
 
         all_failed_tokens = {}
         processed_tokens = []
@@ -41,9 +51,13 @@ def main(networks_to_process: Optional[List[str]] = None, networks_to_ignore: Op
             processed_tokens.extend(network_tokens)
             all_skipped_tokens.extend(skipped_tokens)
 
-            # Update and save the tokenlist after each network to preserve progress
+            # Update the tokenlist after each network
             updated_tokenlist = update_tokenlist(processed_tokens, all_skipped_tokens, existing_tokenlist)
             save_json(updated_tokenlist, "curve_tokenlist.json")
+
+            # Update existing_tokenlist for the next iteration
+            existing_tokenlist = updated_tokenlist
+            existing_tokens = existing_tokenlist.get("tokens", [])
 
         if all_failed_tokens:
             save_json(all_failed_tokens, "failed_tokens_report.json")
@@ -58,4 +72,4 @@ def main(networks_to_process: Optional[List[str]] = None, networks_to_ignore: Op
 
 
 if __name__ == "__main__":
-    main(networks_to_ignore=["harmony"])
+    main(networks_to_ignore=["assets-harmony"])

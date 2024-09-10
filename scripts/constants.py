@@ -31,23 +31,25 @@ class Network:
     rpc_url: str = ""  # Add this field for custom RPC URLs
 
 
+MULTICALL_ADDRESS = "0xcA11bde05977b3631167028862bE2a173976CA11"
+
 NETWORKS: Dict[str, Network] = {
-    "ethereum": Network(1, "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696"),
-    "polygon": Network(137, "0x275617327c958bD06b5D6b871E7f491D76113dd8"),
-    "arbitrum": Network(42161, "0x842eC2c7D803033Edf55E478F461FC547Bc54EB2"),
-    "optimism": Network(10, "0x2DC0E2aa608532Da689e89e237dF582B783E552C"),
-    "base": Network(8453, "0x091e99cb1C49331a94dD62755D168E941AbD0693"),
-    "gnosis": Network(100, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "avalanche": Network(43114, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "fantom": Network(250, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "celo": Network(42220, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "kava": Network(2222, "0x30A62aA52Fa099C4B227869EB6aeaDEda054d121"),
-    "moonbeam": Network(1284, "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F"),
-    "bsc": Network(56, "0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb"),
-    "fraxtal": Network(252, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "mantle": Network(5000, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "aurora": Network(1313161554, "0xcA11bde05977b3631167028862bE2a173976CA11"),
-    "x-layer": Network(1261120, "0x0769fd68dFb93167989C6f7254cd0D766Fb2841F", "https://xlayerrpc.okx.com"),
+    "ethereum": Network(1, MULTICALL_ADDRESS),
+    "polygon": Network(137, MULTICALL_ADDRESS),
+    "arbitrum": Network(42161, MULTICALL_ADDRESS),
+    "optimism": Network(10, MULTICALL_ADDRESS),
+    "base": Network(8453, MULTICALL_ADDRESS),
+    "gnosis": Network(100, MULTICALL_ADDRESS),
+    "avalanche": Network(43114, MULTICALL_ADDRESS),
+    "fantom": Network(250, MULTICALL_ADDRESS),
+    "celo": Network(42220, MULTICALL_ADDRESS),
+    "kava": Network(2222, MULTICALL_ADDRESS),
+    "moonbeam": Network(1284, MULTICALL_ADDRESS),
+    "bsc": Network(56, MULTICALL_ADDRESS),
+    "fraxtal": Network(252, MULTICALL_ADDRESS),
+    "mantle": Network(5000, MULTICALL_ADDRESS),
+    "aurora": Network(1313161554, MULTICALL_ADDRESS),
+    "x-layer": Network(1261120, MULTICALL_ADDRESS, "https://xlayerrpc.okx.com"),
 }
 
 # Multicall ABI

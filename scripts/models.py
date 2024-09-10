@@ -1,6 +1,6 @@
 from typing import Annotated, Dict, List, Optional
 
-from pydantic import BaseModel, Field, HttpUrl, UrlConstraints, conint
+from pydantic import BaseModel, Field, UrlConstraints, conint
 from pydantic_core import Url
 
 
@@ -30,7 +30,7 @@ class TokenList(BaseModel):
     tokens: List[TokenInfo]
     keywords: Optional[List[str]] = None
     tags: Optional[Dict[str, Dict[str, str]]] = None
-    logoURI: Optional[HttpUrl] = None
+    logoURI: Optional[IpfsUrl] = None
     tokenMap: Optional[Dict[str, TokenInfo]] = None
 
 
