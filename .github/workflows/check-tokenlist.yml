@@ -38,16 +38,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: poetry install
 
-      - name: Fetch latest release tokenlist
-        run: |
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest)
-          DOWNLOAD_URL=$(echo $LATEST_RELEASE | jq -r '.assets[0].browser_download_url')
-          curl -L -o ./cached_tokenlist.json $DOWNLOAD_URL || cp ./curve_tokenlist.json ./cached_tokenlist.json
-
-      - name: Check new tokens
-        run: |
-          poetry run python -m scripts.check_new_tokens ./cached_tokenlist.json
-
       - name: Run tokenlist check and schema validation
         id: tokenlist-check
         run: |
@@ -65,12 +55,17 @@ jobs:
             echo "checks_passed=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Upload tokenlist check results
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: tokenlist-check-results
-          path: tokenlist_check_results.txt
+      - name: Fetch latest release tokenlist
+        if: steps.tokenlist-check.outputs.checks_passed == 'true'
+        run: |
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest)
+          DOWNLOAD_URL=$(echo $LATEST_RELEASE | jq -r '.assets[0].browser_download_url')
+          curl -L -o ./cached_tokenlist.json $DOWNLOAD_URL || cp ./curve_tokenlist.json ./cached_tokenlist.json
+
+      - name: Check new tokens
+        if: steps.tokenlist-check.outputs.checks_passed == 'true'
+        run: |
+          poetry run python -m scripts.check_new_tokens ./cached_tokenlist.json
 
   upload-tokenlist:
     needs: check-tokenlist
