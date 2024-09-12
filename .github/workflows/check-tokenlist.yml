@@ -38,9 +38,16 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: poetry install
 
-      - name: Run tokenlist check
+      - name: Run tokenlist check and schema validation
         run: |
           poetry run python check_tokenlist.py
+          if [ $? -eq 0 ]; then
+            echo "No missing tokens. Validating JSON schema..."
+            poetry run python validate_schema.py
+          else
+            echo "Missing tokens found. Skipping JSON schema validation."
+            exit 1
+          fi
 
       - name: Upload tokenlist check results
         if: failure()
