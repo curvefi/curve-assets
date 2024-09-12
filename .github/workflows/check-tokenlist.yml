@@ -1,4 +1,4 @@
-name: Check Tokenlist
+name: Check Tokenlist and Upload
 
 on:
   push:
@@ -38,15 +38,31 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: poetry install
 
+      - name: Fetch latest release tokenlist
+        run: |
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest)
+          DOWNLOAD_URL=$(echo $LATEST_RELEASE | jq -r '.assets[0].browser_download_url')
+          curl -L -o ./cached_tokenlist.json $DOWNLOAD_URL || cp ./curve_tokenlist.json ./cached_tokenlist.json
+
+      - name: Check new tokens
+        run: |
+          poetry run python -m scripts.check_new_tokens ./cached_tokenlist.json
+
       - name: Run tokenlist check and schema validation
+        id: tokenlist-check
         run: |
           poetry run python check_tokenlist.py
           if [ $? -eq 0 ]; then
             echo "No missing tokens. Validating JSON schema..."
             poetry run python validate_schema.py
+            if [ $? -eq 0 ]; then
+              echo "checks_passed=true" >> $GITHUB_OUTPUT
+            else
+              echo "checks_passed=false" >> $GITHUB_OUTPUT
+            fi
           else
             echo "Missing tokens found. Skipping JSON schema validation."
-            exit 1
+            echo "checks_passed=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Upload tokenlist check results
@@ -55,3 +71,35 @@ jobs:
         with:
           name: tokenlist-check-results
           path: tokenlist_check_results.txt
+
+  upload-tokenlist:
+    needs: check-tokenlist
+    if: needs.check-tokenlist.outputs.checks_passed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: tokenlist-${{ github.sha }}
+          release_name: Tokenlist ${{ github.sha }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Tokenlist to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./curve_tokenlist.json
+          asset_name: curve_tokenlist.json
+          asset_content_type: application/json
+
+      - name: Output Tokenlist URL
+        run: |
+          echo "Tokenlist is now available at: https://github.com/${{ github.repository }}/releases/download/tokenlist-${{ github.sha }}/curve_tokenlist.json"
