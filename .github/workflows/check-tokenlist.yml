@@ -44,7 +44,7 @@ jobs:
 
       - name: Upload tokenlist check results
         if: failure()
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: tokenlist-check-results
           path: tokenlist_check_results.txt
