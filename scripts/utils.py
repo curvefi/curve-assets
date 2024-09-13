@@ -192,8 +192,9 @@ def get_token_info_batch(w3, addresses, existing_tokens):
     return token_info, failed_tokens, skipped_tokens
 
 
-def get_logo_uri(network: str, address: str) -> str:
-    network_info = NETWORKS.get(network)
+def get_logo_uri(network_name: str, address: str) -> str:
+    network_info = NETWORKS.get(network_name)
     if not network_info:
-        raise ValueError(f"Network information not found for {network}")
-    return f"{JSDELIVR_BASE_URL}/images/{network_info.folder_name}/{address.lower()}.png"
+        raise ValueError(f"Network information not found for {network_name}")
+
+    return f"{JSDELIVR_BASE_URL}/{network_info.folder_name}/{address}.png"

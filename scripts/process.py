@@ -6,7 +6,7 @@ from typing import Dict, List, Optional, Tuple
 from rich.console import Console
 from web3 import Web3
 
-from scripts.constants import DRPC_KEY, DRPC_URL, NETWORKS, TOKENLIST_LOGO_URI
+from scripts.constants import DRPC_KEY, DRPC_URL, NATIVE_TOKEN_ADDRESS, NETWORKS, TOKENLIST_LOGO_URI
 from scripts.models import validate_token, validate_tokenlist
 from scripts.utils import get_logo_uri, get_token_info_batch
 
@@ -41,11 +41,11 @@ def process_token(
 
 
 def process_network(
-    network: str, existing_tokens: List[Dict], all_failed_tokens: Dict[str, List[str]]
+    network_name: str, existing_tokens: List[Dict], all_failed_tokens: Dict[str, List[str]]
 ) -> Tuple[List[Dict], List[Dict]]:
-    network_info = NETWORKS.get(network)
+    network_info = NETWORKS.get(network_name)
     if not network_info:
-        console.print(f"[red]Network information not found for {network}[/red]")
+        console.print(f"[red]Network information not found for {network_name}[/red]")
         return [], []
 
     network_path = os.path.join("images", network_info.folder_name)
@@ -53,27 +53,31 @@ def process_network(
         console.print(f"[yellow]Network directory not found: {network_path}[/yellow]")
         return [], []
 
-    console.print(f"[blue]Processing network: {network}[/blue]")
+    console.print(f"[blue]Processing network: {network_name}[/blue]")
 
     if network_info.rpc_url:
         rpc_url = network_info.rpc_url
     else:
-        rpc_url = DRPC_URL % (network, DRPC_KEY)
+        rpc_url = DRPC_URL % (network_name, DRPC_KEY)
 
     w3 = Web3(Web3.HTTPProvider(rpc_url))
 
-    addresses = [image[:-4] for image in os.listdir(network_path) if image.endswith(".png")]
+    addresses = [
+        image[:-4]
+        for image in os.listdir(network_path)
+        if image.endswith(".png") and image[:-4].lower() != NATIVE_TOKEN_ADDRESS.lower()
+    ]
     token_info_batch, failed_tokens, skipped_tokens = get_token_info_batch(w3, addresses, existing_tokens)
 
     if failed_tokens:
-        all_failed_tokens[network] = failed_tokens
-        console.print(f"[yellow]Failed to fetch data for {len(failed_tokens)} tokens on {network}[/yellow]")
+        all_failed_tokens[network_name] = failed_tokens
+        console.print(f"[yellow]Failed to fetch data for {len(failed_tokens)} tokens on {network_name}[/yellow]")
 
     chain_id = network_info.chain_id
     process_token_partial = partial(
         process_token,
         chain_id=chain_id,
-        network=network,
+        network=network_name,
         existing_tokens=existing_tokens,
         all_failed_tokens=all_failed_tokens,
     )
