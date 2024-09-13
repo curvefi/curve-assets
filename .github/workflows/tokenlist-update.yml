@@ -5,8 +5,6 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  schedule:
-    - cron: "0 0 * * *" # Run daily at midnight UTC
 
 jobs:
   update-tokenlist:
@@ -16,17 +14,30 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: 1.5.1
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v3
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root
 
       - name: Check existing tokenlist
         id: check-tokenlist
         run: |
-          python scripts/check_tokenlist.py
+          poetry run python scripts/check_tokenlist.py
         continue-on-error: true
 
       - name: Generate tokenlist if check failed
@@ -34,11 +45,11 @@ jobs:
         env:
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
         run: |
-          python generate_curve_tokenlist.py
+          poetry run python generate_curve_tokenlist.py
 
       - name: Verify generated tokenlist
         run: |
-          python scripts/check_tokenlist.py
+          poetry run python scripts/check_tokenlist.py
 
       - name: Commit changes
         if: github.event_name != 'pull_request'
