@@ -1,90 +1,56 @@
-name: Tokenlist Update
+name: Update Tokenlist
 
 on:
+  push:
+    branches: [main]
   pull_request:
-    paths:
-      - "images/**/*.png"
-  workflow_dispatch:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight UTC
 
 jobs:
   update-tokenlist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
-
-      - name: Install Poetry
-        uses: snok/install-poetry@v1
-        with:
-          version: 1.5.1
-          virtualenvs-create: true
-          virtualenvs-in-project: true
-
-      - name: Load cached venv
-        id: cached-poetry-dependencies
-        uses: actions/cache@v3
-        with:
-          path: .venv
-          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+          python-version: "3.10"
 
       - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction --no-root
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Generate new tokenlist
+      - name: Check existing tokenlist
+        id: check-tokenlist
+        run: |
+          python scripts/check_tokenlist.py
+        continue-on-error: true
+
+      - name: Generate tokenlist if check failed
+        if: steps.check-tokenlist.outcome == 'failure'
         env:
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
         run: |
-          poetry run python generate_curve_tokenlist.py
-          if [ $? -ne 0 ]; then
-            echo "Failed to generate new tokenlist"
-            exit 1
-          fi
+          python generate_curve_tokenlist.py
 
-      - name: Check tokenlist for missing tokens
-        id: check_tokenlist
+      - name: Verify generated tokenlist
         run: |
-          poetry run python check_tokenlist.py
-          if [ $? -ne 0 ]; then
-            echo "Missing tokens detected. Pipeline will be stopped."
-            exit 1
-          fi
-
-      - name: Check for changes
-        id: git_status
-        run: |
-          git diff --exit-code curve_tokenlist.json || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          python scripts/check_tokenlist.py
 
       - name: Commit changes
-        if: env.CHANGES_DETECTED == 'true'
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add curve_tokenlist.json
-          git commit -m "Update tokenlist"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update tokenlist" -a
 
       - name: Push changes
-        if: env.CHANGES_DETECTED == 'true'
+        if: github.event_name != 'pull_request'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.head_ref }}
-
-      - name: Comment PR
-        if: env.CHANGES_DETECTED == 'true'
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: 'Tokenlist has been updated automatically. Please review the changes.'
-            })
+          branch: ${{ github.ref }}
