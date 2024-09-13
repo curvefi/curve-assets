@@ -1,20 +1,22 @@
 import json
 from typing import Any, Dict, List, Tuple
 
-import requests
 from eth_abi import decode
 from hexbytes import HexBytes
 from rich.console import Console
 from web3 import Web3
 from web3.exceptions import ContractLogicError, InvalidAddress
 
-from scripts.constants import ERC20_ABI, MULTICALL_ABI, NATIVE_TOKEN_ADDRESS, NETWORKS
+from scripts.constants import ERC20_ABI, JSDELIVR_BASE_URL, MULTICALL_ABI, NATIVE_TOKEN_ADDRESS, NETWORKS
 
 console = Console()
 
 
-def get_network_name(network: str) -> str:
-    return "gnosis" if network == "assets-xdai" else (network[7:] if network.startswith("assets-") else "ethereum")
+def get_network_name(folder_name: str) -> str:
+    for network, info in NETWORKS.items():
+        if info.folder_name == folder_name:
+            return network
+    raise ValueError(f"No network found for folder name: {folder_name}")
 
 
 def load_json(file_path: str) -> Dict:
@@ -190,21 +192,8 @@ def get_token_info_batch(w3, addresses, existing_tokens):
     return token_info, failed_tokens, skipped_tokens
 
 
-def pin_to_ipfs(file_path: str, pinata_token: str):
-    console.print(f"[cyan]Pinning {file_path} to IPFS...[/cyan]")
-    url = "https://api.pinata.cloud/pinning/pinFileToIPFS"
-    headers = {
-        "Authorization": f"Bearer {pinata_token}",
-    }
-    with open(file_path, "rb") as file:
-        files = {"file": file}
-        response = requests.post(url, headers=headers, files=files)
-
-    try:
-        assert 200 <= response.status_code < 400
-        ipfs_hash = response.json()["IpfsHash"]
-        console.print(f"[green]Pinned {file_path} to ipfs:{ipfs_hash}[/green]")
-        return f"ipfs://{ipfs_hash}"
-    except Exception:
-        console.print(f"[red]POST to IPFS failed: {response.status_code}[/red]", style="bold")
-        raise
+def get_logo_uri(network: str, address: str) -> str:
+    network_info = NETWORKS.get(network)
+    if not network_info:
+        raise ValueError(f"Network information not found for {network}")
+    return f"{JSDELIVR_BASE_URL}/images/{network_info.folder_name}/{address.lower()}.png"

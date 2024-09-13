@@ -1,0 +1,16 @@
+{
+  "gnosis": [
+    "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812"
+  ],
+  "fantom": [
+    "0x939721\u0441e04332ca04b100154e0c8fcbb4ebaf695"
+  ],
+  "arbitrum": [
+    "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc",
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "0x79ab6c25f74e6366e1951592c2e98698d654df21"
+  ],
+  "ethereum": [
+    "btc"
+  ]
+}

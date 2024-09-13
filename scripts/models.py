@@ -10,7 +10,7 @@ class Version(BaseModel):
     patch: conint(ge=0)
 
 
-IpfsUrl = Annotated[Url, UrlConstraints(max_length=2083, allowed_schemes=["http", "https", "ipfs"])]
+logoUrl = Annotated[Url, UrlConstraints(max_length=2083, allowed_schemes=["http", "https", "ipfs"])]
 
 
 class TokenInfo(BaseModel):
@@ -19,7 +19,7 @@ class TokenInfo(BaseModel):
     decimals: conint(ge=0, le=18)
     name: str = Field(..., min_length=1, max_length=60)
     symbol: str = Field(..., min_length=1, max_length=20)
-    logoURI: Optional[IpfsUrl] = None
+    logoURI: Optional[logoUrl] = None
     tags: Optional[List[str]] = None
 
 
@@ -30,7 +30,7 @@ class TokenList(BaseModel):
     tokens: List[TokenInfo]
     keywords: Optional[List[str]] = None
     tags: Optional[Dict[str, Dict[str, str]]] = None
-    logoURI: Optional[IpfsUrl] = None
+    logoURI: Optional[logoUrl] = None
     tokenMap: Optional[Dict[str, TokenInfo]] = None
 
 
