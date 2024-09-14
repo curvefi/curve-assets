@@ -1,10 +1,9 @@
 import json
 import os
-import requests
-
-from github import Github, InputGitTreeElement
-
 from typing import Dict
+
+import requests
+from github import Github, InputGitTreeElement
 
 
 def load_gh_pages_tokenlist(repo_name: str, file_path: str) -> Dict:

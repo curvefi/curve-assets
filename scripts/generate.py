@@ -58,10 +58,9 @@ def generate_tokenlist(
 ) -> Dict:
     console.print("[info]Starting token list generation...[/info]")
 
-    existing_tokens = existing_tokenlist.get("tokens", [])
+    # Use the input tokenlist for scanning
+    networks, tokens_in_folder, tokens_to_add = scan_images_folder(existing_tokenlist)
 
-    # fetch networks list:
-    networks, tokens_in_folder, tokens_to_add = scan_images_folder()
     if networks_to_include:
         networks = [net for net in networks if net in networks_to_include]
     elif networks_to_ignore:
@@ -75,9 +74,9 @@ def generate_tokenlist(
     networks_to_process = {NETWORKS[network_name] for network_name in networks}
 
     for network_name in networks_to_process:
-        network_tokens = process_network(network_name, existing_tokens, all_failed_tokens)
+        network_tokens = process_network(network_name, existing_tokenlist, all_failed_tokens)
         ensure_native_token_in_list(network_tokens, network_name)
-        
+
         processed_tokens.extend(network_tokens)
 
     # Update the tokenlist after processing all networks

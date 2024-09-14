@@ -1,5 +1,4 @@
 import argparse
-from typing import List
 
 from rich.console import Console
 from rich.theme import Theme
@@ -36,7 +35,7 @@ def main(network: str):
     else:
         assert network in NETWORKS, f"Network '{network}' not found in NETWORKS."
         networks_to_include = [network]
-    
+
     # Load existing tokenlist from GitHub Pages
     console.print("[info]Loading existing tokenlist from GitHub Pages...[/info]")
     existing_tokenlist = load_gh_pages_tokenlist(repo_name, file_path)
@@ -59,12 +58,9 @@ def main(network: str):
     console.print("[green]Tokenlist generation and upload completed![/green]")
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate and upload tokenlist for specified networks.")
-    parser.add_argument(
-        "networks", help="Network to process, or 'all_networks' for all networks (except harmony)"
-    )
+    parser.add_argument("networks", help="Network to process, or 'all_networks' for all networks (except harmony)")
     args = parser.parse_args()
 
     main(args.networks)
