@@ -19,9 +19,11 @@ jobs:
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: 0
+
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v42
+
       - name: Process changed files
         id: changes-errors
         env:
@@ -32,8 +34,8 @@ jobs:
           for file in $ALL_CHANGED_FILES; do
             echo "Processing file: $file"
 
-            # Ignore changes to pr-checks.yml
-            if [[ $file == .github/workflows/pr-checks.yml ]]; then
+            # Ignore changes to .yml files
+            if [[ $file == *.yml ]]; then
               continue
             fi
 
@@ -65,6 +67,7 @@ jobs:
           done
 
           echo 'EOF' >> $GITHUB_OUTPUT
+
       - name: Check if errors
         id: check-if-errors
         env:
@@ -81,6 +84,7 @@ jobs:
             echo 'hasErrors=true'
             echo "hasErrors=true" >> "$GITHUB_OUTPUT"
           fi
+
       - name: Comment on PR if error
         env:
           ERRORS: ${{ steps.changes-errors.outputs.errorsStr }}
