@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-14T09:09:19.267708+00:00",
+  "timestamp": "2024-09-14T09:23:49.988259+00:00",
   "tokens": [
     {
       "chainId": 100,
@@ -6639,6 +6639,14 @@
       "symbol": "OKB",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-x-layer/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x437cc33344a0b27a429f795ff6b469c72698b291",
+      "name": "WrappedM by M^0",
+      "symbol": "wM",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x437cc33344a0b27a429f795ff6b469c72698b291.png"
     }
   ],
   "tokenMap": {
@@ -13273,6 +13281,14 @@
       "symbol": "OKB",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-x-layer/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "1_0x437cc33344a0b27a429f795ff6b469c72698b291": {
+      "chainId": 1,
+      "address": "0x437cc33344a0b27a429f795ff6b469c72698b291",
+      "name": "WrappedM by M^0",
+      "symbol": "wM",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x437cc33344a0b27a429f795ff6b469c72698b291.png"
     }
   },
   "version": {
