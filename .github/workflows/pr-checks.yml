@@ -137,14 +137,9 @@ jobs:
         run: poetry install
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
 
-      - name: Generate tokenlist
+      - name: Generate and upload tokenlist
         env:
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
-        run: |
-          poetry run python generate_curve_tokenlist.py
-
-      - name: Upload tokenlist
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           poetry run python upload_tokenlist.py
