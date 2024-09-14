@@ -1,14 +1,13 @@
-# flake8: noqa: E402
 import os
 from typing import Dict, List, Optional
 
 from rich.console import Console
 from rich.theme import Theme
 
-from scripts.constants import JSDELIVR_BASE_URL, NATIVE_TOKEN_ADDRESS, NETWORKS, get_native_token_info
+from scripts.constants import NATIVE_TOKEN_ADDRESS, NETWORKS, get_native_token_info
 from scripts.process import process_network, update_tokenlist
 from scripts.scan import display_summary, scan_images_folder
-from scripts.utils import load_json, save_json
+from scripts.utils import save_json
 
 # Create a custom theme for our logs
 custom_theme = Theme(
@@ -24,7 +23,7 @@ custom_theme = Theme(
 console = Console(theme=custom_theme)
 
 
-def ensure_native_token_in_list(tokenlist, network_name):
+def ensure_native_token_in_list(tokenlist: Dict, network_name: str) -> None:
     """
     Ensure the native token is present and up-to-date in the tokenlist for the given network,
     but only if its image file exists.
@@ -52,11 +51,10 @@ def ensure_native_token_in_list(tokenlist, network_name):
     tokenlist["tokenMap"][token_key] = native_token_info
 
 
-def generate_tokenlist(networks_to_ignore: Optional[List[str]] = None, save_local_copy: bool = False) -> Dict:
+def generate_tokenlist(existing_tokenlist: Dict, networks_to_ignore: Optional[List[str]] = None) -> Dict:
     console.print("[info]Starting token list generation...[/info]")
 
     try:
-        existing_tokenlist = load_json("curve_tokenlist.json")
         existing_tokens = existing_tokenlist.get("tokens", [])
 
         networks, tokens_in_folder, tokens_to_add = scan_images_folder()
@@ -80,14 +78,11 @@ def generate_tokenlist(networks_to_ignore: Optional[List[str]] = None, save_loca
         # Update the tokenlist after processing all networks
         updated_tokenlist = update_tokenlist(processed_tokens, all_skipped_tokens, existing_tokenlist)
 
-        if save_local_copy:
-            save_json(updated_tokenlist, "curve_tokenlist.json")
-            console.print("[green]Tokenlist saved locally.[/green]")
-
         # Check if there are any failed tokens
         if all_failed_tokens:
             console.print(
-                "[yellow]Some tokens failed to return data or validate. Check failed_tokens_report.json for details.[/yellow]"
+                "[yellow]Some tokens failed to return data or validate. "
+                "Check failed_tokens_report.json for details.[/yellow]"
             )
             save_json(all_failed_tokens, "failed_tokens_report.json")
         else:
@@ -98,7 +93,3 @@ def generate_tokenlist(networks_to_ignore: Optional[List[str]] = None, save_loca
     except Exception as e:
         console.print(f"[error]An error occurred: {str(e)}[/error]")
         raise
-
-
-if __name__ == "__main__":
-    generate_tokenlist(networks_to_ignore=["assets-harmony"], save_local_copy=True)
