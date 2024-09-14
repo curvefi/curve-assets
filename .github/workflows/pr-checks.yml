@@ -137,27 +137,11 @@ jobs:
         run: poetry install
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
 
-      - name: Check existing tokenlist
-        id: check-tokenlist
-        run: |
-          poetry run python check_tokenlist.py
-        continue-on-error: true
-      - name: Generate tokenlist if check failed
-        if: steps.check-tokenlist.outcome == 'failure'
+      - name: Generate and upload tokenlist
         env:
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "DRPC_KEY is set: ${{ secrets.DRPC_KEY != '' }}"
-          poetry run python generate_curve_tokenlist.py
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add curve_tokenlist.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update tokenlist" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.event.pull_request.head.ref }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          poetry run python upload_tokenlist.py
+
+      # Remove the separate generate and upload steps
