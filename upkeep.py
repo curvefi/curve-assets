@@ -2,11 +2,12 @@ import json
 import os
 from typing import Dict
 
+import requests
 from github import Github, InputGitTreeElement
 from rich.console import Console
 from rich.theme import Theme
 
-from generate_curve_tokenlist import generate_tokenlist
+from scripts.generate import generate_tokenlist
 
 # Create a custom theme for our logs
 custom_theme = Theme(
@@ -20,6 +21,13 @@ custom_theme = Theme(
 
 # Initialize Rich console with our custom theme
 console = Console(theme=custom_theme)
+
+
+def load_gh_pages_tokenlist(repo_name: str, file_path: str) -> Dict:
+    gh_pages_url = f"https://{repo_name.split('/')[0]}.github.io/{repo_name.split('/')[1]}/{file_path}"
+    response = requests.get(gh_pages_url)
+    response.raise_for_status()
+    return response.json()
 
 
 def upload_to_github_pages(content: Dict, repo_name: str, file_path: str):
@@ -59,17 +67,24 @@ def main():
     console.print("[info]Starting tokenlist generation and upload process...[/info]")
 
     try:
-        # Generate the tokenlist
-        console.print("[info]Generating tokenlist...[/info]")
-        tokenlist = generate_tokenlist(networks_to_ignore=["assets-harmony"], save_local_copy=False)
+        repo_name = "curvefi/curve-assets"
+        file_path = "curve_tokenlist.json"
+
+        # Load existing tokenlist from GitHub Pages
+        console.print("[info]Loading existing tokenlist from GitHub Pages...[/info]")
+        existing_tokenlist = load_gh_pages_tokenlist(repo_name, file_path)
+
+        # Generate the new tokenlist
+        console.print("[info]Generating new tokenlist...[/info]")
+        new_tokenlist = generate_tokenlist(
+            existing_tokenlist=existing_tokenlist,
+            networks_to_ignore=["assets-harmony"],
+        )
         console.print("[green]Tokenlist generated successfully.[/green]")
 
         # Upload the tokenlist to GitHub Pages
         console.print("[info]Uploading tokenlist to GitHub Pages...[/info]")
-        repo_name = "curvefi/curve-tokenlist"  # Replace with your actual repo name
-        file_path = "curve_tokenlist.json"
-
-        github_pages_url = upload_to_github_pages(tokenlist, repo_name, file_path)
+        github_pages_url = upload_to_github_pages(new_tokenlist, repo_name, file_path)
 
         console.print("[green]Tokenlist successfully uploaded to GitHub Pages[/green]")
         console.print(f"[green]GitHub Pages URL: {github_pages_url}[/green]")
