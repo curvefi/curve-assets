@@ -1,0 +1,259 @@
+{
+  "name": "Curve Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/branding/logo.png",
+  "keywords": [
+    "curve",
+    "defi"
+  ],
+  "tags": {},
+  "timestamp": "2024-09-14T16:30:36.013769+00:00",
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xcf123d8638266629fb02fc415ad47bd47de01a6b",
+      "name": "stZETA",
+      "symbol": "stZETA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xcf123d8638266629fb02fc415ad47bd47de01a6b.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe9c803f48dffe50180bd5b01dc04da939e3445fc",
+      "name": "Velas",
+      "symbol": "VLX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xe9c803f48dffe50180bd5b01dc04da939e3445fc.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x0000028a2eb8346cd5c0267856ab7594b7a55308",
+      "name": "Zeta",
+      "symbol": "ZETA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x0000028a2eb8346cd5c0267856ab7594b7a55308.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xcba2aeec821b0b119857a9ab39e09b034249681a",
+      "name": "stVLX",
+      "symbol": "stVLX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xcba2aeec821b0b119857a9ab39e09b034249681a.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+      "name": "Curve.fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xe2fb3f127f5450dee44afe054385d74c392bdef4.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x9996d0276612d23b35f90c51ee935520b3d7355b",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x9996d0276612d23b35f90c51ee935520b3d7355b.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "name": "Dai Token",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x2416092f143378750bb29b79ed961ab195cceea5.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Build and Build",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  ],
+  "tokenMap": {
+    "56_0xc5f0f7b66764f6ec8c8dff7ba683102295e16409": {
+      "chainId": 56,
+      "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+    },
+    "56_0xcf123d8638266629fb02fc415ad47bd47de01a6b": {
+      "chainId": 56,
+      "address": "0xcf123d8638266629fb02fc415ad47bd47de01a6b",
+      "name": "stZETA",
+      "symbol": "stZETA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xcf123d8638266629fb02fc415ad47bd47de01a6b.png"
+    },
+    "56_0xe9c803f48dffe50180bd5b01dc04da939e3445fc": {
+      "chainId": 56,
+      "address": "0xe9c803f48dffe50180bd5b01dc04da939e3445fc",
+      "name": "Velas",
+      "symbol": "VLX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xe9c803f48dffe50180bd5b01dc04da939e3445fc.png"
+    },
+    "56_0x0000028a2eb8346cd5c0267856ab7594b7a55308": {
+      "chainId": 56,
+      "address": "0x0000028a2eb8346cd5c0267856ab7594b7a55308",
+      "name": "Zeta",
+      "symbol": "ZETA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x0000028a2eb8346cd5c0267856ab7594b7a55308.png"
+    },
+    "56_0xcba2aeec821b0b119857a9ab39e09b034249681a": {
+      "chainId": 56,
+      "address": "0xcba2aeec821b0b119857a9ab39e09b034249681a",
+      "name": "stVLX",
+      "symbol": "stVLX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xcba2aeec821b0b119857a9ab39e09b034249681a.png"
+    },
+    "56_0x55d398326f99059ff775485246999027b3197955": {
+      "chainId": 56,
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    "56_0xe2fb3f127f5450dee44afe054385d74c392bdef4": {
+      "chainId": 56,
+      "address": "0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+      "name": "Curve.fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xe2fb3f127f5450dee44afe054385d74c392bdef4.png"
+    },
+    "56_0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+      "chainId": 56,
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+    },
+    "56_0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c": {
+      "chainId": 56,
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+    },
+    "56_0x2170ed0880ac9a755fd29b2688956bd959f933f8": {
+      "chainId": 56,
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+    },
+    "56_0xb88a5ac00917a02d82c7cd6cebd73e2852d43574": {
+      "chainId": 56,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    "56_0x9996d0276612d23b35f90c51ee935520b3d7355b": {
+      "chainId": 56,
+      "address": "0x9996d0276612d23b35f90c51ee935520b3d7355b",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x9996d0276612d23b35f90c51ee935520b3d7355b.png"
+    },
+    "56_0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3": {
+      "chainId": 56,
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "name": "Dai Token",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+    },
+    "56_0x2416092f143378750bb29b79ed961ab195cceea5": {
+      "chainId": 56,
+      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0x2416092f143378750bb29b79ed961ab195cceea5.png"
+    },
+    "56_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 56,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Build and Build",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
