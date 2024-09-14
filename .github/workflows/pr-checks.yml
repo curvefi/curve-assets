@@ -32,6 +32,11 @@ jobs:
           for file in $ALL_CHANGED_FILES; do
             echo "Processing file: $file"
 
+            # Ignore changes to pr-checks.yml
+            if [[ $file == .github/workflows/pr-checks.yml ]]; then
+              continue
+            fi
+
             if [[ $file != images/* ]] && [[ $file != platforms/* ]] ;
             then
               errorText="Only additions of token icons (in the /images folder) or platform logos (in the /platforms folder) are permitted"
