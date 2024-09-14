@@ -2,6 +2,7 @@ name: Upload Tokenlist
 
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   upload-tokenlist:
@@ -15,8 +16,27 @@ jobs:
         with:
           python-version: 3.11
           poetry-version: 1.8.3
-      - name: Upload tokenlist
+
+      - name: Upload full tokenlist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
-        run: poetry run python upkeep.py
+        run: poetry run python upkeep.py all_networks
+
+      - name: Upload ethereum tokenlist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRPC_KEY: ${{ secrets.DRPC_KEY }}
+        run: poetry run python upkeep.py ethereum
+
+      - name: Upload arbitrum tokenlist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRPC_KEY: ${{ secrets.DRPC_KEY }}
+        run: poetry run python upkeep.py arbitrum
+
+      - name: Upload gnosis tokenlist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRPC_KEY: ${{ secrets.DRPC_KEY }}
+        run: poetry run python upkeep.py gnosis

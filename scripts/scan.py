@@ -6,7 +6,7 @@ from rich.table import Table
 from rich.theme import Theme
 
 from scripts.constants import NETWORKS
-from scripts.utils import get_network_name, load_json
+from scripts.utils import get_network_name
 
 # Create a custom theme for our logs
 custom_theme = Theme(
@@ -29,31 +29,21 @@ def get_network_from_chain_id(chain_id: int) -> str:
     return f"unknown_{chain_id}"
 
 
-def get_directory_from_network(network: str) -> str:
-    if network == "ethereum":
-        return "assets"  # Changed from "ethereum" to "assets"
-    elif network == "gnosis":
-        return "assets-xdai"
-    else:
-        return f"assets-{network}"
-
-
-def scan_tokenlist_and_images() -> Tuple[List[str], Dict[str, List[str]], Dict[str, List[str]]]:
-    tokenlist = load_existing_tokenlist()
-    token_map = tokenlist.get("tokenMap", {})
+def scan_tokenlist_and_images(input_tokenlist: Dict) -> Tuple[List[str], Dict[str, List[str]], Dict[str, List[str]]]:
+    token_map = input_tokenlist.get("tokenMap", {})
     networks = set()
     tokens_in_list = {}
     missing_tokens = {}
 
-    # First, process the tokenlist
+    # Process the input tokenlist
     for key, token in token_map.items():
         chain_id, address = key.split("_")
         network = get_network_from_chain_id(int(chain_id))
-        network = get_network_name(NETWORKS[network].folder_name)  # Handle special cases like 'xdai' and 'ethereum'
+        network = get_network_name(NETWORKS[network].folder_name)
         networks.add(network)
         tokens_in_list.setdefault(network, []).append(address.lower())
 
-    # Now check for missing tokens (either in images or in tokenlist)
+    # Check for missing tokens
     for network in networks:
         missing_tokens[network] = []
         network_info = NETWORKS[network]
@@ -78,7 +68,7 @@ def scan_tokenlist_and_images() -> Tuple[List[str], Dict[str, List[str]], Dict[s
     return list(networks), tokens_in_list, missing_tokens
 
 
-def scan_images_folder() -> Tuple[List[str], Dict[str, List[str]], Dict[str, List[str]]]:
+def scan_images_folder(input_tokenlist: Dict) -> Tuple[List[str], Dict[str, List[str]], Dict[str, List[str]]]:
     networks = []
     tokens_in_folder = {}
     tokens_to_add = {}
@@ -88,8 +78,7 @@ def scan_images_folder() -> Tuple[List[str], Dict[str, List[str]], Dict[str, Lis
         console.print(f"[error]Images directory not found: {images_dir}[/error]")
         return networks, tokens_in_folder, tokens_to_add
 
-    existing_tokenlist = load_existing_tokenlist()
-    existing_tokens = get_existing_tokens(existing_tokenlist)
+    existing_tokens = get_existing_tokens(input_tokenlist)
 
     for item in os.listdir(images_dir):
         item_path = os.path.join(images_dir, item)
@@ -126,10 +115,6 @@ def display_summary(networks: List[str], tokens_in_folder: Dict[str, List[str]],
             console.print(f"[yellow]Tokens to add for {network}:[/yellow]")
             for token in tokens_to_add[network]:
                 console.print(f"[yellow]{token}[/yellow]")
-
-
-def load_existing_tokenlist() -> Dict:
-    return load_json("curve_tokenlist.json")
 
 
 def get_existing_tokens(tokenlist: Dict) -> Dict:

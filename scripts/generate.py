@@ -51,45 +51,47 @@ def ensure_native_token_in_list(tokenlist: Dict, network_name: str) -> None:
     tokenlist["tokenMap"][token_key] = native_token_info
 
 
-def generate_tokenlist(existing_tokenlist: Dict, networks_to_ignore: Optional[List[str]] = None) -> Dict:
+def generate_tokenlist(
+    existing_tokenlist: Dict,
+    networks_to_include: Optional[List[str]] = None,
+    networks_to_ignore: Optional[List[str]] = None,
+) -> Dict:
     console.print("[info]Starting token list generation...[/info]")
 
-    try:
-        existing_tokens = existing_tokenlist.get("tokens", [])
+    # Use the input tokenlist for scanning
+    networks, tokens_in_folder, tokens_to_add = scan_images_folder(existing_tokenlist)
 
-        networks, tokens_in_folder, tokens_to_add = scan_images_folder()
-        if networks_to_ignore:
-            networks = [net for net in networks if net not in networks_to_ignore]
+    if networks_to_include:
+        networks = [net for net in networks if net in networks_to_include]
+    elif networks_to_ignore:
+        networks = [net for net in networks if net not in networks_to_ignore]
 
-        display_summary(networks, tokens_in_folder, tokens_to_add)
+    display_summary(networks, tokens_in_folder, tokens_to_add)
 
-        all_failed_tokens = {}
-        processed_tokens = []
-        all_skipped_tokens = []
+    all_failed_tokens = {}
+    processed_tokens = []
 
-        for network_name in NETWORKS:
-            network_tokens, skipped_tokens = process_network(network_name, existing_tokens, all_failed_tokens)
-            processed_tokens.extend(network_tokens)
-            all_skipped_tokens.extend(skipped_tokens)
+    networks_to_process = {NETWORKS[network_name] for network_name in networks}
 
-            # Ensure the native token is present in the list
-            ensure_native_token_in_list(existing_tokenlist, network_name)
+    for network_name in networks_to_process:
+        network_tokens = process_network(network_name, existing_tokenlist, all_failed_tokens)
+        ensure_native_token_in_list(network_tokens, network_name)
 
-        # Update the tokenlist after processing all networks
-        updated_tokenlist = update_tokenlist(processed_tokens, all_skipped_tokens, existing_tokenlist)
+        processed_tokens.extend(network_tokens)
 
-        # Check if there are any failed tokens
-        if all_failed_tokens:
-            console.print(
-                "[yellow]Some tokens failed to return data or validate. "
-                "Check failed_tokens_report.json for details.[/yellow]"
-            )
-            save_json(all_failed_tokens, "failed_tokens_report.json")
-        else:
-            console.print("[green]All tokens processed successfully![/green]")
+    # Update the tokenlist after processing all networks
+    updated_tokenlist = update_tokenlist(processed_tokens, existing_tokenlist)
 
-        console.print("[green]Token list generation completed![/green]")
-        return updated_tokenlist
-    except Exception as e:
-        console.print(f"[error]An error occurred: {str(e)}[/error]")
-        raise
+    # Check if there are any failed tokens
+    if all_failed_tokens:
+        console.print(
+            "[yellow]Some tokens failed to return data or validate. "
+            "Check failed_tokens_report.json for details.[/yellow]"
+        )
+        save_json(all_failed_tokens, "failed_tokens_report.json")
+    else:
+        console.print("[green]All tokens processed successfully![/green]")
+
+    console.print("[green]Token list generation completed![/green]")
+
+    return updated_tokenlist
