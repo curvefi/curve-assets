@@ -1,24 +1,31 @@
-name: Update Tokenlist
+name: Update Tokenlist and PR Checks
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+  pull_request_target:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
 
 jobs:
-  update-tokenlist:
+  update-tokenlist-and-pr-checks:
     runs-on: ubuntu-latest
     environment: tokenlist-check
     steps:
-      # Set up python
-      - uses: actions/checkout@v3
+      # Set up python and dependencies
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-
-      # Install Poetry from cache if it exists:
       - name: Install poetry
         uses: snok/install-poetry@v1.4.1
         with:
@@ -34,12 +41,53 @@ jobs:
         run: poetry install
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
 
-      # Check existing tokenlist, and if there are missing tokens, generate
-      # a fresh tokenlist and commit it to the repo.
+      # PR Checks
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v42
+      - name: Run PR checks
+        id: pr-checks
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          output=$(poetry run python pr_checks.py)
+          echo "pr_check_output<<EOF" >> $GITHUB_OUTPUT
+          echo "$output" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          if [[ $output == *"::error::"* ]]; then
+            echo "has_errors=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_errors=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Comment on PR if error
+        env:
+          ERRORS: ${{ steps.pr-checks.outputs.pr_check_output }}
+          HAS_ERRORS: ${{ steps.pr-checks.outputs.has_errors }}
+        uses: thollander/actions-comment-pull-request@v2
+        if: ${{ env.HAS_ERRORS == 'true' }}
+        with:
+          message: |
+            Changes are required before your pull request can be reviewed:
+
+            ${{ env.ERRORS }}
+      - name: Exit with error
+        env:
+          ERRORS: ${{ steps.pr-checks.outputs.pr_check_output }}
+          HAS_ERRORS: ${{ steps.pr-checks.outputs.has_errors }}
+        if: ${{ env.HAS_ERRORS == 'true' }}
+        run: |
+          mapfile -t myarray <<< "$ERRORS"
+          for line in "${myarray[@]}"; do
+            if [[ $line == "::error::"* ]]; then
+              echo "$line"
+            fi
+          done
+          exit 1
+
+      # Tokenlist Update
       - name: Check existing tokenlist
         id: check-tokenlist
-        run: |
-          poetry run python check_tokenlist.py
+        run: poetry run python check_tokenlist.py
         continue-on-error: true
       - name: Generate tokenlist if check failed
         if: steps.check-tokenlist.outcome == 'failure'
@@ -49,14 +97,14 @@ jobs:
           echo "DRPC_KEY is set: ${{ secrets.DRPC_KEY != '' }}"
           poetry run python generate_curve_tokenlist.py
       - name: Commit changes
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.event_name != 'pull_request_target'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add curve_tokenlist.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update tokenlist" -a
       - name: Push changes
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.event_name != 'pull_request_target'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
