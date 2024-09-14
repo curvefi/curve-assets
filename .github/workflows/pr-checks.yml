@@ -8,6 +8,7 @@ on:
 
 permissions:
   pull-requests: write
+  contents: write
 
 jobs:
   changed_files:
@@ -18,9 +19,11 @@ jobs:
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: 0
+
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v42
+
       - name: Process changed files
         id: changes-errors
         env:
@@ -28,7 +31,10 @@ jobs:
         run: |
           echo 'errorsStr<<EOF' >> $GITHUB_OUTPUT
 
-          for file in $ALL_CHANGED_FILES; do
+          # Filter out .yml files
+          FILTERED_FILES=$(echo "$ALL_CHANGED_FILES" | tr ' ' '\n' | grep -v '\.yml$' | tr '\n' ' ')
+
+          for file in $FILTERED_FILES; do
             echo "Processing file: $file"
 
             if [[ $file != images/* ]] && [[ $file != platforms/* ]] ;
@@ -59,6 +65,7 @@ jobs:
           done
 
           echo 'EOF' >> $GITHUB_OUTPUT
+
       - name: Check if errors
         id: check-if-errors
         env:
@@ -75,6 +82,7 @@ jobs:
             echo 'hasErrors=true'
             echo "hasErrors=true" >> "$GITHUB_OUTPUT"
           fi
+
       - name: Comment on PR if error
         env:
           ERRORS: ${{ steps.changes-errors.outputs.errorsStr }}
@@ -97,3 +105,58 @@ jobs:
             echo "::error::${myarray[i]}"
           done
           exit 1
+
+  update_tokenlist:
+    needs: changed_files
+    runs-on: ubuntu-latest
+    if: ${{ !failure() }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install poetry
+        uses: snok/install-poetry@v1.4.1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v2
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+      - name: Install dependencies
+        run: poetry install
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+
+      - name: Check existing tokenlist
+        id: check-tokenlist
+        run: |
+          poetry run python check_tokenlist.py
+        continue-on-error: true
+      - name: Generate tokenlist if check failed
+        if: steps.check-tokenlist.outcome == 'failure'
+        env:
+          DRPC_KEY: ${{ secrets.DRPC_KEY }}
+        run: |
+          echo "DRPC_KEY is set: ${{ secrets.DRPC_KEY != '' }}"
+          poetry run python generate_curve_tokenlist.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add curve_tokenlist.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update tokenlist" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
