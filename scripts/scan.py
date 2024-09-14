@@ -64,7 +64,7 @@ def scan_tokenlist_and_images() -> Tuple[List[str], Dict[str, List[str]], Dict[s
             for token_address in tokens_in_list[network]:
                 image_path = os.path.join(network_path, f"{token_address}.png")
                 if not os.path.exists(image_path):
-                    missing_tokens[network].append(f"{token_address} (no image)")
+                    missing_tokens[network].append(token_address)
 
             # Check for images not in tokenlist
             for file in os.listdir(network_path):
