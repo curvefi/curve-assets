@@ -31,13 +31,11 @@ jobs:
         run: |
           echo 'errorsStr<<EOF' >> $GITHUB_OUTPUT
 
-          for file in $ALL_CHANGED_FILES; do
-            echo "Processing file: $file"
+          # Filter out .yml files
+          FILTERED_FILES=$(echo "$ALL_CHANGED_FILES" | tr ' ' '\n' | grep -v '\.yml$' | tr '\n' ' ')
 
-            # Ignore changes to .yml files
-            if [[ $file == *.yml ]]; then
-              continue
-            fi
+          for file in $FILTERED_FILES; do
+            echo "Processing file: $file"
 
             if [[ $file != images/* ]] && [[ $file != platforms/* ]] ;
             then
