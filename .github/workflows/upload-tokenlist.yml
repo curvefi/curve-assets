@@ -6,6 +6,7 @@ on:
 jobs:
   upload-tokenlist:
     runs-on: ubuntu-latest
+    environment: tokenlist-check
     steps:
       - name: Check out the repository
         uses: actions/checkout@v3
