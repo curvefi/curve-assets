@@ -143,5 +143,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           poetry run python upload_tokenlist.py
-
-      # Remove the separate generate and upload steps
