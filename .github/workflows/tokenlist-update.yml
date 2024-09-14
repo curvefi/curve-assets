@@ -38,7 +38,7 @@ jobs:
       - name: Check existing tokenlist
         id: check-tokenlist
         run: |
-          poetry run python scripts/check_tokenlist.py
+          poetry run python check_tokenlist.py
         continue-on-error: true
       - name: Generate tokenlist if check failed
         if: steps.check-tokenlist.outcome == 'failure'
