@@ -97,8 +97,9 @@ def ensure_native_token_in_list(tokenlist, network_name):
 
 
 if __name__ == "__main__":
-    DRPC_KEY = os.environ.get("DRPC_KEY")
-    if not DRPC_KEY:
+
+    # Check if DRPC_KEY is set
+    if not os.environ.get("DRPC_KEY"):
         raise ValueError("DRPC_KEY environment variable is not set")
 
     main(networks_to_ignore=["assets-harmony"])
