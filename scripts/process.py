@@ -86,7 +86,7 @@ def process_network(
     return processed_tokens, skipped_tokens
 
 
-def update_tokenlist(new_tokens: List[Dict], skipped_tokens: List[Dict], existing_tokenlist: Dict) -> Dict:
+def update_tokenlist(new_tokens: List[Dict], existing_tokenlist: Dict) -> Dict:
     current_timestamp = datetime.now(timezone.utc).isoformat()
 
     # Merge new tokens with existing tokens

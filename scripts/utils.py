@@ -148,7 +148,6 @@ def get_token_info_batch(w3, addresses, existing_tokens):
             )
             if existing_token and all(existing_token.get(key) for key in ["name", "symbol", "decimals"]):
                 skipped_tokens.append(existing_token)
-                console.print(f"[cyan]Skipping existing token: {address}[/cyan]")
                 continue
 
             try:

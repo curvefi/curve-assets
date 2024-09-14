@@ -70,3 +70,6 @@ ENV/
 
 # Pyre type checker
 .pyre/
+
+curve_tokenlist.json
+failed_tokens_report.json
