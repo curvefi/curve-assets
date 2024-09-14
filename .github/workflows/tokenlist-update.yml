@@ -10,6 +10,7 @@ jobs:
   update-tokenlist:
     runs-on: ubuntu-latest
     environment: tokenlist-check
+    secrets: inherit
     steps:
       # Set up python
       - uses: actions/checkout@v3
