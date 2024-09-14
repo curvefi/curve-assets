@@ -97,17 +97,4 @@ def ensure_native_token_in_list(tokenlist, network_name):
 
 
 if __name__ == "__main__":
-
-    # Print all environment variable key names
-    import os
-
-    console.print("[bold]Environment Variables:[/bold]")
-    for key in os.environ.keys():
-        console.print(f"- {key}")
-    console.print()  # Add a blank line for better readability
-
-    # Check if DRPC_KEY is set
-    if not os.environ.get("DRPC_KEY"):
-        raise ValueError("DRPC_KEY environment variable is not set")
-
     main(networks_to_ignore=["assets-harmony"])

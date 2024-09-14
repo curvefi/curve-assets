@@ -46,6 +46,7 @@ jobs:
         env:
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
         run: |
+          echo "DRPC_KEY is set: ${{ secrets.DRPC_KEY != '' }}"
           poetry run python generate_curve_tokenlist.py
       - name: Commit changes
         if: github.event_name != 'pull_request'
