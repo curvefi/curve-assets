@@ -1,0 +1,1139 @@
+{
+  "name": "Curve Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/branding/logo.png",
+  "keywords": [
+    "curve",
+    "defi"
+  ],
+  "tags": {},
+  "timestamp": "2024-09-14T16:30:52.303895+00:00",
+  "tokens": [
+    {
+      "chainId": 42161,
+      "address": "0xdf4ef6ee483953fe3b84abd08c6a060445c01170",
+      "name": "Wrapped ACME",
+      "symbol": "WACME",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xdf4ef6ee483953fe3b84abd08c6a060445c01170.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
+      "name": "Staked FRAX",
+      "symbol": "sFRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe3b3fe7bca19ca77ad877a5bebab186becfad906.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x35751007a407ca6feffe80b3cb397736d2cf4dbe.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "name": "USD Coin (Arb1)",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+      "name": "USD+",
+      "symbol": "USD+",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe80772eaf6e2e18b651f160bc9158b2a5cafca65.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xf07d553b195080f84f582e88ecdd54baa122b279",
+      "name": "Curve.fi Factory USD Metapool: FRAX+2CRV",
+      "symbol": "FRAX+2CRV3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf07d553b195080f84f582e88ecdd54baa122b279.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x96a993f06951b01430523d0d5590192d650ebf3e",
+      "name": "Revenue Generating USD",
+      "symbol": "rgUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x96a993f06951b01430523d0d5590192d650ebf3e.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xe3f7c2e873d8f73bca7961e2d2e18bbde2bda7ec",
+      "name": "FXB_4_DEC312026",
+      "symbol": "FXB_20261231",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe3f7c2e873d8f73bca7961e2d2e18bbde2bda7ec.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xc608dfb90a430df79a8a1edbc8be7f1a0eb4e763",
+      "name": "Fractional ETH",
+      "symbol": "fETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xc608dfb90a430df79a8a1edbc8be7f1a0eb4e763.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x116172b2482c5dc3e6f445c16ac13367ac3fcd35",
+      "name": "handleEUR",
+      "symbol": "fxEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x116172b2482c5dc3e6f445c16ac13367ac3fcd35.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547",
+      "name": "Staked ACME",
+      "symbol": "stACME",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "name": "USDe",
+      "symbol": "USDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x69420f9e38a4e60a62224c489be4bf7a94402496",
+      "name": "Defi.Money Stablecoin",
+      "symbol": "MONEY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x69420f9e38a4e60a62224c489be4bf7a94402496.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x5979d7b546e38e414f7e9822514be443a4800529.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833",
+      "name": "Vote Boosted sdCRV",
+      "symbol": "vsdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x179f38f78346f5942e95c5c59cb1da7f55cf7cad",
+      "name": "FXN Token",
+      "symbol": "FXN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x179f38f78346f5942e95c5c59cb1da7f55cf7cad.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x40b419c27fac14581b0d520c77eb21143557bd54",
+      "name": "Lacerta",
+      "symbol": "Lacerta",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x40b419c27fac14581b0d520c77eb21143557bd54.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xf36a65fd3b7df848860d174115f1864e6aa2db5e",
+      "name": "Seneca USD",
+      "symbol": "senUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf36a65fd3b7df848860d174115f1864e6aa2db5e.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+      "name": "KelpDao Restaked ETH",
+      "symbol": "rsETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4186bfc76e2e237523cbc30fd220fe055156b41f.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xcf985aba4647a432e60efceeb8054bbd64244305",
+      "name": "EUROe Stablecoin",
+      "symbol": "EUROe",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xcf985aba4647a432e60efceeb8054bbd64244305.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xf6328e49b1aa09955a6607dafd6e72e135a29739",
+      "name": "f(x) USD",
+      "symbol": "fxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf6328e49b1aa09955a6607dafd6e72e135a29739.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xca5ca9083702c56b481d1eec86f1776fdbd2e594",
+      "name": "Reserve Rights",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xca5ca9083702c56b481d1eec86f1776fdbd2e594.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x17fc002b466eec40dae837fc4be5c67993ddbd6f.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xaf88d065e77c8cc2239327c5edb3a432268e5831.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x11cdb42b0eb46d95f990bedd4695a6e3fa034978.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f",
+      "name": "handleUSD",
+      "symbol": "fxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x3f56e0c36d275367b8c502090edf38289b3dea0d.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x0bbf664d46becc28593368c97236faa0fb397595",
+      "name": "KNOX Dollar",
+      "symbol": "KNOX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x0bbf664d46becc28593368c97236faa0fb397595.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x178412e79c25968a32e89b11f63b33f733770c2a",
+      "name": "Frax Ether",
+      "symbol": "frxETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x178412e79c25968a32e89b11f63b33f733770c2a.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x06d65ec13465ac5a4376dc101e1141252c4addf8",
+      "name": "Zunami ETH",
+      "symbol": "zunETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x06d65ec13465ac5a4376dc101e1141252c4addf8.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x8b1bbfd76e92b488adeaa62b18375fbf860f730e",
+      "name": "Mercury RWA Token, 1:10,000 (Borderless.Fi)",
+      "symbol": "MER",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x8b1bbfd76e92b488adeaa62b18375fbf860f730e.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+      "name": "Arbitrum tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x55380fe7a1910dff29a47b622057ab4139da42c5",
+      "name": "Leveraged ETH",
+      "symbol": "xETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x55380fe7a1910dff29a47b622057ab4139da42c5.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xc4c98e6feccfc0f5dd8cbea9dcfedcfa8425ed97",
+      "name": "FXB_2_DEC312024",
+      "symbol": "FXB_20241231",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xc4c98e6feccfc0f5dd8cbea9dcfedcfa8425ed97.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xdc8b6b6beab4d5034ae91b7a1cf7d05a41f0d239",
+      "name": "Gemach",
+      "symbol": "GMAC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xdc8b6b6beab4d5034ae91b7a1cf7d05a41f0d239.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xd22a58f79e9481d1a88e00c343885a588b34b68b",
+      "name": "STASIS EURS Token",
+      "symbol": "EURS",
+      "decimals": 2,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xd22a58f79e9481d1a88e00c343885a588b34b68b.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xb952a807345991bd529fdded05009f5e80fe8f45",
+      "name": "Convex Token",
+      "symbol": "CVX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb952a807345991bd529fdded05009f5e80fe8f45.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+      "name": "Curve.fi USDC/USDT",
+      "symbol": "2CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7f90122bf0700f9e7e1f688fe926940e8839f353.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x13780e6d5696dd91454f6d3bbc2616687fea43d0",
+      "name": "TerraUSD",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x13780e6d5696dd91454f6d3bbc2616687fea43d0.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5",
+      "name": "Curve.fi Factory Plain Pool: FRAXBP",
+      "symbol": "FRAXBP-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x050c24dbf1eec17babe5fc585f06116a259cc77a",
+      "name": "dlcBTC",
+      "symbol": "dlcBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x050c24dbf1eec17babe5fc585f06116a259cc77a.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x64343594ab9b56e99087bfa6f2335db24c2d1f17",
+      "name": "Vesta Stable",
+      "symbol": "VST",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x64343594ab9b56e99087bfa6f2335db24c2d1f17.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
+      "name": "deBridge USD Coin",
+      "symbol": "deUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x12275dcb9048680c4be40942ea4d92c74c63b844",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x12275dcb9048680c4be40942ea4d92c74c63b844.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x75289388d50364c3013583d97bd70ced0e183e32",
+      "name": "Aladdin sdCRV",
+      "symbol": "asdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x75289388d50364c3013583d97bd70ced0e183e32.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x870908873b6f940e025a7c6879678cb82ec6c9b6",
+      "name": "Zunami USD",
+      "symbol": "zunUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x870908873b6f940e025a7c6879678cb82ec6c9b6.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x641441c631e2f909700d2f41fd87f0aa6a6b4edb.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xf12132857fb45b1f1342420eaaf818509f850468",
+      "name": "CURVEBOBR",
+      "symbol": "BobrCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf12132857fb45b1f1342420eaaf818509f850468.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x115d8bf0a53e751f8a472f88d587944ec1c8ca6d",
+      "name": "pTokens BTC",
+      "symbol": "pBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x115d8bf0a53e751f8a472f88d587944ec1c8ca6d.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xedd7083eb44e8cc4e734e57e0032451a04bae625",
+      "name": "stARB",
+      "symbol": "stARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xedd7083eb44e8cc4e734e57e0032451a04bae625.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3",
+      "name": "deBridge Ether",
+      "symbol": "deETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xb2f30a7c980f052f02563fb518dcc39e6bf38175",
+      "name": "Synthetix USD",
+      "symbol": "USDx",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb2f30a7c980f052f02563fb518dcc39e6bf38175.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x18c14c2d707b2212e17d1579789fc06010cfca23",
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x18c14c2d707b2212e17d1579789fc06010cfca23.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x912ce59144191c1204e64559fe8253a0e49e6548.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x3d15fd46ce9e551498328b1c83071d9509e2c3a0",
+      "name": "Universal ETH",
+      "symbol": "uniETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x3d15fd46ce9e551498328b1c83071d9509e2c3a0.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xb1084db8d3c05cebd5fa9335df95ee4b8a0edc30",
+      "name": "USDT+",
+      "symbol": "USDT+",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb1084db8d3c05cebd5fa9335df95ee4b8a0edc30.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x2416092f143378750bb29b79ed961ab195cceea5.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  ],
+  "tokenMap": {
+    "42161_0xdf4ef6ee483953fe3b84abd08c6a060445c01170": {
+      "chainId": 42161,
+      "address": "0xdf4ef6ee483953fe3b84abd08c6a060445c01170",
+      "name": "Wrapped ACME",
+      "symbol": "WACME",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xdf4ef6ee483953fe3b84abd08c6a060445c01170.png"
+    },
+    "42161_0xe3b3fe7bca19ca77ad877a5bebab186becfad906": {
+      "chainId": 42161,
+      "address": "0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
+      "name": "Staked FRAX",
+      "symbol": "sFRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe3b3fe7bca19ca77ad877a5bebab186becfad906.png"
+    },
+    "42161_0x35751007a407ca6feffe80b3cb397736d2cf4dbe": {
+      "chainId": 42161,
+      "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x35751007a407ca6feffe80b3cb397736d2cf4dbe.png"
+    },
+    "42161_0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": {
+      "chainId": 42161,
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "name": "USD Coin (Arb1)",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
+    },
+    "42161_0xe80772eaf6e2e18b651f160bc9158b2a5cafca65": {
+      "chainId": 42161,
+      "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+      "name": "USD+",
+      "symbol": "USD+",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe80772eaf6e2e18b651f160bc9158b2a5cafca65.png"
+    },
+    "42161_0xf07d553b195080f84f582e88ecdd54baa122b279": {
+      "chainId": 42161,
+      "address": "0xf07d553b195080f84f582e88ecdd54baa122b279",
+      "name": "Curve.fi Factory USD Metapool: FRAX+2CRV",
+      "symbol": "FRAX+2CRV3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf07d553b195080f84f582e88ecdd54baa122b279.png"
+    },
+    "42161_0x96a993f06951b01430523d0d5590192d650ebf3e": {
+      "chainId": 42161,
+      "address": "0x96a993f06951b01430523d0d5590192d650ebf3e",
+      "name": "Revenue Generating USD",
+      "symbol": "rgUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x96a993f06951b01430523d0d5590192d650ebf3e.png"
+    },
+    "42161_0xe3f7c2e873d8f73bca7961e2d2e18bbde2bda7ec": {
+      "chainId": 42161,
+      "address": "0xe3f7c2e873d8f73bca7961e2d2e18bbde2bda7ec",
+      "name": "FXB_4_DEC312026",
+      "symbol": "FXB_20261231",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe3f7c2e873d8f73bca7961e2d2e18bbde2bda7ec.png"
+    },
+    "42161_0x82af49447d8a07e3bd95bd0d56f35241523fbab1": {
+      "chainId": 42161,
+      "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png"
+    },
+    "42161_0xc608dfb90a430df79a8a1edbc8be7f1a0eb4e763": {
+      "chainId": 42161,
+      "address": "0xc608dfb90a430df79a8a1edbc8be7f1a0eb4e763",
+      "name": "Fractional ETH",
+      "symbol": "fETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xc608dfb90a430df79a8a1edbc8be7f1a0eb4e763.png"
+    },
+    "42161_0x116172b2482c5dc3e6f445c16ac13367ac3fcd35": {
+      "chainId": 42161,
+      "address": "0x116172b2482c5dc3e6f445c16ac13367ac3fcd35",
+      "name": "handleEUR",
+      "symbol": "fxEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x116172b2482c5dc3e6f445c16ac13367ac3fcd35.png"
+    },
+    "42161_0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547": {
+      "chainId": 42161,
+      "address": "0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547",
+      "name": "Staked ACME",
+      "symbol": "stACME",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7ac168c81f4f3820fa3f22603ce5864d6ab3c547.png"
+    },
+    "42161_0x57f5e098cad7a3d1eed53991d4d66c45c9af7812": {
+      "chainId": 42161,
+      "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
+    },
+    "42161_0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34": {
+      "chainId": 42161,
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "name": "USDe",
+      "symbol": "USDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+    },
+    "42161_0x69420f9e38a4e60a62224c489be4bf7a94402496": {
+      "chainId": 42161,
+      "address": "0x69420f9e38a4e60a62224c489be4bf7a94402496",
+      "name": "Defi.Money Stablecoin",
+      "symbol": "MONEY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x69420f9e38a4e60a62224c489be4bf7a94402496.png"
+    },
+    "42161_0x5979d7b546e38e414f7e9822514be443a4800529": {
+      "chainId": 42161,
+      "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x5979d7b546e38e414f7e9822514be443a4800529.png"
+    },
+    "42161_0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833": {
+      "chainId": 42161,
+      "address": "0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833",
+      "name": "Vote Boosted sdCRV",
+      "symbol": "vsdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833.png"
+    },
+    "42161_0x179f38f78346f5942e95c5c59cb1da7f55cf7cad": {
+      "chainId": 42161,
+      "address": "0x179f38f78346f5942e95c5c59cb1da7f55cf7cad",
+      "name": "FXN Token",
+      "symbol": "FXN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x179f38f78346f5942e95c5c59cb1da7f55cf7cad.png"
+    },
+    "42161_0x40b419c27fac14581b0d520c77eb21143557bd54": {
+      "chainId": 42161,
+      "address": "0x40b419c27fac14581b0d520c77eb21143557bd54",
+      "name": "Lacerta",
+      "symbol": "Lacerta",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x40b419c27fac14581b0d520c77eb21143557bd54.png"
+    },
+    "42161_0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5": {
+      "chainId": 42161,
+      "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5.png"
+    },
+    "42161_0xf36a65fd3b7df848860d174115f1864e6aa2db5e": {
+      "chainId": 42161,
+      "address": "0xf36a65fd3b7df848860d174115f1864e6aa2db5e",
+      "name": "Seneca USD",
+      "symbol": "senUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf36a65fd3b7df848860d174115f1864e6aa2db5e.png"
+    },
+    "42161_0x4186bfc76e2e237523cbc30fd220fe055156b41f": {
+      "chainId": 42161,
+      "address": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+      "name": "KelpDao Restaked ETH",
+      "symbol": "rsETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4186bfc76e2e237523cbc30fd220fe055156b41f.png"
+    },
+    "42161_0xcf985aba4647a432e60efceeb8054bbd64244305": {
+      "chainId": 42161,
+      "address": "0xcf985aba4647a432e60efceeb8054bbd64244305",
+      "name": "EUROe Stablecoin",
+      "symbol": "EUROe",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xcf985aba4647a432e60efceeb8054bbd64244305.png"
+    },
+    "42161_0xf6328e49b1aa09955a6607dafd6e72e135a29739": {
+      "chainId": 42161,
+      "address": "0xf6328e49b1aa09955a6607dafd6e72e135a29739",
+      "name": "f(x) USD",
+      "symbol": "fxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf6328e49b1aa09955a6607dafd6e72e135a29739.png"
+    },
+    "42161_0xca5ca9083702c56b481d1eec86f1776fdbd2e594": {
+      "chainId": 42161,
+      "address": "0xca5ca9083702c56b481d1eec86f1776fdbd2e594",
+      "name": "Reserve Rights",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xca5ca9083702c56b481d1eec86f1776fdbd2e594.png"
+    },
+    "42161_0x17fc002b466eec40dae837fc4be5c67993ddbd6f": {
+      "chainId": 42161,
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x17fc002b466eec40dae837fc4be5c67993ddbd6f.png"
+    },
+    "42161_0xaf88d065e77c8cc2239327c5edb3a432268e5831": {
+      "chainId": 42161,
+      "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xaf88d065e77c8cc2239327c5edb3a432268e5831.png"
+    },
+    "42161_0x11cdb42b0eb46d95f990bedd4695a6e3fa034978": {
+      "chainId": 42161,
+      "address": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x11cdb42b0eb46d95f990bedd4695a6e3fa034978.png"
+    },
+    "42161_0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f": {
+      "chainId": 42161,
+      "address": "0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f",
+      "name": "handleUSD",
+      "symbol": "fxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x8616e8ea83f048ab9a5ec513c9412dd2993bce3f.png"
+    },
+    "42161_0x3f56e0c36d275367b8c502090edf38289b3dea0d": {
+      "chainId": 42161,
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x3f56e0c36d275367b8c502090edf38289b3dea0d.png"
+    },
+    "42161_0x0bbf664d46becc28593368c97236faa0fb397595": {
+      "chainId": 42161,
+      "address": "0x0bbf664d46becc28593368c97236faa0fb397595",
+      "name": "KNOX Dollar",
+      "symbol": "KNOX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x0bbf664d46becc28593368c97236faa0fb397595.png"
+    },
+    "42161_0x178412e79c25968a32e89b11f63b33f733770c2a": {
+      "chainId": 42161,
+      "address": "0x178412e79c25968a32e89b11f63b33f733770c2a",
+      "name": "Frax Ether",
+      "symbol": "frxETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x178412e79c25968a32e89b11f63b33f733770c2a.png"
+    },
+    "42161_0x06d65ec13465ac5a4376dc101e1141252c4addf8": {
+      "chainId": 42161,
+      "address": "0x06d65ec13465ac5a4376dc101e1141252c4addf8",
+      "name": "Zunami ETH",
+      "symbol": "zunETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x06d65ec13465ac5a4376dc101e1141252c4addf8.png"
+    },
+    "42161_0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": {
+      "chainId": 42161,
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+    },
+    "42161_0x8b1bbfd76e92b488adeaa62b18375fbf860f730e": {
+      "chainId": 42161,
+      "address": "0x8b1bbfd76e92b488adeaa62b18375fbf860f730e",
+      "name": "Mercury RWA Token, 1:10,000 (Borderless.Fi)",
+      "symbol": "MER",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x8b1bbfd76e92b488adeaa62b18375fbf860f730e.png"
+    },
+    "42161_0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40": {
+      "chainId": 42161,
+      "address": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+      "name": "Arbitrum tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40.png"
+    },
+    "42161_0x55380fe7a1910dff29a47b622057ab4139da42c5": {
+      "chainId": 42161,
+      "address": "0x55380fe7a1910dff29a47b622057ab4139da42c5",
+      "name": "Leveraged ETH",
+      "symbol": "xETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x55380fe7a1910dff29a47b622057ab4139da42c5.png"
+    },
+    "42161_0xc4c98e6feccfc0f5dd8cbea9dcfedcfa8425ed97": {
+      "chainId": 42161,
+      "address": "0xc4c98e6feccfc0f5dd8cbea9dcfedcfa8425ed97",
+      "name": "FXB_2_DEC312024",
+      "symbol": "FXB_20241231",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xc4c98e6feccfc0f5dd8cbea9dcfedcfa8425ed97.png"
+    },
+    "42161_0xdc8b6b6beab4d5034ae91b7a1cf7d05a41f0d239": {
+      "chainId": 42161,
+      "address": "0xdc8b6b6beab4d5034ae91b7a1cf7d05a41f0d239",
+      "name": "Gemach",
+      "symbol": "GMAC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xdc8b6b6beab4d5034ae91b7a1cf7d05a41f0d239.png"
+    },
+    "42161_0xd22a58f79e9481d1a88e00c343885a588b34b68b": {
+      "chainId": 42161,
+      "address": "0xd22a58f79e9481d1a88e00c343885a588b34b68b",
+      "name": "STASIS EURS Token",
+      "symbol": "EURS",
+      "decimals": 2,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xd22a58f79e9481d1a88e00c343885a588b34b68b.png"
+    },
+    "42161_0xb952a807345991bd529fdded05009f5e80fe8f45": {
+      "chainId": 42161,
+      "address": "0xb952a807345991bd529fdded05009f5e80fe8f45",
+      "name": "Convex Token",
+      "symbol": "CVX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb952a807345991bd529fdded05009f5e80fe8f45.png"
+    },
+    "42161_0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
+      "chainId": 42161,
+      "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f.png"
+    },
+    "42161_0x7f90122bf0700f9e7e1f688fe926940e8839f353": {
+      "chainId": 42161,
+      "address": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+      "name": "Curve.fi USDC/USDT",
+      "symbol": "2CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7f90122bf0700f9e7e1f688fe926940e8839f353.png"
+    },
+    "42161_0x13780e6d5696dd91454f6d3bbc2616687fea43d0": {
+      "chainId": 42161,
+      "address": "0x13780e6d5696dd91454f6d3bbc2616687fea43d0",
+      "name": "TerraUSD",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x13780e6d5696dd91454f6d3bbc2616687fea43d0.png"
+    },
+    "42161_0xdbf31df14b66535af65aac99c32e9ea844e14501": {
+      "chainId": 42161,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    "42161_0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5": {
+      "chainId": 42161,
+      "address": "0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5",
+      "name": "Curve.fi Factory Plain Pool: FRAXBP",
+      "symbol": "FRAXBP-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5.png"
+    },
+    "42161_0x050c24dbf1eec17babe5fc585f06116a259cc77a": {
+      "chainId": 42161,
+      "address": "0x050c24dbf1eec17babe5fc585f06116a259cc77a",
+      "name": "dlcBTC",
+      "symbol": "dlcBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x050c24dbf1eec17babe5fc585f06116a259cc77a.png"
+    },
+    "42161_0x64343594ab9b56e99087bfa6f2335db24c2d1f17": {
+      "chainId": 42161,
+      "address": "0x64343594ab9b56e99087bfa6f2335db24c2d1f17",
+      "name": "Vesta Stable",
+      "symbol": "VST",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x64343594ab9b56e99087bfa6f2335db24c2d1f17.png"
+    },
+    "42161_0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa": {
+      "chainId": 42161,
+      "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
+      "name": "deBridge USD Coin",
+      "symbol": "deUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa.png"
+    },
+    "42161_0x12275dcb9048680c4be40942ea4d92c74c63b844": {
+      "chainId": 42161,
+      "address": "0x12275dcb9048680c4be40942ea4d92c74c63b844",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x12275dcb9048680c4be40942ea4d92c74c63b844.png"
+    },
+    "42161_0x75289388d50364c3013583d97bd70ced0e183e32": {
+      "chainId": 42161,
+      "address": "0x75289388d50364c3013583d97bd70ced0e183e32",
+      "name": "Aladdin sdCRV",
+      "symbol": "asdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x75289388d50364c3013583d97bd70ced0e183e32.png"
+    },
+    "42161_0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a": {
+      "chainId": 42161,
+      "address": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a.png"
+    },
+    "42161_0x870908873b6f940e025a7c6879678cb82ec6c9b6": {
+      "chainId": 42161,
+      "address": "0x870908873b6f940e025a7c6879678cb82ec6c9b6",
+      "name": "Zunami USD",
+      "symbol": "zunUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x870908873b6f940e025a7c6879678cb82ec6c9b6.png"
+    },
+    "42161_0x641441c631e2f909700d2f41fd87f0aa6a6b4edb": {
+      "chainId": 42161,
+      "address": "0x641441c631e2f909700d2f41fd87f0aa6a6b4edb",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x641441c631e2f909700d2f41fd87f0aa6a6b4edb.png"
+    },
+    "42161_0xf12132857fb45b1f1342420eaaf818509f850468": {
+      "chainId": 42161,
+      "address": "0xf12132857fb45b1f1342420eaaf818509f850468",
+      "name": "CURVEBOBR",
+      "symbol": "BobrCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf12132857fb45b1f1342420eaaf818509f850468.png"
+    },
+    "42161_0xb88a5ac00917a02d82c7cd6cebd73e2852d43574": {
+      "chainId": 42161,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    "42161_0x4f604735c1cf31399c6e711d5962b2b3e0225ad3": {
+      "chainId": 42161,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3.png"
+    },
+    "42161_0xeb466342c4d449bc9f53a865d5cb90586f405215": {
+      "chainId": 42161,
+      "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
+    },
+    "42161_0x115d8bf0a53e751f8a472f88d587944ec1c8ca6d": {
+      "chainId": 42161,
+      "address": "0x115d8bf0a53e751f8a472f88d587944ec1c8ca6d",
+      "name": "pTokens BTC",
+      "symbol": "pBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x115d8bf0a53e751f8a472f88d587944ec1c8ca6d.png"
+    },
+    "42161_0xedd7083eb44e8cc4e734e57e0032451a04bae625": {
+      "chainId": 42161,
+      "address": "0xedd7083eb44e8cc4e734e57e0032451a04bae625",
+      "name": "stARB",
+      "symbol": "stARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xedd7083eb44e8cc4e734e57e0032451a04bae625.png"
+    },
+    "42161_0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3": {
+      "chainId": 42161,
+      "address": "0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3",
+      "name": "deBridge Ether",
+      "symbol": "deETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3.png"
+    },
+    "42161_0xb2f30a7c980f052f02563fb518dcc39e6bf38175": {
+      "chainId": 42161,
+      "address": "0xb2f30a7c980f052f02563fb518dcc39e6bf38175",
+      "name": "Synthetix USD",
+      "symbol": "USDx",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb2f30a7c980f052f02563fb518dcc39e6bf38175.png"
+    },
+    "42161_0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9": {
+      "chainId": 42161,
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
+    },
+    "42161_0x18c14c2d707b2212e17d1579789fc06010cfca23": {
+      "chainId": 42161,
+      "address": "0x18c14c2d707b2212e17d1579789fc06010cfca23",
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x18c14c2d707b2212e17d1579789fc06010cfca23.png"
+    },
+    "42161_0x59d9356e565ab3a36dd77763fc0d87feaf85508c": {
+      "chainId": 42161,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    "42161_0x912ce59144191c1204e64559fe8253a0e49e6548": {
+      "chainId": 42161,
+      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x912ce59144191c1204e64559fe8253a0e49e6548.png"
+    },
+    "42161_0x3d15fd46ce9e551498328b1c83071d9509e2c3a0": {
+      "chainId": 42161,
+      "address": "0x3d15fd46ce9e551498328b1c83071d9509e2c3a0",
+      "name": "Universal ETH",
+      "symbol": "uniETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x3d15fd46ce9e551498328b1c83071d9509e2c3a0.png"
+    },
+    "42161_0xb1084db8d3c05cebd5fa9335df95ee4b8a0edc30": {
+      "chainId": 42161,
+      "address": "0xb1084db8d3c05cebd5fa9335df95ee4b8a0edc30",
+      "name": "USDT+",
+      "symbol": "USDT+",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xb1084db8d3c05cebd5fa9335df95ee4b8a0edc30.png"
+    },
+    "42161_0x2416092f143378750bb29b79ed961ab195cceea5": {
+      "chainId": 42161,
+      "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x2416092f143378750bb29b79ed961ab195cceea5.png"
+    },
+    "42161_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 42161,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
