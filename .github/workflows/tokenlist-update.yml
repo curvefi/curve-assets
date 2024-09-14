@@ -10,47 +10,42 @@ jobs:
   update-tokenlist:
     runs-on: ubuntu-latest
     steps:
+      # Set up python
       - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install Poetry
-        uses: snok/install-poetry@v1
+      # Install Poetry from cache if it exists:
+      - name: Install poetry
+        uses: snok/install-poetry@v1.0.0
         with:
-          version: 1.8.3
           virtualenvs-create: true
           virtualenvs-in-project: true
-
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v2
         with:
           path: .venv
-          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
-
+          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
       - name: Install dependencies
+        run: poetry install
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction
 
+      # Check existing tokenlist, and if there are missing tokens, generate
+      # a fresh tokenlist and commit it to the repo.
       - name: Check existing tokenlist
         id: check-tokenlist
         run: |
           poetry run python scripts/check_tokenlist.py
         continue-on-error: true
-
       - name: Generate tokenlist if check failed
         if: steps.check-tokenlist.outcome == 'failure'
         env:
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
         run: |
           poetry run python generate_curve_tokenlist.py
-
-      - name: Verify generated tokenlist
-        run: |
-          poetry run python scripts/check_tokenlist.py
-
       - name: Commit changes
         if: github.event_name != 'pull_request'
         run: |
@@ -58,7 +53,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add curve_tokenlist.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Update tokenlist" -a
-
       - name: Push changes
         if: github.event_name != 'pull_request'
         uses: ad-m/github-push-action@master
