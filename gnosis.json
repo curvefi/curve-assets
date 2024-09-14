@@ -1,0 +1,227 @@
+{
+  "name": "Curve Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/branding/logo.png",
+  "keywords": [
+    "curve",
+    "defi"
+  ],
+  "tags": {},
+  "timestamp": "2024-09-14T16:30:58.808400+00:00",
+  "tokens": [
+    {
+      "chainId": 100,
+      "address": "0x6ac78efae880282396a335ca2f79863a1e6831d4",
+      "name": "StakeWise Reward GNO",
+      "symbol": "rGNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x6ac78efae880282396a335ca2f79863a1e6831d4.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+      "name": "Gnosis Token on xDai",
+      "symbol": "GNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x9c58bacc331c9aa871afd802db6379a98e80cedb.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x3f56e0c36d275367b8c502090edf38289b3dea0d.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+      "name": "Wrapped XDAI",
+      "symbol": "WXDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xe91d153e0b41518a2ce8dd3d7944fa863463a97d.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xaf204776c7245bf4147c2612bf6e5972ee483701",
+      "name": "Savings xDAI",
+      "symbol": "sDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xaf204776c7245bf4147c2612bf6e5972ee483701.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd",
+      "name": "Curve DAO Token on xDai",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x712b3d230f3c1c19db860d80619288b1f0bdd0bd.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xcb444e90d8198415266c6a2724b7900fb12fc56e",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xcb444e90d8198415266c6a2724b7900fb12fc56e.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445",
+      "name": "StakeWise Staked GNO",
+      "symbol": "sGNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+      "name": "Tether USD on xDai",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x4ecaba5870353805a9f068101a40e0f32ed605c6.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xabef652195f98a91e490f047a5006b71c85f058d",
+      "name": "Curve.Fi USD Stablecoin from Mainnet",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xabef652195f98a91e490f047a5006b71c85f058d.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+      "name": "USD//C on xDai",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xddafbb505ad214d7b80b1f830fccc89b60fb7a83.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "xDai",
+      "symbol": "XDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  ],
+  "tokenMap": {
+    "100_0x6ac78efae880282396a335ca2f79863a1e6831d4": {
+      "chainId": 100,
+      "address": "0x6ac78efae880282396a335ca2f79863a1e6831d4",
+      "name": "StakeWise Reward GNO",
+      "symbol": "rGNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x6ac78efae880282396a335ca2f79863a1e6831d4.png"
+    },
+    "100_0x9c58bacc331c9aa871afd802db6379a98e80cedb": {
+      "chainId": 100,
+      "address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb",
+      "name": "Gnosis Token on xDai",
+      "symbol": "GNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x9c58bacc331c9aa871afd802db6379a98e80cedb.png"
+    },
+    "100_0x3f56e0c36d275367b8c502090edf38289b3dea0d": {
+      "chainId": 100,
+      "address": "0x3f56e0c36d275367b8c502090edf38289b3dea0d",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x3f56e0c36d275367b8c502090edf38289b3dea0d.png"
+    },
+    "100_0xe91d153e0b41518a2ce8dd3d7944fa863463a97d": {
+      "chainId": 100,
+      "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
+      "name": "Wrapped XDAI",
+      "symbol": "WXDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xe91d153e0b41518a2ce8dd3d7944fa863463a97d.png"
+    },
+    "100_0xaf204776c7245bf4147c2612bf6e5972ee483701": {
+      "chainId": 100,
+      "address": "0xaf204776c7245bf4147c2612bf6e5972ee483701",
+      "name": "Savings xDAI",
+      "symbol": "sDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xaf204776c7245bf4147c2612bf6e5972ee483701.png"
+    },
+    "100_0x712b3d230f3c1c19db860d80619288b1f0bdd0bd": {
+      "chainId": 100,
+      "address": "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd",
+      "name": "Curve DAO Token on xDai",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x712b3d230f3c1c19db860d80619288b1f0bdd0bd.png"
+    },
+    "100_0xcb444e90d8198415266c6a2724b7900fb12fc56e": {
+      "chainId": 100,
+      "address": "0xcb444e90d8198415266c6a2724b7900fb12fc56e",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xcb444e90d8198415266c6a2724b7900fb12fc56e.png"
+    },
+    "100_0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445": {
+      "chainId": 100,
+      "address": "0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445",
+      "name": "StakeWise Staked GNO",
+      "symbol": "sGNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xa4ef9da5ba71cc0d2e5e877a910a37ec43420445.png"
+    },
+    "100_0x4ecaba5870353805a9f068101a40e0f32ed605c6": {
+      "chainId": 100,
+      "address": "0x4ecaba5870353805a9f068101a40e0f32ed605c6",
+      "name": "Tether USD on xDai",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x4ecaba5870353805a9f068101a40e0f32ed605c6.png"
+    },
+    "100_0xabef652195f98a91e490f047a5006b71c85f058d": {
+      "chainId": 100,
+      "address": "0xabef652195f98a91e490f047a5006b71c85f058d",
+      "name": "Curve.Fi USD Stablecoin from Mainnet",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xabef652195f98a91e490f047a5006b71c85f058d.png"
+    },
+    "100_0xddafbb505ad214d7b80b1f830fccc89b60fb7a83": {
+      "chainId": 100,
+      "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+      "name": "USD//C on xDai",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xddafbb505ad214d7b80b1f830fccc89b60fb7a83.png"
+    },
+    "100_0x59d9356e565ab3a36dd77763fc0d87feaf85508c": {
+      "chainId": 100,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    "100_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 100,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "xDai",
+      "symbol": "XDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
