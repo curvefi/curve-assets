@@ -23,32 +23,28 @@ custom_theme = Theme(
 console = Console(theme=custom_theme)
 
 
-def ensure_native_token_in_list(tokenlist: Dict, network_name: str) -> None:
+def ensure_native_token_in_list(tokenlist, network_name):
     """
     Ensure the native token is present and up-to-date in the tokenlist for the given network,
-    but only if its image file exists.
+    but only if its image file exists and 0xeee is in the network folder.
     """
     network = NETWORKS[network_name]
     native_token_info = get_native_token_info(network)
 
-    # Check if the native token image exists
+    # Check if the native token image exists and 0xeee is in the folder
     image_path = f"images/{network.folder_name}/{NATIVE_TOKEN_ADDRESS.lower()}.png"
     if not os.path.exists(image_path):
-        return  # Skip if the image doesn't exist
+        return  # Skip if conditions are not met
 
     # Remove any existing entry for the native token
-    tokenlist["tokens"] = [
+    tokenlist[:] = [
         token
-        for token in tokenlist["tokens"]
+        for token in tokenlist
         if not (token["chainId"] == network.chain_id and token["address"].lower() == NATIVE_TOKEN_ADDRESS.lower())
     ]
 
     # Add the up-to-date native token info
-    tokenlist["tokens"].append(native_token_info)
-
-    # Update the tokenMap as well
-    token_key = f"{network.chain_id}_{NATIVE_TOKEN_ADDRESS.lower()}"
-    tokenlist["tokenMap"][token_key] = native_token_info
+    tokenlist.append(native_token_info)
 
 
 def generate_tokenlist(
@@ -71,13 +67,11 @@ def generate_tokenlist(
     all_failed_tokens = {}
     processed_tokens = []
 
-    networks_to_process = {NETWORKS[network_name] for network_name in networks}
+    for network in networks:
+        processed_tokens, _ = process_network(network, existing_tokenlist, all_failed_tokens)
+        ensure_native_token_in_list(processed_tokens, network)
 
-    for network_name in networks_to_process:
-        network_tokens = process_network(network_name, existing_tokenlist, all_failed_tokens)
-        ensure_native_token_in_list(network_tokens, network_name)
-
-        processed_tokens.extend(network_tokens)
+        processed_tokens.extend(processed_tokens)
 
     # Update the tokenlist after processing all networks
     updated_tokenlist = update_tokenlist(processed_tokens, existing_tokenlist)
