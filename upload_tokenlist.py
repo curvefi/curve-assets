@@ -66,7 +66,7 @@ def main():
 
         # Upload the tokenlist to GitHub Pages
         console.print("[info]Uploading tokenlist to GitHub Pages...[/info]")
-        repo_name = "curvefi/curve-tokenlist"  # Replace with your actual repo name
+        repo_name = "curvefi/curve-assets"  # Replace with your actual repo name
         file_path = "curve_tokenlist.json"
 
         github_pages_url = upload_to_github_pages(tokenlist, repo_name, file_path)
