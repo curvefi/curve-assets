@@ -1,25 +1,41 @@
 import json
 import os
+from typing import Dict
 
 import requests
+from github import Github
 
 
-def upload_tokenlist():
-    # Load the tokenlist
-    with open("curve_tokenlist.json", "r") as f:
-        tokenlist = json.load(f)
+def upload_to_github(content: Dict, repo_name: str, file_path: str, commit_message: str) -> str:
+    """
+    Upload content to a GitHub repository and return the raw content URL.
+    """
+    github_token = os.environ.get("GITHUB_TOKEN")
+    if not github_token:
+        raise ValueError("GITHUB_TOKEN environment variable is not set")
 
-    # Get the upload URL from environment variable
-    upload_url = os.environ.get("TOKENLIST_UPLOAD_URL")
-    if not upload_url:
-        raise ValueError("TOKENLIST_UPLOAD_URL environment variable is not set")
+    g = Github(github_token)
+    repo = g.get_user().get_repo(repo_name)
 
-    # Upload the tokenlist
-    response = requests.post(upload_url, json=tokenlist)
-    response.raise_for_status()
+    try:
+        # Try to get the file to update it
+        file = repo.get_contents(file_path)
+        repo.update_file(file_path, commit_message, json.dumps(content, indent=2), file.sha)
+    except:  # noqa: E722
+        # If the file doesn't exist, create it
+        repo.create_file(file_path, commit_message, json.dumps(content, indent=2))
 
-    print(f"Tokenlist uploaded successfully to {upload_url}")
+    # Get the raw content URL
+    raw_url = f"https://raw.githubusercontent.com/{repo.full_name}/main/{file_path}"
+    return raw_url
 
 
-if __name__ == "__main__":
-    upload_tokenlist()
+def verify_upload(url: str, expected_content: Dict) -> bool:
+    """
+    Verify that the uploaded content matches the expected content.
+    """
+    response = requests.get(url)
+    if response.status_code == 200:
+        uploaded_content = response.json()
+        return uploaded_content == expected_content
+    return False

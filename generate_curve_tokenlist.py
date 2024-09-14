@@ -49,9 +49,12 @@ def main(networks_to_ignore: Optional[List[str]] = None) -> None:
             # Ensure the native token is present in the list
             ensure_native_token_in_list(existing_tokenlist, network_name)
 
-            # Update the tokenlist after each network
-            updated_tokenlist = update_tokenlist(processed_tokens, all_skipped_tokens, existing_tokenlist)
-            save_json(updated_tokenlist, "curve_tokenlist.json")
+        # Update the tokenlist after processing all networks
+        updated_tokenlist = update_tokenlist(processed_tokens, all_skipped_tokens, existing_tokenlist)
+
+        # Save the tokenlist locally
+        save_json(updated_tokenlist, "curve_tokenlist.json")
+        console.print("[green]Tokenlist successfully generated and saved locally.[/green]")
 
         # Check if there are any failed tokens
         if all_failed_tokens:
