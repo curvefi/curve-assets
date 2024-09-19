@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-14T18:10:05.806958+00:00",
+  "timestamp": "2024-09-19T10:27:02.185731+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -127,6 +127,862 @@
       "symbol": "BNB",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xbfc23967e2778b2a238122d0fee22c56fe8f4de4",
+      "name": "sTUSD_ARB",
+      "symbol": "sTUSD_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xbfc23967e2778b2a238122d0fee22c56fe8f4de4.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x7a656b342e14f745e2b164890e88017e27ae7320",
+      "name": "Curve.fi Factory USD Metapool: FRAX2pool",
+      "symbol": "FRAX2pool3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x7a656b342e14f745e2b164890e88017e27ae7320.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xb42bf10ab9df82f9a47b86dd76eee4ba848d0fa2",
+      "name": "Ankr Reward Earning FTM",
+      "symbol": "aFTMb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xb42bf10ab9df82f9a47b86dd76eee4ba848d0fa2.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x11c22abd8f9c8e81376550997930cfd1e040b8bf",
+      "name": "sDAI.e_AVA",
+      "symbol": "sDAI.e_AVA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x11c22abd8f9c8e81376550997930cfd1e040b8bf.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x0cf1aa18ab7020973705aa9c46bbec6150e2782b",
+      "name": "scrvUSDC_e",
+      "symbol": "scrvUSDC_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x0cf1aa18ab7020973705aa9c46bbec6150e2782b.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x399991f54ec6e4353d18a8e975ae4f68cfa234d6",
+      "name": "sTUSD_ARB",
+      "symbol": "sTUSD_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x399991f54ec6e4353d18a8e975ae4f68cfa234d6.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x6c7334e010e94bf99a7f1f51a90556b5509971c7",
+      "name": "sDAI_POL",
+      "symbol": "sDAI_POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6c7334e010e94bf99a7f1f51a90556b5509971c7.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4636a4efba1c02917d0584505e47bb2d22afe359",
+      "name": "sam3CRV_p",
+      "symbol": "sam3CRV_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4636a4efba1c02917d0584505e47bb2d22afe359.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x2126be94443334Fd71428dBa3c638fB722d1838e",
+      "name": "Spartacus Money",
+      "symbol": "LAMBDA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2126be94443334Fd71428dBa3c638fB722d1838e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x554c61b67431feb2bd7c8c132e982f64e960627c",
+      "name": "sTUSD_AVA",
+      "symbol": "sTUSD_AVA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x554c61b67431feb2bd7c8c132e982f64e960627c.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x6bb9a6b7066445da6bef268b91810ae750431587",
+      "name": "eUSDC",
+      "symbol": "eUSDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6bb9a6b7066445da6bef268b91810ae750431587.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x5b0519fa147a50d62c4f783079bd3b5319fc1307",
+      "name": "sTUSD_AVAX",
+      "symbol": "sTUSD_AVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5b0519fa147a50d62c4f783079bd3b5319fc1307.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xfc2ede6c34f455b0197d1b1030450aaeb6b97c82",
+      "name": "sDAI_ETH",
+      "symbol": "sDAI_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xfc2ede6c34f455b0197d1b1030450aaeb6b97c82.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xafe2617beb568f6068e4b8bca844e81e45f263d6",
+      "name": "sUSDC_OP",
+      "symbol": "sUSDC_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xafe2617beb568f6068e4b8bca844e81e45f263d6.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xe578c856933d8e1082740bf7661e379aa2a30b26",
+      "name": "Geist USDC",
+      "symbol": "gUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe578c856933d8e1082740bf7661e379aa2a30b26.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x82f0b8b456c1a451378467398982d4834b6829c1.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x7e1f532f86bca89d91f61085a26bfc3ab3264fe8",
+      "name": "sDAI_ARB",
+      "symbol": "sDAI_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x7e1f532f86bca89d91f61085a26bfc3ab3264fe8.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x940f41f0ec9ba1a34cf001cc03347ac092f5f6b5",
+      "name": "Geist fUSDT",
+      "symbol": "gfUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x940f41f0ec9ba1a34cf001cc03347ac092f5f6b5.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4a89338a2079a01edbf5027330eac10b615024e5",
+      "name": "USDL",
+      "symbol": "USDL Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4a89338a2079a01edbf5027330eac10b615024e5.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x9be1ae6175b106f26439cebaf2217d7815f684af",
+      "name": "sav3CRV_av",
+      "symbol": "sav3CRV_av",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9be1ae6175b106f26439cebaf2217d7815f684af.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x27e611fd27b276acbd5ffd632e5eaebec9761e40",
+      "name": "Curve.fi DAI/USDC",
+      "symbol": "DAI+USDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x27e611fd27b276acbd5ffd632e5eaebec9761e40.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x3d947fa82723b78e67730c113188bed865167a31",
+      "name": "sUSDT_POLY",
+      "symbol": "sUSDT_POLY",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3d947fa82723b78e67730c113188bed865167a31.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x5211176fc476da0601b42cf71518d026fc093de6",
+      "name": "sUSDT_ARB",
+      "symbol": "sUSDT_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5211176fc476da0601b42cf71518d026fc093de6.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xff78828a56543476875551d31792137848e626c5",
+      "name": "sUSDC_POLY",
+      "symbol": "sUSDC_POLY",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xff78828a56543476875551d31792137848e626c5.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x0ac7e2f9f78de2ccc467139d43b6f32473454dd9",
+      "name": "sUSDT_BSC",
+      "symbol": "sUSDT_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x0ac7e2f9f78de2ccc467139d43b6f32473454dd9.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x646796f89431f474b8d55a5c7425ec8696772a5e",
+      "name": "sUSDT_BNB",
+      "symbol": "sUSDT_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x646796f89431f474b8d55a5c7425ec8696772a5e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc9be2d86262805ce9e848b76be6123132dc1a43a",
+      "name": "scrvUSDT_ar",
+      "symbol": "scrvUSDT_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc9be2d86262805ce9e848b76be6123132dc1a43a.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x321162cd933e2be498cd2267a90534a804051b11.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4045d826f2a1725dc6975387ac8378950f965ddc",
+      "name": "sUSDt_AVA",
+      "symbol": "sUSDt_AVA",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4045d826f2a1725dc6975387ac8378950f965ddc.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xee4c758c85a2b4dd7375c1f1d4b59518770846c6",
+      "name": "scrvUSDT_b",
+      "symbol": "scrvUSDT_b",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xee4c758c85a2b4dd7375c1f1d4b59518770846c6.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x1123f3a1394f0efc2f34a1cbec887873361e96f0",
+      "name": "sTUSD_POLY",
+      "symbol": "sTUSD_POLY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x1123f3a1394f0efc2f34a1cbec887873361e96f0.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xfc2c4d0703d3522b74e0e06f364ba2515df6a74e",
+      "name": "s3crypto_ar",
+      "symbol": "s3crypto_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xfc2c4d0703d3522b74e0e06f364ba2515df6a74e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x11326a37e262189aefb03484a681539afb80c1a2",
+      "name": "sUSDC_ARB",
+      "symbol": "sUSDC_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x11326a37e262189aefb03484a681539afb80c1a2.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xad84341756bf337f5a0164515b1f6f993d194e1f",
+      "name": "Fantom USD",
+      "symbol": "FUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xad84341756bf337f5a0164515b1f6f993d194e1f.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x309faa41ebf82063efa822b5030fc0795c82feb2",
+      "name": "scrvUSDC_b",
+      "symbol": "scrvUSDC_b",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x309faa41ebf82063efa822b5030fc0795c82feb2.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x15689673b6f18696bdc411ddd48183b3cb00f222",
+      "name": "sUSDT_POL",
+      "symbol": "sUSDT_POL",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x15689673b6f18696bdc411ddd48183b3cb00f222.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xcf2cb841dddf16e181d64acd91656a97e1e4c20d",
+      "name": "sTUSD_BNB",
+      "symbol": "sTUSD_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xcf2cb841dddf16e181d64acd91656a97e1e4c20d.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4ac215b8b0acf9da8ef50636145bc80afca30d79",
+      "name": "s3crypto_av",
+      "symbol": "s3crypto_av",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4ac215b8b0acf9da8ef50636145bc80afca30d79.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc7fbc3b9bc1f095189c6143d29e83ee89325377e",
+      "name": "s3crypto_p",
+      "symbol": "s3crypto_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc7fbc3b9bc1f095189c6143d29e83ee89325377e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x5ed3a69612fe2547bfb90033e87db3a1eb2f7a93",
+      "name": "sUSDC_POL",
+      "symbol": "sUSDC_POL",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5ed3a69612fe2547bfb90033e87db3a1eb2f7a93.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xe71286fc887189c562410af12ed521c8e58e5fa3",
+      "name": "s3crypto_e",
+      "symbol": "s3crypto_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe71286fc887189c562410af12ed521c8e58e5fa3.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x95edb5791ee74dadede8fecfab38fc56a3ca0c60",
+      "name": "sUSDT_OP",
+      "symbol": "sUSDT_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x95edb5791ee74dadede8fecfab38fc56a3ca0c60.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x6e0dc5a4ef555277db3435703f0e287040013763",
+      "name": "eTUSD",
+      "symbol": "eTUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6e0dc5a4ef555277db3435703f0e287040013763.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e",
+      "name": "TOR",
+      "symbol": "TOR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xf1738b8c7b805d86671d258d5ffe85204db4de4d",
+      "name": "scrvUSDT_p",
+      "symbol": "scrvUSDT_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf1738b8c7b805d86671d258d5ffe85204db4de4d.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x3ee81e8a9368c891cf54b19265ef2df348142ab9",
+      "name": "scrvUSDC_ar",
+      "symbol": "scrvUSDC_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3ee81e8a9368c891cf54b19265ef2df348142ab9.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x740568006c07888216649632aace6620288c7078",
+      "name": "s3CRV_o",
+      "symbol": "s3CRV_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x740568006c07888216649632aace6620288c7078.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x1b6382dbdea11d97f24495c9a90b7c88469134a4",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x1b6382dbdea11d97f24495c9a90b7c88469134a4.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c",
+      "name": "eUSDT",
+      "symbol": "eUSDT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc4417be9c9b3f682fd03224a4b29e01ce34602fe",
+      "name": "sTUSD_BSC",
+      "symbol": "sTUSD_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc4417be9c9b3f682fd03224a4b29e01ce34602fe.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xf1cd9a305b71a2eaae9cbc57e0e11a1e214f7219",
+      "name": "Curve.fi Factory Plain Pool: EUSD",
+      "symbol": "EUSD-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf1cd9a305b71a2eaae9cbc57e0e11a1e214f7219.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xd9524118934ff29409e4eea562cab61de0377295",
+      "name": "sUSDC_AVA",
+      "symbol": "sUSDC_AVA",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd9524118934ff29409e4eea562cab61de0377295.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x1d28d76a49d25d3c97f50ac93da433ebedbe05c8",
+      "name": "scrvUSDT_o",
+      "symbol": "scrvUSDT_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x1d28d76a49d25d3c97f50ac93da433ebedbe05c8.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xd33fbb4951fc744af374595cf7f0a5b62b0540a7",
+      "name": "sDAI_ETH",
+      "symbol": "sDAI_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd33fbb4951fc744af374595cf7f0a5b62b0540a7.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x2665a2fbddf5919354da02544fd144eedce8bf79",
+      "name": "sUSDT_ETH",
+      "symbol": "sUSDT_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2665a2fbddf5919354da02544fd144eedce8bf79.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x3d52baa6b38f2f61d7f1499aa00f1eb86e916150",
+      "name": "CrossCurve Stable",
+      "symbol": "xSTABLE",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3d52baa6b38f2f61d7f1499aa00f1eb86e916150.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x8b697f95d8c9fbbcc597a89223b10b80369490a1",
+      "name": "scrvUSDC_p",
+      "symbol": "scrvUSDC_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x8b697f95d8c9fbbcc597a89223b10b80369490a1.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x353bb1dfbc52bc3b0e7d264216b1455df00f50be",
+      "name": "CrossCurve crvUSDC",
+      "symbol": "xCRVUSDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x353bb1dfbc52bc3b0e7d264216b1455df00f50be.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x41a4dd96f623818ebf95fb2bd98978229614af64",
+      "name": "scrvUSDT_e",
+      "symbol": "scrvUSDT_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x41a4dd96f623818ebf95fb2bd98978229614af64.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x953e94caf91a1e32337d0548b9274f337920edfa",
+      "name": "USDV",
+      "symbol": "USDV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x953e94caf91a1e32337d0548b9274f337920edfa.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x74aeed349f3fcae9c158504686f9304c4bbfa39a",
+      "name": "sUSDT_AVAX",
+      "symbol": "sUSDT_AVAX",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x74aeed349f3fcae9c158504686f9304c4bbfa39a.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x88486e058865611c939d1077725f293378e7bd75",
+      "name": "sDAI_BSC",
+      "symbol": "sDAI_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x88486e058865611c939d1077725f293378e7bd75.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xbf25a2cb61f453ce8ea84c369a9907abdaaa6056",
+      "name": "sUSDC_ETH",
+      "symbol": "sUSDC_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xbf25a2cb61f453ce8ea84c369a9907abdaaa6056.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x58c0f509fc96f36457dffc847e4668685dd45d45",
+      "name": "sTUSD_OP",
+      "symbol": "sTUSD_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x58c0f509fc96f36457dffc847e4668685dd45d45.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x542d959977c82a8126d320acb4e247385f432d2a",
+      "name": "sDAI_OP",
+      "symbol": "sDAI_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x542d959977c82a8126d320acb4e247385f432d2a.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x795b38c85d6f1524b434f14aa37c1c808c2bbd6b",
+      "name": "sx3CRV_g",
+      "symbol": "sx3CRV_g",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x795b38c85d6f1524b434f14aa37c1c808c2bbd6b.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xdcd1dd03b2c7ed2ea127c968d4c032130f6baee6",
+      "name": "sDAI_POLY",
+      "symbol": "sDAI_POLY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdcd1dd03b2c7ed2ea127c968d4c032130f6baee6.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x6a6e93625ac1a40a8ca25a80dbe275474c6ad1e2",
+      "name": "AggregatedUSD",
+      "symbol": "AgUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6a6e93625ac1a40a8ca25a80dbe275474c6ad1e2.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x74b23882a30290451a17c44f4f05243b6b58c76d.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x9c7283c18f186470d198d7676a1a2ab913e96b1d",
+      "name": "sDAI_ARB",
+      "symbol": "sDAI_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9c7283c18f186470d198d7676a1a2ab913e96b1d.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4df0b8323f7b6d45abf39ecbd3f18bd5fcbcb1b2",
+      "name": "eDAI",
+      "symbol": "eDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4df0b8323f7b6d45abf39ecbd3f18bd5fcbcb1b2.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x9546483bfbcf9e39caf1493f3c66b85e58354644",
+      "name": "sUSDC_AVAX",
+      "symbol": "sUSDC_AVAX",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9546483bfbcf9e39caf1493f3c66b85e58354644.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x904603366bc8acf881a35cd4c7e0d514f0477ffc",
+      "name": "s4pool_ba",
+      "symbol": "s4pool_ba",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x904603366bc8acf881a35cd4c7e0d514f0477ffc.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4fa737564f320f4a21a2bf43e0322b160bab17d5",
+      "name": "sUSDC_BNB",
+      "symbol": "sUSDC_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4fa737564f320f4a21a2bf43e0322b160bab17d5.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xdf83ea3a779eb4486f649513282c4f0772bab92a",
+      "name": "sDAI_OP",
+      "symbol": "sDAI_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdf83ea3a779eb4486f649513282c4f0772bab92a.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x40fc7408a060cbef1fe63f7182870184d7ff95e3",
+      "name": "sUSDT_ETH",
+      "symbol": "sUSDT_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x40fc7408a060cbef1fe63f7182870184d7ff95e3.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xf4cd12d90b407d2bbc2ce4047d673f29c5513097",
+      "name": "sTUSD_ETH",
+      "symbol": "sTUSD_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf4cd12d90b407d2bbc2ce4047d673f29c5513097.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x04068da6c83afcfa0e13ba15a6696662335d5b75.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x07e6332dd090d287d3489245038daf987955dcfb",
+      "name": "Geist DAI",
+      "symbol": "gDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x07e6332dd090d287d3489245038daf987955dcfb.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x2902257ba817e1436b93f9f959ed50b95560b7d5",
+      "name": "s2CRV_ar",
+      "symbol": "s2CRV_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2902257ba817e1436b93f9f959ed50b95560b7d5.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+      "name": "Frapped USDT",
+      "symbol": "fUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x049d68029688eabf473097a2fc38ef61633a3c7a.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xcd9f2b048fa2284fa7d79bcacdf8c758d96e9ba3",
+      "name": "scrvUSDC_o",
+      "symbol": "scrvUSDC_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xcd9f2b048fa2284fa7d79bcacdf8c758d96e9ba3.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x578376b290a0e2bcd45313935cb45ce206f2ae12",
+      "name": "sTUSD_ETH",
+      "symbol": "sTUSD_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x578376b290a0e2bcd45313935cb45ce206f2ae12.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xe35177e61d09bfdb61ea29db92d19b5e05edda8f",
+      "name": "sUSDC_BSC",
+      "symbol": "sUSDC_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe35177e61d09bfdb61ea29db92d19b5e05edda8f.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x846e4d51d7e2043c1a87e0ab7490b93fb940357b",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x846e4d51d7e2043c1a87e0ab7490b93fb940357b.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xd42fb7912522792703b89a4cd70d70622e212785",
+      "name": "sUSDT_ARB",
+      "symbol": "sUSDT_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd42fb7912522792703b89a4cd70d70622e212785.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x4a5aa84da4033a8da887815423eb10c4ef24dc50",
+      "name": "sUSDT_OP",
+      "symbol": "sUSDT_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4a5aa84da4033a8da887815423eb10c4ef24dc50.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc7c733f02fd3aff89527c4f727c5ac0a034d0e7c",
+      "name": "WIUSDT/fUSDT",
+      "symbol": "WIUSDTfUS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc7c733f02fd3aff89527c4f727c5ac0a034d0e7c.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xd0d8440d199b087f898d80a012fd79b427e2cbaa",
+      "name": "sUSDC_OP",
+      "symbol": "sUSDC_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd0d8440d199b087f898d80a012fd79b427e2cbaa.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdc301622e621166bd8e82f2ca0a26c13ad0be355.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+      "name": "miMATIC",
+      "symbol": "miMATIC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xfb98b335551a418cd0737375a2ea0ded62ea213b.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x9791e2eec13ebb028fbd2f22a0267e1aba4f7aaf",
+      "name": "sTUSD_OP",
+      "symbol": "sTUSD_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9791e2eec13ebb028fbd2f22a0267e1aba4f7aaf.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xe79df24b3b1e0d248de8feb1f8bedc6221dad960",
+      "name": "sDAI_BNB",
+      "symbol": "sDAI_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe79df24b3b1e0d248de8feb1f8bedc6221dad960.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x5f0456f728e2d59028b4f5b8ad8c604100724c6a",
+      "name": "L3USD",
+      "symbol": "L3USD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5f0456f728e2d59028b4f5b8ad8c604100724c6a.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "name": "Wrapped Fantom",
+      "symbol": "WFTM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x6f768efdb63765653f3a77dd863b28735475bee9",
+      "name": "sUSDC_ARB",
+      "symbol": "sUSDC_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6f768efdb63765653f3a77dd863b28735475bee9.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc0d9784fdba39746919bbf236eb73bc015fd351d",
+      "name": "FTML",
+      "symbol": "Fantom-L",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc0d9784fdba39746919bbf236eb73bc015fd351d.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x2827053d2f2c3ed312d2092e57d8537405fdfd0f",
+      "name": "sTUSD_POL",
+      "symbol": "sTUSD_POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2827053d2f2c3ed312d2092e57d8537405fdfd0f.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x14f8e5851879a18e0fea77b5a17f15523262a99e",
+      "name": "s3CRV_e",
+      "symbol": "s3CRV_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x14f8e5851879a18e0fea77b5a17f15523262a99e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xe213ae6b651d1399163d183ade1f5a563968281f",
+      "name": "sDAI.e_AVAX",
+      "symbol": "sDAI.e_AVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe213ae6b651d1399163d183ade1f5a563968281f.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x79529e8765bb764fc22cd8542745a1a2449a3be3",
+      "name": "sUSDC_ETH",
+      "symbol": "sUSDC_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x79529e8765bb764fc22cd8542745a1a2449a3be3.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xab72e7f7bcfe09a9105f24ffe45038f50f45ca5c",
+      "name": "sb3pool_b",
+      "symbol": "sb3pool_b",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xab72e7f7bcfe09a9105f24ffe45038f50f45ca5c.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3129662808bec728a27ab6a6b9afd3cbaca8a43c.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   ],
   "tokenMap": {
@@ -249,6 +1105,862 @@
       "symbol": "BNB",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-bsc/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "250_0xbfc23967e2778b2a238122d0fee22c56fe8f4de4": {
+      "chainId": 250,
+      "address": "0xbfc23967e2778b2a238122d0fee22c56fe8f4de4",
+      "name": "sTUSD_ARB",
+      "symbol": "sTUSD_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xbfc23967e2778b2a238122d0fee22c56fe8f4de4.png"
+    },
+    "250_0x7a656b342e14f745e2b164890e88017e27ae7320": {
+      "chainId": 250,
+      "address": "0x7a656b342e14f745e2b164890e88017e27ae7320",
+      "name": "Curve.fi Factory USD Metapool: FRAX2pool",
+      "symbol": "FRAX2pool3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x7a656b342e14f745e2b164890e88017e27ae7320.png"
+    },
+    "250_0xb42bf10ab9df82f9a47b86dd76eee4ba848d0fa2": {
+      "chainId": 250,
+      "address": "0xb42bf10ab9df82f9a47b86dd76eee4ba848d0fa2",
+      "name": "Ankr Reward Earning FTM",
+      "symbol": "aFTMb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xb42bf10ab9df82f9a47b86dd76eee4ba848d0fa2.png"
+    },
+    "250_0x11c22abd8f9c8e81376550997930cfd1e040b8bf": {
+      "chainId": 250,
+      "address": "0x11c22abd8f9c8e81376550997930cfd1e040b8bf",
+      "name": "sDAI.e_AVA",
+      "symbol": "sDAI.e_AVA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x11c22abd8f9c8e81376550997930cfd1e040b8bf.png"
+    },
+    "250_0x0cf1aa18ab7020973705aa9c46bbec6150e2782b": {
+      "chainId": 250,
+      "address": "0x0cf1aa18ab7020973705aa9c46bbec6150e2782b",
+      "name": "scrvUSDC_e",
+      "symbol": "scrvUSDC_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x0cf1aa18ab7020973705aa9c46bbec6150e2782b.png"
+    },
+    "250_0x399991f54ec6e4353d18a8e975ae4f68cfa234d6": {
+      "chainId": 250,
+      "address": "0x399991f54ec6e4353d18a8e975ae4f68cfa234d6",
+      "name": "sTUSD_ARB",
+      "symbol": "sTUSD_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x399991f54ec6e4353d18a8e975ae4f68cfa234d6.png"
+    },
+    "250_0x6c7334e010e94bf99a7f1f51a90556b5509971c7": {
+      "chainId": 250,
+      "address": "0x6c7334e010e94bf99a7f1f51a90556b5509971c7",
+      "name": "sDAI_POL",
+      "symbol": "sDAI_POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6c7334e010e94bf99a7f1f51a90556b5509971c7.png"
+    },
+    "250_0x4636a4efba1c02917d0584505e47bb2d22afe359": {
+      "chainId": 250,
+      "address": "0x4636a4efba1c02917d0584505e47bb2d22afe359",
+      "name": "sam3CRV_p",
+      "symbol": "sam3CRV_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4636a4efba1c02917d0584505e47bb2d22afe359.png"
+    },
+    "250_0x2126be94443334fd71428dba3c638fb722d1838e": {
+      "chainId": 250,
+      "address": "0x2126be94443334Fd71428dBa3c638fB722d1838e",
+      "name": "Spartacus Money",
+      "symbol": "LAMBDA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2126be94443334Fd71428dBa3c638fB722d1838e.png"
+    },
+    "250_0x554c61b67431feb2bd7c8c132e982f64e960627c": {
+      "chainId": 250,
+      "address": "0x554c61b67431feb2bd7c8c132e982f64e960627c",
+      "name": "sTUSD_AVA",
+      "symbol": "sTUSD_AVA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x554c61b67431feb2bd7c8c132e982f64e960627c.png"
+    },
+    "250_0x6bb9a6b7066445da6bef268b91810ae750431587": {
+      "chainId": 250,
+      "address": "0x6bb9a6b7066445da6bef268b91810ae750431587",
+      "name": "eUSDC",
+      "symbol": "eUSDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6bb9a6b7066445da6bef268b91810ae750431587.png"
+    },
+    "250_0x5b0519fa147a50d62c4f783079bd3b5319fc1307": {
+      "chainId": 250,
+      "address": "0x5b0519fa147a50d62c4f783079bd3b5319fc1307",
+      "name": "sTUSD_AVAX",
+      "symbol": "sTUSD_AVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5b0519fa147a50d62c4f783079bd3b5319fc1307.png"
+    },
+    "250_0xfc2ede6c34f455b0197d1b1030450aaeb6b97c82": {
+      "chainId": 250,
+      "address": "0xfc2ede6c34f455b0197d1b1030450aaeb6b97c82",
+      "name": "sDAI_ETH",
+      "symbol": "sDAI_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xfc2ede6c34f455b0197d1b1030450aaeb6b97c82.png"
+    },
+    "250_0xafe2617beb568f6068e4b8bca844e81e45f263d6": {
+      "chainId": 250,
+      "address": "0xafe2617beb568f6068e4b8bca844e81e45f263d6",
+      "name": "sUSDC_OP",
+      "symbol": "sUSDC_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xafe2617beb568f6068e4b8bca844e81e45f263d6.png"
+    },
+    "250_0xe578c856933d8e1082740bf7661e379aa2a30b26": {
+      "chainId": 250,
+      "address": "0xe578c856933d8e1082740bf7661e379aa2a30b26",
+      "name": "Geist USDC",
+      "symbol": "gUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe578c856933d8e1082740bf7661e379aa2a30b26.png"
+    },
+    "250_0x82f0b8b456c1a451378467398982d4834b6829c1": {
+      "chainId": 250,
+      "address": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x82f0b8b456c1a451378467398982d4834b6829c1.png"
+    },
+    "250_0x7e1f532f86bca89d91f61085a26bfc3ab3264fe8": {
+      "chainId": 250,
+      "address": "0x7e1f532f86bca89d91f61085a26bfc3ab3264fe8",
+      "name": "sDAI_ARB",
+      "symbol": "sDAI_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x7e1f532f86bca89d91f61085a26bfc3ab3264fe8.png"
+    },
+    "250_0x940f41f0ec9ba1a34cf001cc03347ac092f5f6b5": {
+      "chainId": 250,
+      "address": "0x940f41f0ec9ba1a34cf001cc03347ac092f5f6b5",
+      "name": "Geist fUSDT",
+      "symbol": "gfUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x940f41f0ec9ba1a34cf001cc03347ac092f5f6b5.png"
+    },
+    "250_0x4a89338a2079a01edbf5027330eac10b615024e5": {
+      "chainId": 250,
+      "address": "0x4a89338a2079a01edbf5027330eac10b615024e5",
+      "name": "USDL",
+      "symbol": "USDL Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4a89338a2079a01edbf5027330eac10b615024e5.png"
+    },
+    "250_0x9be1ae6175b106f26439cebaf2217d7815f684af": {
+      "chainId": 250,
+      "address": "0x9be1ae6175b106f26439cebaf2217d7815f684af",
+      "name": "sav3CRV_av",
+      "symbol": "sav3CRV_av",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9be1ae6175b106f26439cebaf2217d7815f684af.png"
+    },
+    "250_0x27e611fd27b276acbd5ffd632e5eaebec9761e40": {
+      "chainId": 250,
+      "address": "0x27e611fd27b276acbd5ffd632e5eaebec9761e40",
+      "name": "Curve.fi DAI/USDC",
+      "symbol": "DAI+USDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x27e611fd27b276acbd5ffd632e5eaebec9761e40.png"
+    },
+    "250_0x3d947fa82723b78e67730c113188bed865167a31": {
+      "chainId": 250,
+      "address": "0x3d947fa82723b78e67730c113188bed865167a31",
+      "name": "sUSDT_POLY",
+      "symbol": "sUSDT_POLY",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3d947fa82723b78e67730c113188bed865167a31.png"
+    },
+    "250_0x5211176fc476da0601b42cf71518d026fc093de6": {
+      "chainId": 250,
+      "address": "0x5211176fc476da0601b42cf71518d026fc093de6",
+      "name": "sUSDT_ARB",
+      "symbol": "sUSDT_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5211176fc476da0601b42cf71518d026fc093de6.png"
+    },
+    "250_0xff78828a56543476875551d31792137848e626c5": {
+      "chainId": 250,
+      "address": "0xff78828a56543476875551d31792137848e626c5",
+      "name": "sUSDC_POLY",
+      "symbol": "sUSDC_POLY",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xff78828a56543476875551d31792137848e626c5.png"
+    },
+    "250_0x0ac7e2f9f78de2ccc467139d43b6f32473454dd9": {
+      "chainId": 250,
+      "address": "0x0ac7e2f9f78de2ccc467139d43b6f32473454dd9",
+      "name": "sUSDT_BSC",
+      "symbol": "sUSDT_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x0ac7e2f9f78de2ccc467139d43b6f32473454dd9.png"
+    },
+    "250_0x646796f89431f474b8d55a5c7425ec8696772a5e": {
+      "chainId": 250,
+      "address": "0x646796f89431f474b8d55a5c7425ec8696772a5e",
+      "name": "sUSDT_BNB",
+      "symbol": "sUSDT_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x646796f89431f474b8d55a5c7425ec8696772a5e.png"
+    },
+    "250_0xc9be2d86262805ce9e848b76be6123132dc1a43a": {
+      "chainId": 250,
+      "address": "0xc9be2d86262805ce9e848b76be6123132dc1a43a",
+      "name": "scrvUSDT_ar",
+      "symbol": "scrvUSDT_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc9be2d86262805ce9e848b76be6123132dc1a43a.png"
+    },
+    "250_0x321162cd933e2be498cd2267a90534a804051b11": {
+      "chainId": 250,
+      "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x321162cd933e2be498cd2267a90534a804051b11.png"
+    },
+    "250_0x4045d826f2a1725dc6975387ac8378950f965ddc": {
+      "chainId": 250,
+      "address": "0x4045d826f2a1725dc6975387ac8378950f965ddc",
+      "name": "sUSDt_AVA",
+      "symbol": "sUSDt_AVA",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4045d826f2a1725dc6975387ac8378950f965ddc.png"
+    },
+    "250_0xee4c758c85a2b4dd7375c1f1d4b59518770846c6": {
+      "chainId": 250,
+      "address": "0xee4c758c85a2b4dd7375c1f1d4b59518770846c6",
+      "name": "scrvUSDT_b",
+      "symbol": "scrvUSDT_b",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xee4c758c85a2b4dd7375c1f1d4b59518770846c6.png"
+    },
+    "250_0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50": {
+      "chainId": 250,
+      "address": "0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50",
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc931f61b1534eb21d8c11b24f3f5ab2471d4ab50.png"
+    },
+    "250_0x1123f3a1394f0efc2f34a1cbec887873361e96f0": {
+      "chainId": 250,
+      "address": "0x1123f3a1394f0efc2f34a1cbec887873361e96f0",
+      "name": "sTUSD_POLY",
+      "symbol": "sTUSD_POLY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x1123f3a1394f0efc2f34a1cbec887873361e96f0.png"
+    },
+    "250_0xfc2c4d0703d3522b74e0e06f364ba2515df6a74e": {
+      "chainId": 250,
+      "address": "0xfc2c4d0703d3522b74e0e06f364ba2515df6a74e",
+      "name": "s3crypto_ar",
+      "symbol": "s3crypto_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xfc2c4d0703d3522b74e0e06f364ba2515df6a74e.png"
+    },
+    "250_0x11326a37e262189aefb03484a681539afb80c1a2": {
+      "chainId": 250,
+      "address": "0x11326a37e262189aefb03484a681539afb80c1a2",
+      "name": "sUSDC_ARB",
+      "symbol": "sUSDC_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x11326a37e262189aefb03484a681539afb80c1a2.png"
+    },
+    "250_0xad84341756bf337f5a0164515b1f6f993d194e1f": {
+      "chainId": 250,
+      "address": "0xad84341756bf337f5a0164515b1f6f993d194e1f",
+      "name": "Fantom USD",
+      "symbol": "FUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xad84341756bf337f5a0164515b1f6f993d194e1f.png"
+    },
+    "250_0x309faa41ebf82063efa822b5030fc0795c82feb2": {
+      "chainId": 250,
+      "address": "0x309faa41ebf82063efa822b5030fc0795c82feb2",
+      "name": "scrvUSDC_b",
+      "symbol": "scrvUSDC_b",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x309faa41ebf82063efa822b5030fc0795c82feb2.png"
+    },
+    "250_0x15689673b6f18696bdc411ddd48183b3cb00f222": {
+      "chainId": 250,
+      "address": "0x15689673b6f18696bdc411ddd48183b3cb00f222",
+      "name": "sUSDT_POL",
+      "symbol": "sUSDT_POL",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x15689673b6f18696bdc411ddd48183b3cb00f222.png"
+    },
+    "250_0xcf2cb841dddf16e181d64acd91656a97e1e4c20d": {
+      "chainId": 250,
+      "address": "0xcf2cb841dddf16e181d64acd91656a97e1e4c20d",
+      "name": "sTUSD_BNB",
+      "symbol": "sTUSD_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xcf2cb841dddf16e181d64acd91656a97e1e4c20d.png"
+    },
+    "250_0x4ac215b8b0acf9da8ef50636145bc80afca30d79": {
+      "chainId": 250,
+      "address": "0x4ac215b8b0acf9da8ef50636145bc80afca30d79",
+      "name": "s3crypto_av",
+      "symbol": "s3crypto_av",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4ac215b8b0acf9da8ef50636145bc80afca30d79.png"
+    },
+    "250_0xc7fbc3b9bc1f095189c6143d29e83ee89325377e": {
+      "chainId": 250,
+      "address": "0xc7fbc3b9bc1f095189c6143d29e83ee89325377e",
+      "name": "s3crypto_p",
+      "symbol": "s3crypto_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc7fbc3b9bc1f095189c6143d29e83ee89325377e.png"
+    },
+    "250_0x5ed3a69612fe2547bfb90033e87db3a1eb2f7a93": {
+      "chainId": 250,
+      "address": "0x5ed3a69612fe2547bfb90033e87db3a1eb2f7a93",
+      "name": "sUSDC_POL",
+      "symbol": "sUSDC_POL",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5ed3a69612fe2547bfb90033e87db3a1eb2f7a93.png"
+    },
+    "250_0xe71286fc887189c562410af12ed521c8e58e5fa3": {
+      "chainId": 250,
+      "address": "0xe71286fc887189c562410af12ed521c8e58e5fa3",
+      "name": "s3crypto_e",
+      "symbol": "s3crypto_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe71286fc887189c562410af12ed521c8e58e5fa3.png"
+    },
+    "250_0x95edb5791ee74dadede8fecfab38fc56a3ca0c60": {
+      "chainId": 250,
+      "address": "0x95edb5791ee74dadede8fecfab38fc56a3ca0c60",
+      "name": "sUSDT_OP",
+      "symbol": "sUSDT_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x95edb5791ee74dadede8fecfab38fc56a3ca0c60.png"
+    },
+    "250_0x6e0dc5a4ef555277db3435703f0e287040013763": {
+      "chainId": 250,
+      "address": "0x6e0dc5a4ef555277db3435703f0e287040013763",
+      "name": "eTUSD",
+      "symbol": "eTUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6e0dc5a4ef555277db3435703f0e287040013763.png"
+    },
+    "250_0xdbf31df14b66535af65aac99c32e9ea844e14501": {
+      "chainId": 250,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    "250_0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e": {
+      "chainId": 250,
+      "address": "0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e",
+      "name": "TOR",
+      "symbol": "TOR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e.png"
+    },
+    "250_0xf1738b8c7b805d86671d258d5ffe85204db4de4d": {
+      "chainId": 250,
+      "address": "0xf1738b8c7b805d86671d258d5ffe85204db4de4d",
+      "name": "scrvUSDT_p",
+      "symbol": "scrvUSDT_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf1738b8c7b805d86671d258d5ffe85204db4de4d.png"
+    },
+    "250_0x3ee81e8a9368c891cf54b19265ef2df348142ab9": {
+      "chainId": 250,
+      "address": "0x3ee81e8a9368c891cf54b19265ef2df348142ab9",
+      "name": "scrvUSDC_ar",
+      "symbol": "scrvUSDC_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3ee81e8a9368c891cf54b19265ef2df348142ab9.png"
+    },
+    "250_0x740568006c07888216649632aace6620288c7078": {
+      "chainId": 250,
+      "address": "0x740568006c07888216649632aace6620288c7078",
+      "name": "s3CRV_o",
+      "symbol": "s3CRV_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x740568006c07888216649632aace6620288c7078.png"
+    },
+    "250_0x1b6382dbdea11d97f24495c9a90b7c88469134a4": {
+      "chainId": 250,
+      "address": "0x1b6382dbdea11d97f24495c9a90b7c88469134a4",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x1b6382dbdea11d97f24495c9a90b7c88469134a4.png"
+    },
+    "250_0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c": {
+      "chainId": 250,
+      "address": "0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c",
+      "name": "eUSDT",
+      "symbol": "eUSDT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x228f20f430fd7a6f5b1abea69a5ab8eb2973853c.png"
+    },
+    "250_0xc4417be9c9b3f682fd03224a4b29e01ce34602fe": {
+      "chainId": 250,
+      "address": "0xc4417be9c9b3f682fd03224a4b29e01ce34602fe",
+      "name": "sTUSD_BSC",
+      "symbol": "sTUSD_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc4417be9c9b3f682fd03224a4b29e01ce34602fe.png"
+    },
+    "250_0xf1cd9a305b71a2eaae9cbc57e0e11a1e214f7219": {
+      "chainId": 250,
+      "address": "0xf1cd9a305b71a2eaae9cbc57e0e11a1e214f7219",
+      "name": "Curve.fi Factory Plain Pool: EUSD",
+      "symbol": "EUSD-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf1cd9a305b71a2eaae9cbc57e0e11a1e214f7219.png"
+    },
+    "250_0xd9524118934ff29409e4eea562cab61de0377295": {
+      "chainId": 250,
+      "address": "0xd9524118934ff29409e4eea562cab61de0377295",
+      "name": "sUSDC_AVA",
+      "symbol": "sUSDC_AVA",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd9524118934ff29409e4eea562cab61de0377295.png"
+    },
+    "250_0x1d28d76a49d25d3c97f50ac93da433ebedbe05c8": {
+      "chainId": 250,
+      "address": "0x1d28d76a49d25d3c97f50ac93da433ebedbe05c8",
+      "name": "scrvUSDT_o",
+      "symbol": "scrvUSDT_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x1d28d76a49d25d3c97f50ac93da433ebedbe05c8.png"
+    },
+    "250_0xd33fbb4951fc744af374595cf7f0a5b62b0540a7": {
+      "chainId": 250,
+      "address": "0xd33fbb4951fc744af374595cf7f0a5b62b0540a7",
+      "name": "sDAI_ETH",
+      "symbol": "sDAI_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd33fbb4951fc744af374595cf7f0a5b62b0540a7.png"
+    },
+    "250_0x2665a2fbddf5919354da02544fd144eedce8bf79": {
+      "chainId": 250,
+      "address": "0x2665a2fbddf5919354da02544fd144eedce8bf79",
+      "name": "sUSDT_ETH",
+      "symbol": "sUSDT_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2665a2fbddf5919354da02544fd144eedce8bf79.png"
+    },
+    "250_0x3d52baa6b38f2f61d7f1499aa00f1eb86e916150": {
+      "chainId": 250,
+      "address": "0x3d52baa6b38f2f61d7f1499aa00f1eb86e916150",
+      "name": "CrossCurve Stable",
+      "symbol": "xSTABLE",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3d52baa6b38f2f61d7f1499aa00f1eb86e916150.png"
+    },
+    "250_0x8b697f95d8c9fbbcc597a89223b10b80369490a1": {
+      "chainId": 250,
+      "address": "0x8b697f95d8c9fbbcc597a89223b10b80369490a1",
+      "name": "scrvUSDC_p",
+      "symbol": "scrvUSDC_p",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x8b697f95d8c9fbbcc597a89223b10b80369490a1.png"
+    },
+    "250_0x353bb1dfbc52bc3b0e7d264216b1455df00f50be": {
+      "chainId": 250,
+      "address": "0x353bb1dfbc52bc3b0e7d264216b1455df00f50be",
+      "name": "CrossCurve crvUSDC",
+      "symbol": "xCRVUSDC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x353bb1dfbc52bc3b0e7d264216b1455df00f50be.png"
+    },
+    "250_0x41a4dd96f623818ebf95fb2bd98978229614af64": {
+      "chainId": 250,
+      "address": "0x41a4dd96f623818ebf95fb2bd98978229614af64",
+      "name": "scrvUSDT_e",
+      "symbol": "scrvUSDT_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x41a4dd96f623818ebf95fb2bd98978229614af64.png"
+    },
+    "250_0x953e94caf91a1e32337d0548b9274f337920edfa": {
+      "chainId": 250,
+      "address": "0x953e94caf91a1e32337d0548b9274f337920edfa",
+      "name": "USDV",
+      "symbol": "USDV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x953e94caf91a1e32337d0548b9274f337920edfa.png"
+    },
+    "250_0x74aeed349f3fcae9c158504686f9304c4bbfa39a": {
+      "chainId": 250,
+      "address": "0x74aeed349f3fcae9c158504686f9304c4bbfa39a",
+      "name": "sUSDT_AVAX",
+      "symbol": "sUSDT_AVAX",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x74aeed349f3fcae9c158504686f9304c4bbfa39a.png"
+    },
+    "250_0x88486e058865611c939d1077725f293378e7bd75": {
+      "chainId": 250,
+      "address": "0x88486e058865611c939d1077725f293378e7bd75",
+      "name": "sDAI_BSC",
+      "symbol": "sDAI_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x88486e058865611c939d1077725f293378e7bd75.png"
+    },
+    "250_0xbf25a2cb61f453ce8ea84c369a9907abdaaa6056": {
+      "chainId": 250,
+      "address": "0xbf25a2cb61f453ce8ea84c369a9907abdaaa6056",
+      "name": "sUSDC_ETH",
+      "symbol": "sUSDC_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xbf25a2cb61f453ce8ea84c369a9907abdaaa6056.png"
+    },
+    "250_0x58c0f509fc96f36457dffc847e4668685dd45d45": {
+      "chainId": 250,
+      "address": "0x58c0f509fc96f36457dffc847e4668685dd45d45",
+      "name": "sTUSD_OP",
+      "symbol": "sTUSD_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x58c0f509fc96f36457dffc847e4668685dd45d45.png"
+    },
+    "250_0x542d959977c82a8126d320acb4e247385f432d2a": {
+      "chainId": 250,
+      "address": "0x542d959977c82a8126d320acb4e247385f432d2a",
+      "name": "sDAI_OP",
+      "symbol": "sDAI_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x542d959977c82a8126d320acb4e247385f432d2a.png"
+    },
+    "250_0x795b38c85d6f1524b434f14aa37c1c808c2bbd6b": {
+      "chainId": 250,
+      "address": "0x795b38c85d6f1524b434f14aa37c1c808c2bbd6b",
+      "name": "sx3CRV_g",
+      "symbol": "sx3CRV_g",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x795b38c85d6f1524b434f14aa37c1c808c2bbd6b.png"
+    },
+    "250_0xdcd1dd03b2c7ed2ea127c968d4c032130f6baee6": {
+      "chainId": 250,
+      "address": "0xdcd1dd03b2c7ed2ea127c968d4c032130f6baee6",
+      "name": "sDAI_POLY",
+      "symbol": "sDAI_POLY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdcd1dd03b2c7ed2ea127c968d4c032130f6baee6.png"
+    },
+    "250_0x6a6e93625ac1a40a8ca25a80dbe275474c6ad1e2": {
+      "chainId": 250,
+      "address": "0x6a6e93625ac1a40a8ca25a80dbe275474c6ad1e2",
+      "name": "AggregatedUSD",
+      "symbol": "AgUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6a6e93625ac1a40a8ca25a80dbe275474c6ad1e2.png"
+    },
+    "250_0x74b23882a30290451a17c44f4f05243b6b58c76d": {
+      "chainId": 250,
+      "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x74b23882a30290451a17c44f4f05243b6b58c76d.png"
+    },
+    "250_0x9c7283c18f186470d198d7676a1a2ab913e96b1d": {
+      "chainId": 250,
+      "address": "0x9c7283c18f186470d198d7676a1a2ab913e96b1d",
+      "name": "sDAI_ARB",
+      "symbol": "sDAI_ARB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9c7283c18f186470d198d7676a1a2ab913e96b1d.png"
+    },
+    "250_0x4df0b8323f7b6d45abf39ecbd3f18bd5fcbcb1b2": {
+      "chainId": 250,
+      "address": "0x4df0b8323f7b6d45abf39ecbd3f18bd5fcbcb1b2",
+      "name": "eDAI",
+      "symbol": "eDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4df0b8323f7b6d45abf39ecbd3f18bd5fcbcb1b2.png"
+    },
+    "250_0x9546483bfbcf9e39caf1493f3c66b85e58354644": {
+      "chainId": 250,
+      "address": "0x9546483bfbcf9e39caf1493f3c66b85e58354644",
+      "name": "sUSDC_AVAX",
+      "symbol": "sUSDC_AVAX",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9546483bfbcf9e39caf1493f3c66b85e58354644.png"
+    },
+    "250_0x904603366bc8acf881a35cd4c7e0d514f0477ffc": {
+      "chainId": 250,
+      "address": "0x904603366bc8acf881a35cd4c7e0d514f0477ffc",
+      "name": "s4pool_ba",
+      "symbol": "s4pool_ba",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x904603366bc8acf881a35cd4c7e0d514f0477ffc.png"
+    },
+    "250_0x4fa737564f320f4a21a2bf43e0322b160bab17d5": {
+      "chainId": 250,
+      "address": "0x4fa737564f320f4a21a2bf43e0322b160bab17d5",
+      "name": "sUSDC_BNB",
+      "symbol": "sUSDC_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4fa737564f320f4a21a2bf43e0322b160bab17d5.png"
+    },
+    "250_0xdf83ea3a779eb4486f649513282c4f0772bab92a": {
+      "chainId": 250,
+      "address": "0xdf83ea3a779eb4486f649513282c4f0772bab92a",
+      "name": "sDAI_OP",
+      "symbol": "sDAI_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdf83ea3a779eb4486f649513282c4f0772bab92a.png"
+    },
+    "250_0x40fc7408a060cbef1fe63f7182870184d7ff95e3": {
+      "chainId": 250,
+      "address": "0x40fc7408a060cbef1fe63f7182870184d7ff95e3",
+      "name": "sUSDT_ETH",
+      "symbol": "sUSDT_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x40fc7408a060cbef1fe63f7182870184d7ff95e3.png"
+    },
+    "250_0xf4cd12d90b407d2bbc2ce4047d673f29c5513097": {
+      "chainId": 250,
+      "address": "0xf4cd12d90b407d2bbc2ce4047d673f29c5513097",
+      "name": "sTUSD_ETH",
+      "symbol": "sTUSD_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf4cd12d90b407d2bbc2ce4047d673f29c5513097.png"
+    },
+    "250_0x04068da6c83afcfa0e13ba15a6696662335d5b75": {
+      "chainId": 250,
+      "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x04068da6c83afcfa0e13ba15a6696662335d5b75.png"
+    },
+    "250_0x07e6332dd090d287d3489245038daf987955dcfb": {
+      "chainId": 250,
+      "address": "0x07e6332dd090d287d3489245038daf987955dcfb",
+      "name": "Geist DAI",
+      "symbol": "gDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x07e6332dd090d287d3489245038daf987955dcfb.png"
+    },
+    "250_0x2902257ba817e1436b93f9f959ed50b95560b7d5": {
+      "chainId": 250,
+      "address": "0x2902257ba817e1436b93f9f959ed50b95560b7d5",
+      "name": "s2CRV_ar",
+      "symbol": "s2CRV_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2902257ba817e1436b93f9f959ed50b95560b7d5.png"
+    },
+    "250_0x049d68029688eabf473097a2fc38ef61633a3c7a": {
+      "chainId": 250,
+      "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+      "name": "Frapped USDT",
+      "symbol": "fUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x049d68029688eabf473097a2fc38ef61633a3c7a.png"
+    },
+    "250_0xcd9f2b048fa2284fa7d79bcacdf8c758d96e9ba3": {
+      "chainId": 250,
+      "address": "0xcd9f2b048fa2284fa7d79bcacdf8c758d96e9ba3",
+      "name": "scrvUSDC_o",
+      "symbol": "scrvUSDC_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xcd9f2b048fa2284fa7d79bcacdf8c758d96e9ba3.png"
+    },
+    "250_0x578376b290a0e2bcd45313935cb45ce206f2ae12": {
+      "chainId": 250,
+      "address": "0x578376b290a0e2bcd45313935cb45ce206f2ae12",
+      "name": "sTUSD_ETH",
+      "symbol": "sTUSD_ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x578376b290a0e2bcd45313935cb45ce206f2ae12.png"
+    },
+    "250_0xe35177e61d09bfdb61ea29db92d19b5e05edda8f": {
+      "chainId": 250,
+      "address": "0xe35177e61d09bfdb61ea29db92d19b5e05edda8f",
+      "name": "sUSDC_BSC",
+      "symbol": "sUSDC_BSC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe35177e61d09bfdb61ea29db92d19b5e05edda8f.png"
+    },
+    "250_0x846e4d51d7e2043c1a87e0ab7490b93fb940357b": {
+      "chainId": 250,
+      "address": "0x846e4d51d7e2043c1a87e0ab7490b93fb940357b",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x846e4d51d7e2043c1a87e0ab7490b93fb940357b.png"
+    },
+    "250_0xd42fb7912522792703b89a4cd70d70622e212785": {
+      "chainId": 250,
+      "address": "0xd42fb7912522792703b89a4cd70d70622e212785",
+      "name": "sUSDT_ARB",
+      "symbol": "sUSDT_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd42fb7912522792703b89a4cd70d70622e212785.png"
+    },
+    "250_0x4a5aa84da4033a8da887815423eb10c4ef24dc50": {
+      "chainId": 250,
+      "address": "0x4a5aa84da4033a8da887815423eb10c4ef24dc50",
+      "name": "sUSDT_OP",
+      "symbol": "sUSDT_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x4a5aa84da4033a8da887815423eb10c4ef24dc50.png"
+    },
+    "250_0xc7c733f02fd3aff89527c4f727c5ac0a034d0e7c": {
+      "chainId": 250,
+      "address": "0xc7c733f02fd3aff89527c4f727c5ac0a034d0e7c",
+      "name": "WIUSDT/fUSDT",
+      "symbol": "WIUSDTfUS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc7c733f02fd3aff89527c4f727c5ac0a034d0e7c.png"
+    },
+    "250_0xd0d8440d199b087f898d80a012fd79b427e2cbaa": {
+      "chainId": 250,
+      "address": "0xd0d8440d199b087f898d80a012fd79b427e2cbaa",
+      "name": "sUSDC_OP",
+      "symbol": "sUSDC_OP",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xd0d8440d199b087f898d80a012fd79b427e2cbaa.png"
+    },
+    "250_0xdc301622e621166bd8e82f2ca0a26c13ad0be355": {
+      "chainId": 250,
+      "address": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xdc301622e621166bd8e82f2ca0a26c13ad0be355.png"
+    },
+    "250_0xfb98b335551a418cd0737375a2ea0ded62ea213b": {
+      "chainId": 250,
+      "address": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+      "name": "miMATIC",
+      "symbol": "miMATIC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xfb98b335551a418cd0737375a2ea0ded62ea213b.png"
+    },
+    "250_0x9791e2eec13ebb028fbd2f22a0267e1aba4f7aaf": {
+      "chainId": 250,
+      "address": "0x9791e2eec13ebb028fbd2f22a0267e1aba4f7aaf",
+      "name": "sTUSD_OP",
+      "symbol": "sTUSD_OP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x9791e2eec13ebb028fbd2f22a0267e1aba4f7aaf.png"
+    },
+    "250_0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e": {
+      "chainId": 250,
+      "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e.png"
+    },
+    "250_0xe79df24b3b1e0d248de8feb1f8bedc6221dad960": {
+      "chainId": 250,
+      "address": "0xe79df24b3b1e0d248de8feb1f8bedc6221dad960",
+      "name": "sDAI_BNB",
+      "symbol": "sDAI_BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe79df24b3b1e0d248de8feb1f8bedc6221dad960.png"
+    },
+    "250_0x5f0456f728e2d59028b4f5b8ad8c604100724c6a": {
+      "chainId": 250,
+      "address": "0x5f0456f728e2d59028b4f5b8ad8c604100724c6a",
+      "name": "L3USD",
+      "symbol": "L3USD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x5f0456f728e2d59028b4f5b8ad8c604100724c6a.png"
+    },
+    "250_0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83": {
+      "chainId": 250,
+      "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "name": "Wrapped Fantom",
+      "symbol": "WFTM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83.png"
+    },
+    "250_0x6f768efdb63765653f3a77dd863b28735475bee9": {
+      "chainId": 250,
+      "address": "0x6f768efdb63765653f3a77dd863b28735475bee9",
+      "name": "sUSDC_ARB",
+      "symbol": "sUSDC_ARB",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x6f768efdb63765653f3a77dd863b28735475bee9.png"
+    },
+    "250_0xc0d9784fdba39746919bbf236eb73bc015fd351d": {
+      "chainId": 250,
+      "address": "0xc0d9784fdba39746919bbf236eb73bc015fd351d",
+      "name": "FTML",
+      "symbol": "Fantom-L",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc0d9784fdba39746919bbf236eb73bc015fd351d.png"
+    },
+    "250_0x2827053d2f2c3ed312d2092e57d8537405fdfd0f": {
+      "chainId": 250,
+      "address": "0x2827053d2f2c3ed312d2092e57d8537405fdfd0f",
+      "name": "sTUSD_POL",
+      "symbol": "sTUSD_POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x2827053d2f2c3ed312d2092e57d8537405fdfd0f.png"
+    },
+    "250_0x14f8e5851879a18e0fea77b5a17f15523262a99e": {
+      "chainId": 250,
+      "address": "0x14f8e5851879a18e0fea77b5a17f15523262a99e",
+      "name": "s3CRV_e",
+      "symbol": "s3CRV_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x14f8e5851879a18e0fea77b5a17f15523262a99e.png"
+    },
+    "250_0xe213ae6b651d1399163d183ade1f5a563968281f": {
+      "chainId": 250,
+      "address": "0xe213ae6b651d1399163d183ade1f5a563968281f",
+      "name": "sDAI.e_AVAX",
+      "symbol": "sDAI.e_AVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xe213ae6b651d1399163d183ade1f5a563968281f.png"
+    },
+    "250_0x79529e8765bb764fc22cd8542745a1a2449a3be3": {
+      "chainId": 250,
+      "address": "0x79529e8765bb764fc22cd8542745a1a2449a3be3",
+      "name": "sUSDC_ETH",
+      "symbol": "sUSDC_ETH",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x79529e8765bb764fc22cd8542745a1a2449a3be3.png"
+    },
+    "250_0xab72e7f7bcfe09a9105f24ffe45038f50f45ca5c": {
+      "chainId": 250,
+      "address": "0xab72e7f7bcfe09a9105f24ffe45038f50f45ca5c",
+      "name": "sb3pool_b",
+      "symbol": "sb3pool_b",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xab72e7f7bcfe09a9105f24ffe45038f50f45ca5c.png"
+    },
+    "250_0x3129662808bec728a27ab6a6b9afd3cbaca8a43c": {
+      "chainId": 250,
+      "address": "0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3129662808bec728a27ab6a6b9afd3cbaca8a43c.png"
+    },
+    "250_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 250,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   },
   "version": {
