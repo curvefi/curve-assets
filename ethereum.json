@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-14T18:10:19.982241+00:00",
+  "timestamp": "2024-09-19T10:27:15.604045+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3071,6 +3071,14 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707",
+      "name": "M2 Global Wealth Limited",
+      "symbol": "MMX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707.png"
     }
   ],
   "tokenMap": {
@@ -6137,6 +6145,14 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "1_0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707": {
+      "chainId": 1,
+      "address": "0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707",
+      "name": "M2 Global Wealth Limited",
+      "symbol": "MMX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707.png"
     }
   },
   "version": {
