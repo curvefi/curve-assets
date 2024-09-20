@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-19T11:19:35.647972+00:00",
+  "timestamp": "2024-09-20T11:01:28.475199+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3079,6 +3079,14 @@
       "symbol": "MMX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x270b7748cdf8243bfe68face7230ef0fce695389",
+      "name": "Hinkal ETH",
+      "symbol": "hETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x270b7748cdf8243bfe68face7230ef0fce695389.png"
     }
   ],
   "tokenMap": {
@@ -6153,6 +6161,14 @@
       "symbol": "MMX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707.png"
+    },
+    "1_0x270b7748cdf8243bfe68face7230ef0fce695389": {
+      "chainId": 1,
+      "address": "0x270b7748cdf8243bfe68face7230ef0fce695389",
+      "name": "Hinkal ETH",
+      "symbol": "hETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x270b7748cdf8243bfe68face7230ef0fce695389.png"
     }
   },
   "version": {
