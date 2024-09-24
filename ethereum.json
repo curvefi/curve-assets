@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-20T11:01:28.475199+00:00",
+  "timestamp": "2024-09-24T11:25:49.412363+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3087,6 +3087,14 @@
       "symbol": "hETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x270b7748cdf8243bfe68face7230ef0fce695389.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
+      "name": "Treehouse ETH",
+      "symbol": "tETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8.png"
     }
   ],
   "tokenMap": {
@@ -6169,6 +6177,14 @@
       "symbol": "hETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x270b7748cdf8243bfe68face7230ef0fce695389.png"
+    },
+    "1_0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8": {
+      "chainId": 1,
+      "address": "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
+      "name": "Treehouse ETH",
+      "symbol": "tETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8.png"
     }
   },
   "version": {
