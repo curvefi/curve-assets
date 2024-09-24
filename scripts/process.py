@@ -43,7 +43,7 @@ def process_token(
 def process_network(
     network_name: str, existing_tokenlist: Dict, all_failed_tokens: Dict[str, List[str]]
 ) -> Tuple[List[Dict], List[Dict]]:
-    
+
     existing_tokens = existing_tokenlist.get("tokens", [])
     network_info = NETWORKS.get(network_name)
     if not network_info:
