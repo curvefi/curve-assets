@@ -53,7 +53,9 @@ class Version(BaseModel):
 
 class TagIdentifier(RootModel):
     root: ConstrainedTagIdentifier = Field(
-        ..., description="The unique identifier of a tag", examples=["compound", "stablecoin"]
+        ..., description="The unique identifier of a tag", 
+        examples=["compound", "stablecoin"],
+        max_length=20,
     )
 
 
