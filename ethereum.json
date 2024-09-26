@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-25T11:52:42.877826+00:00",
+  "timestamp": "2024-09-26T11:34:31.793500+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3095,6 +3095,30 @@
       "symbol": "tETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xdc035d45d973e3ec169d2276ddab16f1e407384f.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x56072c95faa701256059aa122697b133aded9279",
+      "name": "SKY Governance Token",
+      "symbol": "SKY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x56072c95faa701256059aa122697b133aded9279.png"
     }
   ],
   "tokenMap": {
@@ -6185,6 +6209,30 @@
       "symbol": "tETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8.png"
+    },
+    "1_0xa3931d71877c0e7a3148cb7eb4463524fec27fbd": {
+      "chainId": 1,
+      "address": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png"
+    },
+    "1_0xdc035d45d973e3ec169d2276ddab16f1e407384f": {
+      "chainId": 1,
+      "address": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xdc035d45d973e3ec169d2276ddab16f1e407384f.png"
+    },
+    "1_0x56072c95faa701256059aa122697b133aded9279": {
+      "chainId": 1,
+      "address": "0x56072c95faa701256059aa122697b133aded9279",
+      "name": "SKY Governance Token",
+      "symbol": "SKY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x56072c95faa701256059aa122697b133aded9279.png"
     }
   },
   "version": {
