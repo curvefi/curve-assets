@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-09-26T11:34:18.607012+00:00",
+  "timestamp": "2024-10-05T10:49:59.993275+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -983,6 +983,78 @@
       "symbol": "FTM",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x0c935328a69155dd43aa57f23288d868bae440fe",
+      "name": "sWETH_e",
+      "symbol": "sWETH_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x0c935328a69155dd43aa57f23288d868bae440fe.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x8fd195b2ff1506c1c26091422768cc2a40285ce7",
+      "name": "sWETH_t",
+      "symbol": "sWETH_t",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x8fd195b2ff1506c1c26091422768cc2a40285ce7.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x3c2fcf53f742345c5c1b3dcb2612a1949bc1f18d",
+      "name": "CrossCurve ETH",
+      "symbol": "xWETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3c2fcf53f742345c5c1b3dcb2612a1949bc1f18d.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x389b72effa551ddec93cbb9259b27780f9f7a043",
+      "name": "sWETH_bl",
+      "symbol": "sWETH_bl",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x389b72effa551ddec93cbb9259b27780f9f7a043.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xf91eb98d5ff86718234ac0e400175a05df6cfcf1",
+      "name": "sWETH_m",
+      "symbol": "sWETH_m",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf91eb98d5ff86718234ac0e400175a05df6cfcf1.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x62c8359b2734e5dd6adb528ad2c78159a3f2607e",
+      "name": "sWETH_l",
+      "symbol": "sWETH_l",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x62c8359b2734e5dd6adb528ad2c78159a3f2607e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x77e1886bf34d7dc0dcf8d5407ed6a239b66ae2ee",
+      "name": "sWETH_ar",
+      "symbol": "sWETH_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x77e1886bf34d7dc0dcf8d5407ed6a239b66ae2ee.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x66917b3b128760295bf48a5382951bc63bb1768e",
+      "name": "sWETH_o",
+      "symbol": "sWETH_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x66917b3b128760295bf48a5382951bc63bb1768e.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0xc6cd50e6085a5f037b638813483dd244e3e4bcaa",
+      "name": "sWETH_ba",
+      "symbol": "sWETH_ba",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc6cd50e6085a5f037b638813483dd244e3e4bcaa.png"
     }
   ],
   "tokenMap": {
@@ -1961,6 +2033,78 @@
       "symbol": "FTM",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "250_0x0c935328a69155dd43aa57f23288d868bae440fe": {
+      "chainId": 250,
+      "address": "0x0c935328a69155dd43aa57f23288d868bae440fe",
+      "name": "sWETH_e",
+      "symbol": "sWETH_e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x0c935328a69155dd43aa57f23288d868bae440fe.png"
+    },
+    "250_0x8fd195b2ff1506c1c26091422768cc2a40285ce7": {
+      "chainId": 250,
+      "address": "0x8fd195b2ff1506c1c26091422768cc2a40285ce7",
+      "name": "sWETH_t",
+      "symbol": "sWETH_t",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x8fd195b2ff1506c1c26091422768cc2a40285ce7.png"
+    },
+    "250_0x3c2fcf53f742345c5c1b3dcb2612a1949bc1f18d": {
+      "chainId": 250,
+      "address": "0x3c2fcf53f742345c5c1b3dcb2612a1949bc1f18d",
+      "name": "CrossCurve ETH",
+      "symbol": "xWETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x3c2fcf53f742345c5c1b3dcb2612a1949bc1f18d.png"
+    },
+    "250_0x389b72effa551ddec93cbb9259b27780f9f7a043": {
+      "chainId": 250,
+      "address": "0x389b72effa551ddec93cbb9259b27780f9f7a043",
+      "name": "sWETH_bl",
+      "symbol": "sWETH_bl",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x389b72effa551ddec93cbb9259b27780f9f7a043.png"
+    },
+    "250_0xf91eb98d5ff86718234ac0e400175a05df6cfcf1": {
+      "chainId": 250,
+      "address": "0xf91eb98d5ff86718234ac0e400175a05df6cfcf1",
+      "name": "sWETH_m",
+      "symbol": "sWETH_m",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xf91eb98d5ff86718234ac0e400175a05df6cfcf1.png"
+    },
+    "250_0x62c8359b2734e5dd6adb528ad2c78159a3f2607e": {
+      "chainId": 250,
+      "address": "0x62c8359b2734e5dd6adb528ad2c78159a3f2607e",
+      "name": "sWETH_l",
+      "symbol": "sWETH_l",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x62c8359b2734e5dd6adb528ad2c78159a3f2607e.png"
+    },
+    "250_0x77e1886bf34d7dc0dcf8d5407ed6a239b66ae2ee": {
+      "chainId": 250,
+      "address": "0x77e1886bf34d7dc0dcf8d5407ed6a239b66ae2ee",
+      "name": "sWETH_ar",
+      "symbol": "sWETH_ar",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x77e1886bf34d7dc0dcf8d5407ed6a239b66ae2ee.png"
+    },
+    "250_0x66917b3b128760295bf48a5382951bc63bb1768e": {
+      "chainId": 250,
+      "address": "0x66917b3b128760295bf48a5382951bc63bb1768e",
+      "name": "sWETH_o",
+      "symbol": "sWETH_o",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0x66917b3b128760295bf48a5382951bc63bb1768e.png"
+    },
+    "250_0xc6cd50e6085a5f037b638813483dd244e3e4bcaa": {
+      "chainId": 250,
+      "address": "0xc6cd50e6085a5f037b638813483dd244e3e4bcaa",
+      "name": "sWETH_ba",
+      "symbol": "sWETH_ba",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc6cd50e6085a5f037b638813483dd244e3e4bcaa.png"
     }
   },
   "version": {
