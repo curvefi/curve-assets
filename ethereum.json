@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-05T10:50:13.218058+00:00",
+  "timestamp": "2024-10-08T15:28:52.103215+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3119,6 +3119,14 @@
       "symbol": "SKY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x56072c95faa701256059aa122697b133aded9279.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4d55a36902a6546a79ec4c9c315241de746d5fc3",
+      "name": "Kensetsu Stable Dollar",
+      "symbol": "KUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4d55a36902a6546a79ec4c9c315241de746d5fc3.png"
     }
   ],
   "tokenMap": {
@@ -6233,6 +6241,14 @@
       "symbol": "SKY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x56072c95faa701256059aa122697b133aded9279.png"
+    },
+    "1_0x4d55a36902a6546a79ec4c9c315241de746d5fc3": {
+      "chainId": 1,
+      "address": "0x4d55a36902a6546a79ec4c9c315241de746d5fc3",
+      "name": "Kensetsu Stable Dollar",
+      "symbol": "KUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4d55a36902a6546a79ec4c9c315241de746d5fc3.png"
     }
   },
   "version": {
