@@ -37,7 +37,7 @@ jobs:
           for file in $FILTERED_FILES; do
             echo "Processing file: $file"
 
-            if [[ $file != images/* ]] && [[ $file != platforms/* ]] ;
+            if [[ $file != images/* ]] && [[ $file != platforms/* ]] && [[ $file != chains/* ]] ;
             then
               errorText="Only additions of token icons (in the /images folder) or platform logos (in the /platforms folder) are permitted"
               errorOutputText="- Error with \`$file\`: $errorText"
