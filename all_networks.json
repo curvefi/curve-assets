@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-05T10:49:59.993275+00:00",
+  "timestamp": "2024-10-08T15:28:36.637466+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -1055,6 +1055,102 @@
       "symbol": "sWETH_ba",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc6cd50e6085a5f037b638813483dd244e3e4bcaa.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xca01a1d0993565291051daff390892518acfad3a",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xca01a1d0993565291051daff390892518acfad3a.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x8f552a71efe5eefc207bf75485b356a0b3f01ec9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x8f552a71efe5eefc207bf75485b356a0b3f01ec9.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xffffffff5ac1f9a51a93f5c527385edf7fe98a52",
+      "name": "interBTC",
+      "symbol": "xcIBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xffffffff5ac1f9a51a93f5c527385edf7fe98a52.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108",
+      "name": "Liquid staked DOT",
+      "symbol": "stDOT",
+      "decimals": 10,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xc234a67a4f840e61ade794be47de455361b52413",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xc234a67a4f840e61ade794be47de455361b52413.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x8e70cd5b4ff3f62659049e74b6649c6603a0e594.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x322e86852e492a7ee17f28a78c663da38fb33bfb",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x322e86852e492a7ee17f28a78c663da38fb33bfb.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+      "name": "xcDOT",
+      "symbol": "xcDOT",
+      "decimals": 10,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xffffffff1fcacbd218edc0eba20fc2308c778080.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c",
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xffffffffea09fb06d082fd1275cd48b191cbcd1d",
+      "name": "Tether USD",
+      "symbol": "xcUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xffffffffea09fb06d082fd1275cd48b191cbcd1d.png"
+    },
+    {
+      "chainId": 1284,
+      "address": "0xc806b0600cbafa0b197562a9f7e3b9856866e9bf",
+      "name": "Deuterium",
+      "symbol": "d2O",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xc806b0600cbafa0b197562a9f7e3b9856866e9bf.png"
     }
   ],
   "tokenMap": {
@@ -2105,6 +2201,102 @@
       "symbol": "sWETH_ba",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-fantom/0xc6cd50e6085a5f037b638813483dd244e3e4bcaa.png"
+    },
+    "1284_0xca01a1d0993565291051daff390892518acfad3a": {
+      "chainId": 1284,
+      "address": "0xca01a1d0993565291051daff390892518acfad3a",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xca01a1d0993565291051daff390892518acfad3a.png"
+    },
+    "1284_0x8f552a71efe5eefc207bf75485b356a0b3f01ec9": {
+      "chainId": 1284,
+      "address": "0x8f552a71efe5eefc207bf75485b356a0b3f01ec9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x8f552a71efe5eefc207bf75485b356a0b3f01ec9.png"
+    },
+    "1284_0xffffffff5ac1f9a51a93f5c527385edf7fe98a52": {
+      "chainId": 1284,
+      "address": "0xffffffff5ac1f9a51a93f5c527385edf7fe98a52",
+      "name": "interBTC",
+      "symbol": "xcIBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xffffffff5ac1f9a51a93f5c527385edf7fe98a52.png"
+    },
+    "1284_0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d": {
+      "chainId": 1284,
+      "address": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d.png"
+    },
+    "1284_0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108": {
+      "chainId": 1284,
+      "address": "0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108",
+      "name": "Liquid staked DOT",
+      "symbol": "stDOT",
+      "decimals": 10,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xfa36fe1da08c89ec72ea1f0143a35bfd5daea108.png"
+    },
+    "1284_0xc234a67a4f840e61ade794be47de455361b52413": {
+      "chainId": 1284,
+      "address": "0xc234a67a4f840e61ade794be47de455361b52413",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xc234a67a4f840e61ade794be47de455361b52413.png"
+    },
+    "1284_0x8e70cd5b4ff3f62659049e74b6649c6603a0e594": {
+      "chainId": 1284,
+      "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x8e70cd5b4ff3f62659049e74b6649c6603a0e594.png"
+    },
+    "1284_0x322e86852e492a7ee17f28a78c663da38fb33bfb": {
+      "chainId": 1284,
+      "address": "0x322e86852e492a7ee17f28a78c663da38fb33bfb",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x322e86852e492a7ee17f28a78c663da38fb33bfb.png"
+    },
+    "1284_0xffffffff1fcacbd218edc0eba20fc2308c778080": {
+      "chainId": 1284,
+      "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+      "name": "xcDOT",
+      "symbol": "xcDOT",
+      "decimals": 10,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xffffffff1fcacbd218edc0eba20fc2308c778080.png"
+    },
+    "1284_0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c": {
+      "chainId": 1284,
+      "address": "0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c",
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c.png"
+    },
+    "1284_0xffffffffea09fb06d082fd1275cd48b191cbcd1d": {
+      "chainId": 1284,
+      "address": "0xffffffffea09fb06d082fd1275cd48b191cbcd1d",
+      "name": "Tether USD",
+      "symbol": "xcUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xffffffffea09fb06d082fd1275cd48b191cbcd1d.png"
+    },
+    "1284_0xc806b0600cbafa0b197562a9f7e3b9856866e9bf": {
+      "chainId": 1284,
+      "address": "0xc806b0600cbafa0b197562a9f7e3b9856866e9bf",
+      "name": "Deuterium",
+      "symbol": "d2O",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xc806b0600cbafa0b197562a9f7e3b9856866e9bf.png"
     }
   },
   "version": {
