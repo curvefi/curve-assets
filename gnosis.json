@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-09T18:23:14.240547+00:00",
+  "timestamp": "2024-10-11T09:18:50.365529+00:00",
   "tokens": [
     {
       "chainId": 100,
@@ -111,6 +111,22 @@
       "symbol": "XDAI",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+      "name": "Wrapped Ether on xDai",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x8e5bbbb09ed1ebde8674cda39a0c169401db4252",
+      "name": "Wrapped BTC on xDai",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x8e5bbbb09ed1ebde8674cda39a0c169401db4252.png"
     }
   ],
   "tokenMap": {
@@ -217,6 +233,22 @@
       "symbol": "XDAI",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "100_0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1": {
+      "chainId": 100,
+      "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+      "name": "Wrapped Ether on xDai",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1.png"
+    },
+    "100_0x8e5bbbb09ed1ebde8674cda39a0c169401db4252": {
+      "chainId": 100,
+      "address": "0x8e5bbbb09ed1ebde8674cda39a0c169401db4252",
+      "name": "Wrapped BTC on xDai",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x8e5bbbb09ed1ebde8674cda39a0c169401db4252.png"
     }
   },
   "version": {
