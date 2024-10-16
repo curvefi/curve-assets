@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-11T09:18:41.954683+00:00",
+  "timestamp": "2024-10-16T20:01:39.431498+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -567,6 +567,30 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xab5c23bdbe99d75a7ae4756e7ccefd0a97b37e78",
+      "name": "stXAI",
+      "symbol": "stXAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xab5c23bdbe99d75a7ae4756e7ccefd0a97b37e78.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x4ac623237de0aa622b4fdf4da63cf97216371acf",
+      "name": "alXAI",
+      "symbol": "alXAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4ac623237de0aa622b4fdf4da63cf97216371acf.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66",
+      "name": "Xai",
+      "symbol": "XAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66.png"
     }
   ],
   "tokenMap": {
@@ -1129,6 +1153,30 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "42161_0xab5c23bdbe99d75a7ae4756e7ccefd0a97b37e78": {
+      "chainId": 42161,
+      "address": "0xab5c23bdbe99d75a7ae4756e7ccefd0a97b37e78",
+      "name": "stXAI",
+      "symbol": "stXAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xab5c23bdbe99d75a7ae4756e7ccefd0a97b37e78.png"
+    },
+    "42161_0x4ac623237de0aa622b4fdf4da63cf97216371acf": {
+      "chainId": 42161,
+      "address": "0x4ac623237de0aa622b4fdf4da63cf97216371acf",
+      "name": "alXAI",
+      "symbol": "alXAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4ac623237de0aa622b4fdf4da63cf97216371acf.png"
+    },
+    "42161_0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66": {
+      "chainId": 42161,
+      "address": "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66",
+      "name": "Xai",
+      "symbol": "XAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66.png"
     }
   },
   "version": {
