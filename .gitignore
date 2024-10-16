@@ -20,7 +20,7 @@ __pycache__/
 Thumbs.db
 
 # Project-specific
-images/
+# images/
 
 # Logs
 *.log
