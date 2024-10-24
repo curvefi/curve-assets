@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-24T11:12:21.766611+00:00",
+  "timestamp": "2024-10-24T11:47:41.741281+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -591,6 +591,14 @@
       "symbol": "XAI",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "name": "Staked USDe",
+      "symbol": "sUSDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png"
     }
   ],
   "tokenMap": {
@@ -1177,6 +1185,14 @@
       "symbol": "XAI",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66.png"
+    },
+    "42161_0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2": {
+      "chainId": 42161,
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "name": "Staked USDe",
+      "symbol": "sUSDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png"
     }
   },
   "version": {
