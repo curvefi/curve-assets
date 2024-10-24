@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-23T14:54:39.815915+00:00",
+  "timestamp": "2024-10-24T10:17:16.149223+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3127,6 +3127,14 @@
       "symbol": "KUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4d55a36902a6546a79ec4c9c315241de746d5fc3.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x526be1c610616be0e8e69893fc6766fddfbada61",
+      "name": "Rolling T-bill",
+      "symbol": "rTBL",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x526be1c610616be0e8e69893fc6766fddfbada61.png"
     }
   ],
   "tokenMap": {
@@ -6249,6 +6257,14 @@
       "symbol": "KUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4d55a36902a6546a79ec4c9c315241de746d5fc3.png"
+    },
+    "1_0x526be1c610616be0e8e69893fc6766fddfbada61": {
+      "chainId": 1,
+      "address": "0x526be1c610616be0e8e69893fc6766fddfbada61",
+      "name": "Rolling T-bill",
+      "symbol": "rTBL",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x526be1c610616be0e8e69893fc6766fddfbada61.png"
     }
   },
   "version": {
