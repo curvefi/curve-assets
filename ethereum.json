@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-24T14:07:20.584407+00:00",
+  "timestamp": "2024-10-28T18:07:53.084264+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3135,6 +3135,14 @@
       "symbol": "rTBL",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x526be1c610616be0e8e69893fc6766fddfbada61.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549",
+      "name": "Liquid Staked ETH",
+      "symbol": "LsETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549.png"
     }
   ],
   "tokenMap": {
@@ -6265,6 +6273,14 @@
       "symbol": "rTBL",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x526be1c610616be0e8e69893fc6766fddfbada61.png"
+    },
+    "1_0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549": {
+      "chainId": 1,
+      "address": "0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549",
+      "name": "Liquid Staked ETH",
+      "symbol": "LsETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549.png"
     }
   },
   "version": {
