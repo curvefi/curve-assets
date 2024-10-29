@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-10-28T18:07:53.084264+00:00",
+  "timestamp": "2024-10-29T12:15:58.397353+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3143,6 +3143,14 @@
       "symbol": "LsETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7c1156e515aa1a2e851674120074968c905aaf37",
+      "name": "Level USD",
+      "symbol": "lvlUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7c1156e515aa1a2e851674120074968c905aaf37.png"
     }
   ],
   "tokenMap": {
@@ -6281,6 +6289,14 @@
       "symbol": "LsETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549.png"
+    },
+    "1_0x7c1156e515aa1a2e851674120074968c905aaf37": {
+      "chainId": 1,
+      "address": "0x7c1156e515aa1a2e851674120074968c905aaf37",
+      "name": "Level USD",
+      "symbol": "lvlUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7c1156e515aa1a2e851674120074968c905aaf37.png"
     }
   },
   "version": {
