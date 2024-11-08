@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-05T00:37:00.264803+00:00",
+  "timestamp": "2024-11-08T13:09:32.012668+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3151,6 +3151,14 @@
       "symbol": "lvlUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7c1156e515aa1a2e851674120074968c905aaf37.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+      "name": "Global Dollar",
+      "symbol": "USDG",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xe343167631d89b6ffc58b88d6b7fb0228795491d.png"
     }
   ],
   "tokenMap": {
@@ -6297,6 +6305,14 @@
       "symbol": "lvlUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7c1156e515aa1a2e851674120074968c905aaf37.png"
+    },
+    "1_0xe343167631d89b6ffc58b88d6b7fb0228795491d": {
+      "chainId": 1,
+      "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+      "name": "Global Dollar",
+      "symbol": "USDG",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xe343167631d89b6ffc58b88d6b7fb0228795491d.png"
     }
   },
   "version": {
