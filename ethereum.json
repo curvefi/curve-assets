@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-13T07:52:41.353515+00:00",
+  "timestamp": "2024-11-13T17:56:20.818624+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3167,6 +3167,14 @@
       "symbol": "scrvUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x0655977feb2f289a4ab78af67bab0d17aab84367.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b",
+      "name": "Wrapped aBTC",
+      "symbol": "waBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b.png"
     }
   ],
   "tokenMap": {
@@ -6329,6 +6337,14 @@
       "symbol": "scrvUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x0655977feb2f289a4ab78af67bab0d17aab84367.png"
+    },
+    "1_0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b": {
+      "chainId": 1,
+      "address": "0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b",
+      "name": "Wrapped aBTC",
+      "symbol": "waBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b.png"
     }
   },
   "version": {
