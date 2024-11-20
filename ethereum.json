@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-18T15:23:28.920642+00:00",
+  "timestamp": "2024-11-20T11:22:34.404547+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3175,6 +3175,14 @@
       "symbol": "waBTC",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa",
+      "name": "Asymmetry Finance Token",
+      "symbol": "ASF",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa.png"
     }
   ],
   "tokenMap": {
@@ -6345,6 +6353,14 @@
       "symbol": "waBTC",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b.png"
+    },
+    "1_0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa": {
+      "chainId": 1,
+      "address": "0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa",
+      "name": "Asymmetry Finance Token",
+      "symbol": "ASF",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa.png"
     }
   },
   "version": {
