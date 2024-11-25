@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-23T17:35:12.562304+00:00",
+  "timestamp": "2024-11-25T15:26:20.935190+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3183,6 +3183,14 @@
       "symbol": "ASF",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2103e845c5e135493bb6c2a4f0b8651956ea8682",
+      "name": "Matrixdock Gold",
+      "symbol": "XAUM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2103e845c5e135493bb6c2a4f0b8651956ea8682.png"
     }
   ],
   "tokenMap": {
@@ -6361,6 +6369,14 @@
       "symbol": "ASF",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x59a529070fbb61e6d6c91f952ccb7f35c34cf8aa.png"
+    },
+    "1_0x2103e845c5e135493bb6c2a4f0b8651956ea8682": {
+      "chainId": 1,
+      "address": "0x2103e845c5e135493bb6c2a4f0b8651956ea8682",
+      "name": "Matrixdock Gold",
+      "symbol": "XAUM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2103e845c5e135493bb6c2a4f0b8651956ea8682.png"
     }
   },
   "version": {
