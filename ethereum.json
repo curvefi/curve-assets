@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-25T15:40:51.007513+00:00",
+  "timestamp": "2024-11-27T18:51:29.556128+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3191,6 +3191,14 @@
       "symbol": "XAUM",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2103e845c5e135493bb6c2a4f0b8651956ea8682.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x626e8036deb333b408be468f951bdb42433cbf18",
+      "name": "AIOZ Network",
+      "symbol": "AIOZ",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x626e8036deb333b408be468f951bdb42433cbf18.png"
     }
   ],
   "tokenMap": {
@@ -6377,6 +6385,14 @@
       "symbol": "XAUM",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2103e845c5e135493bb6c2a4f0b8651956ea8682.png"
+    },
+    "1_0x626e8036deb333b408be468f951bdb42433cbf18": {
+      "chainId": 1,
+      "address": "0x626e8036deb333b408be468f951bdb42433cbf18",
+      "name": "AIOZ Network",
+      "symbol": "AIOZ",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x626e8036deb333b408be468f951bdb42433cbf18.png"
     }
   },
   "version": {
