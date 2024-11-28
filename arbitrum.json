@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-27T18:51:36.809153+00:00",
+  "timestamp": "2024-11-28T02:51:57.136211+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -599,6 +599,14 @@
       "symbol": "sUSDe",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xefb6601df148677a338720156e2efd3c5ba8809d",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xefb6601df148677a338720156e2efd3c5ba8809d.png"
     }
   ],
   "tokenMap": {
@@ -1193,6 +1201,14 @@
       "symbol": "sUSDe",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png"
+    },
+    "42161_0xefb6601df148677a338720156e2efd3c5ba8809d": {
+      "chainId": 42161,
+      "address": "0xefb6601df148677a338720156e2efd3c5ba8809d",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xefb6601df148677a338720156e2efd3c5ba8809d.png"
     }
   },
   "version": {
