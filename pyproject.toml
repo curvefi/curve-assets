@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "curve-assets"
+version = "0.1.0"
+description = ""
+authors = ["bout3fiddy <11488427+bout3fiddy@users.noreply.github.com>"]
+readme = "README.md"
+packages = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+web3 = "^6.0.0"
+aiohttp = "^3.8.1"
+eth-abi = "^5.0.1"
+pre-commit = "^3.8.0"
+requests = "^2.26.0"
+rich = "^10.12.0"
+pydantic = "^2.9.1"
+pygithub = "^2.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "24.4.2"
+isort = "5.13.2"
+
+[tool.black]
+exclude = '''
+(
+  /(
+    \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | build
+    | dist
+  )/
+)
+'''
+line-length = 120
+target_version = ['py310']
+
+[tool.isort]
+profile = "black"
+py_version = 310
+line_length = 120
+known_first_party = "poetry"

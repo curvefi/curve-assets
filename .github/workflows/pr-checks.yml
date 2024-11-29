@@ -1,13 +1,14 @@
 name: pr-checks
 
 on:
-  pull_request:
-    branches: [ "main" ]
+  pull_request_target:
+    branches: ["main"]
 
   workflow_dispatch:
 
 permissions:
   pull-requests: write
+  contents: write
 
 jobs:
   changed_files:
@@ -16,10 +17,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
           fetch-depth: 0
+
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v42
+
       - name: Process changed files
         id: changes-errors
         env:
@@ -27,10 +31,13 @@ jobs:
         run: |
           echo 'errorsStr<<EOF' >> $GITHUB_OUTPUT
 
-          for file in $ALL_CHANGED_FILES; do
+          # Filter out .yml files
+          FILTERED_FILES=$(echo "$ALL_CHANGED_FILES" | tr ' ' '\n' | grep -v '\.yml$' | tr '\n' ' ')
+
+          for file in $FILTERED_FILES; do
             echo "Processing file: $file"
 
-            if [[ $file != images/* ]] && [[ $file != platforms/* ]] ;
+            if [[ $file != images/* ]] && [[ $file != platforms/* ]] && [[ $file != chains/* ]] ;
             then
               errorText="Only additions of token icons (in the /images folder) or platform logos (in the /platforms folder) are permitted"
               errorOutputText="- Error with \`$file\`: $errorText"
@@ -58,6 +65,7 @@ jobs:
           done
 
           echo 'EOF' >> $GITHUB_OUTPUT
+
       - name: Check if errors
         id: check-if-errors
         env:
@@ -74,6 +82,7 @@ jobs:
             echo 'hasErrors=true'
             echo "hasErrors=true" >> "$GITHUB_OUTPUT"
           fi
+
       - name: Comment on PR if error
         env:
           ERRORS: ${{ steps.changes-errors.outputs.errorsStr }}
@@ -96,3 +105,9 @@ jobs:
             echo "::error::${myarray[i]}"
           done
           exit 1
+
+  update_tokenlist:
+    uses: ./.github/workflows/upload-tokenlist.yml
+    needs: changed_files
+    if: ${{ !failure() }}
+    secrets: inherit
