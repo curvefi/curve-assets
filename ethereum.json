@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-11-28T02:55:00.914836+00:00",
+  "timestamp": "2024-11-29T15:50:12.103232+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3199,6 +3199,22 @@
       "symbol": "AIOZ",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x626e8036deb333b408be468f951bdb42433cbf18.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+      "name": "USDz",
+      "symbol": "USDz",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xa469b7ee9ee773642b3e93e842e5d9b5baa10067.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x547213367cfb08ab418e7b54d7883b2c2aa27fd7",
+      "name": "Staked USDz",
+      "symbol": "sUSDz",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x547213367cfb08ab418e7b54d7883b2c2aa27fd7.png"
     }
   ],
   "tokenMap": {
@@ -6393,6 +6409,22 @@
       "symbol": "AIOZ",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x626e8036deb333b408be468f951bdb42433cbf18.png"
+    },
+    "1_0xa469b7ee9ee773642b3e93e842e5d9b5baa10067": {
+      "chainId": 1,
+      "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+      "name": "USDz",
+      "symbol": "USDz",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xa469b7ee9ee773642b3e93e842e5d9b5baa10067.png"
+    },
+    "1_0x547213367cfb08ab418e7b54d7883b2c2aa27fd7": {
+      "chainId": 1,
+      "address": "0x547213367cfb08ab418e7b54d7883b2c2aa27fd7",
+      "name": "Staked USDz",
+      "symbol": "sUSDz",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x547213367cfb08ab418e7b54d7883b2c2aa27fd7.png"
     }
   },
   "version": {
