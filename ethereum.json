@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-04T00:22:40.116454+00:00",
+  "timestamp": "2024-12-04T09:08:40.055904+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3215,6 +3215,14 @@
       "symbol": "sUSDz",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x547213367cfb08ab418e7b54d7883b2c2aa27fd7.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371",
+      "name": "POOH",
+      "symbol": "POOH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371.png"
     }
   ],
   "tokenMap": {
@@ -6425,6 +6433,14 @@
       "symbol": "sUSDz",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x547213367cfb08ab418e7b54d7883b2c2aa27fd7.png"
+    },
+    "1_0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371": {
+      "chainId": 1,
+      "address": "0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371",
+      "name": "POOH",
+      "symbol": "POOH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371.png"
     }
   },
   "version": {
