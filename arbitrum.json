@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-06T12:02:18.150886+00:00",
+  "timestamp": "2024-12-06T15:03:05.401336+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -607,6 +607,22 @@
       "symbol": "scrvUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xefb6601df148677a338720156e2efd3c5ba8809d.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x21ab704b2cdf792e1e84f591ca082fff8de12198",
+      "name": "UNIT0",
+      "symbol": "UNIT0",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x21ab704b2cdf792e1e84f591ca082fff8de12198.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xe80698d9c55d9212c4dae8bed00e1357d804c62a",
+      "name": "WUNIT0",
+      "symbol": "WUNIT0",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe80698d9c55d9212c4dae8bed00e1357d804c62a.png"
     }
   ],
   "tokenMap": {
@@ -1209,6 +1225,22 @@
       "symbol": "scrvUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xefb6601df148677a338720156e2efd3c5ba8809d.png"
+    },
+    "42161_0x21ab704b2cdf792e1e84f591ca082fff8de12198": {
+      "chainId": 42161,
+      "address": "0x21ab704b2cdf792e1e84f591ca082fff8de12198",
+      "name": "UNIT0",
+      "symbol": "UNIT0",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x21ab704b2cdf792e1e84f591ca082fff8de12198.png"
+    },
+    "42161_0xe80698d9c55d9212c4dae8bed00e1357d804c62a": {
+      "chainId": 42161,
+      "address": "0xe80698d9c55d9212c4dae8bed00e1357d804c62a",
+      "name": "WUNIT0",
+      "symbol": "WUNIT0",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe80698d9c55d9212c4dae8bed00e1357d804c62a.png"
     }
   },
   "version": {
