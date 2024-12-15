@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-11T09:38:14.079405+00:00",
+  "timestamp": "2024-12-15T19:46:42.788151+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3223,6 +3223,14 @@
       "symbol": "POOH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db",
+      "name": "Zunami BTC",
+      "symbol": "zunBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db.png"
     }
   ],
   "tokenMap": {
@@ -6441,6 +6449,14 @@
       "symbol": "POOH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371.png"
+    },
+    "1_0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db": {
+      "chainId": 1,
+      "address": "0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db",
+      "name": "Zunami BTC",
+      "symbol": "zunBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db.png"
     }
   },
   "version": {
