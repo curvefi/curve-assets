@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-11T09:38:01.839335+00:00",
+  "timestamp": "2024-12-15T19:46:31.706339+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -1151,6 +1151,582 @@
       "symbol": "d2O",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xc806b0600cbafa0b197562a9f7e3b9856866e9bf.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x37ee2103ab96e66af0e587d18b803c4b58e8ce0e",
+      "name": "eVow Coin",
+      "symbol": "EVOW",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x37ee2103ab96e66af0e587d18b803c4b58e8ce0e.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
+      "name": "miMATIC",
+      "symbol": "miMATIC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xa3fa99a148fa48d14ed51d610c367c61876997f1.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x27f8d03b3a2196956ed754badc28d73be8830a6e",
+      "name": "Aave Matic Market DAI",
+      "symbol": "amDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x27f8d03b3a2196956ed754badc28d73be8830a6e.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xdad97f7713ae9437fa9249920ec8507e5fbb23d3",
+      "name": "Curve USD-BTC-ETH",
+      "symbol": "crvUSDBTCETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xdad97f7713ae9437fa9249920ec8507e5fbb23d3.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5d146d8b1dacb1ebba5cb005ae1059da8a1fbf57",
+      "name": "CAD Coin (PoS)",
+      "symbol": "CADC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x5d146d8b1dacb1ebba5cb005ae1059da8a1fbf57.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x69a8aaa4318f4803b3517f78a2ca6c859f5349f3",
+      "name": "Philippines Peso (Tagcash)",
+      "symbol": "PHP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x69a8aaa4318f4803b3517f78a2ca6c859f5349f3.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f",
+      "name": "L3USD",
+      "symbol": "L3USD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+      "name": "Staked MATIC (PoS)",
+      "symbol": "stMATIC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x2e1ad108ff1d8c782fcbbb89aad783ac49586756",
+      "name": "TrueUSD (PoS)",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2e1ad108ff1d8c782fcbbb89aad783ac49586756.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x03a97594aa5ece130e2e956fc0ced2fea8ed8989",
+      "name": "Ankr Reward Earning MATIC",
+      "symbol": "aMATICb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x03a97594aa5ece130e2e956fc0ced2fea8ed8989.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171",
+      "name": "Curve.fi amDAI/amUSDC/amUSDT",
+      "symbol": "am3CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x361a5a4993493ce00f61c32d4ecca5512b82ce90",
+      "name": "Stake DAO Token (PoS)",
+      "symbol": "SDT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x361a5a4993493ce00f61c32d4ecca5512b82ce90.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x75289388d50364c3013583d97bd70ced0e183e32",
+      "name": "Aladdin sdCRV",
+      "symbol": "asdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x75289388d50364c3013583d97bd70ced0e183e32.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6",
+      "name": "Curve.Fi USD Stablecoin(PoS)",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x172370d5cd63279efa6d502dab29171933a610af",
+      "name": "CRV (PoS)",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x172370d5cd63279efa6d502dab29171933a610af.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "name": "Wrapped Polygon Ecosystem Token",
+      "symbol": "WPOL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c",
+      "name": "JPY Coin (PoS)",
+      "symbol": "JPYC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c",
+      "name": "MaticX/WMatic V3",
+      "symbol": "MAT4Y24V3",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xccb641025220251bc1ca6ba2b70c60b64db676bf",
+      "name": "Staked BRZ",
+      "symbol": "stBRZ",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xccb641025220251bc1ca6ba2b70c60b64db676bf.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc18b9df3bbe6c351a6bfc0f77d35771b0635dfb3",
+      "name": "GRANADA GROUNDS X",
+      "symbol": "GgX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc18b9df3bbe6c351a6bfc0f77d35771b0635dfb3.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x7b367a058f370c0057762280547d0b974cf3ac10",
+      "name": "PAR Stablecoin (PoS)",
+      "symbol": "PAR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7b367a058f370c0057762280547d0b974cf3ac10.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x28424507fefb6f7f8e9d3860f56504e4e5f5f390",
+      "name": "Aave Matic Market WETH",
+      "symbol": "amWETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x28424507fefb6f7f8e9d3860f56504e4e5f5f390.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x7e141940932e3d13bfa54b224cb4a16510519308",
+      "name": "handleAUD",
+      "symbol": "fxAUD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7e141940932e3d13bfa54b224cb4a16510519308.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833",
+      "name": "Vote Boosted sdCRV",
+      "symbol": "vsdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xb5dfabd7ff7f83bab83995e72a52b97abb7bcf63",
+      "name": "Real USD",
+      "symbol": "USDR",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xb5dfabd7ff7f83bab83995e72a52b97abb7bcf63.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8ca194a3b22077359b5732de53373d4afc11dee3",
+      "name": "Jarvis Synthetic Canadian Dollar",
+      "symbol": "jCAD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x8ca194a3b22077359b5732de53373d4afc11dee3.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x9f6268b5efb4329a9dac59beabc4cf2df0ad8798",
+      "name": "BRZ-stBRZ",
+      "symbol": "stBRZv1",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x9f6268b5efb4329a9dac59beabc4cf2df0ad8798.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xcb7f1Ef7246d1497b985f7fc45a1a31f04346133",
+      "name": "Jarvis Synthetic Australian Dollar",
+      "symbol": "jAUD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xcb7f1Ef7246d1497b985f7fc45a1a31f04346133.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5c2ed810328349100a66b82b78a1791b101c9d61",
+      "name": "Aave Matic Market WBTC",
+      "symbol": "amWBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x5c2ed810328349100a66b82b78a1791b101c9d61.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x2f1b1662a895c6ba01a99dcaf56778e7d77e5609",
+      "name": "Spice USD",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2f1b1662a895c6ba01a99dcaf56778e7d77e5609.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8343091f2499fd4b6174a46d067a920a3b851ff9",
+      "name": "Jarvis Synthetic Japanese Yen",
+      "symbol": "jJPY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x8343091f2499fd4b6174a46d067a920a3b851ff9.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xa417507141ba12247651c873b1bea3465b282918",
+      "name": "ARTH Valuecoin (Polygon)",
+      "symbol": "ARTH.poly",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xa417507141ba12247651c873b1bea3465b282918.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xe111178a87a3bff0c8d18decba5798827539ae99",
+      "name": "STASIS EURS Token (PoS)",
+      "symbol": "EURS",
+      "decimals": 2,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe111178a87a3bff0c8d18decba5798827539ae99.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c",
+      "name": "Jarvis Synthetic Euro",
+      "symbol": "jEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "name": "(PoS) Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503",
+      "name": "Jarvis Synthetic Singapore Dollar",
+      "symbol": "jSGD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "name": "(PoS) Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x1a13f4ca1d028320a707d99520abfefca3998b7f",
+      "name": "Aave Matic Market USDC",
+      "symbol": "amUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x1a13f4ca1d028320a707d99520abfefca3998b7f.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "name": "Polygon tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xe6469ba6d2fd6130788e0ea9c0a0515900563b59",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe6469ba6d2fd6130788e0ea9c0a0515900563b59.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+      "name": "Liquid Staking Matic (PoS)",
+      "symbol": "MaticX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x84f168e646d31f6c33fdbf284d9037f59603aa28",
+      "name": "ARTH USD Rebase",
+      "symbol": "ARTH.usd",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x84f168e646d31f6c33fdbf284d9037f59603aa28.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x486880fb16408b47f928f472f57bec55ac6089d1",
+      "name": "Jarvis Synthetic Philippine Peso",
+      "symbol": "jPHP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x486880fb16408b47f928f472f57bec55ac6089d1.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
+      "name": "deBridge USD Coin",
+      "symbol": "deUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7",
+      "name": "Neutrino USD",
+      "symbol": "USDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xe2aa7db6da1dae97c5f5c6914d285fbfcc32a128",
+      "name": "PAR Stablecoin",
+      "symbol": "PAR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe2aa7db6da1dae97c5f5c6914d285fbfcc32a128.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+      "name": "(PoS) Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "name": "USD Coin (PoS)",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xad326c253a84e9805559b73a08724e11e49ca651",
+      "name": "Curve.fi Factory Plain Pool: 4eur",
+      "symbol": "4eur-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xad326c253a84e9805559b73a08724e11e49ca651.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
+      "name": "USDC/USDM",
+      "symbol": "usdc-usdm",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xc298812164bd558268f51cc6e3b8b5daaf0b6341",
+      "name": "Plata",
+      "symbol": "PLT",
+      "decimals": 4,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc298812164bd558268f51cc6e3b8b5daaf0b6341.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x60d55f02a771d515e077c9c2403a1ef324885cec",
+      "name": "Aave Matic Market USDT",
+      "symbol": "amUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x60d55f02a771d515e077c9c2403a1ef324885cec.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xbd1463f02f61676d53fd183c2b19282bff93d099",
+      "name": "Jarvis Synthetic Swiss Franc",
+      "symbol": "jCHF",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xbd1463f02f61676d53fd183c2b19282bff93d099.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc",
+      "name": "BRZ Token",
+      "symbol": "BRZ",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x116172b2482c5dc3e6f445c16ac13367ac3fcd35",
+      "name": "handleEUR",
+      "symbol": "fxEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x116172b2482c5dc3e6f445c16ac13367ac3fcd35.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x0000000000000000000000000000000000001010",
+      "name": "Polygon Ecosystem Token",
+      "symbol": "POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x0000000000000000000000000000000000001010.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x5e5a23b52cb48f5e70271be83079ca5bc9c9e9ac",
+      "name": "Curve.fi Factory USD Metapool: Curve FRAX3CRV Pool",
+      "symbol": "FRAX3CRV-f3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x5e5a23b52cb48f5e70271be83079ca5bc9c9e9ac.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x820802fa8a99901f52e39acd21177b0be6ee2974",
+      "name": "EUROe Stablecoin",
+      "symbol": "EUROe",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x820802fa8a99901f52e39acd21177b0be6ee2974.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x769434dca303597c8fc4997bf3dab233e961eda2",
+      "name": "XSGD (PoS)",
+      "symbol": "XSGD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x769434dca303597c8fc4997bf3dab233e961eda2.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+      "name": "BOB",
+      "symbol": "BOB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f",
+      "name": "Euro Tether (PoS)",
+      "symbol": "EURT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Polygon",
+      "symbol": "POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   ],
   "tokenMap": {
@@ -2297,6 +2873,582 @@
       "symbol": "d2O",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-moonbeam/0xc806b0600cbafa0b197562a9f7e3b9856866e9bf.png"
+    },
+    "137_0x37ee2103ab96e66af0e587d18b803c4b58e8ce0e": {
+      "chainId": 137,
+      "address": "0x37ee2103ab96e66af0e587d18b803c4b58e8ce0e",
+      "name": "eVow Coin",
+      "symbol": "EVOW",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x37ee2103ab96e66af0e587d18b803c4b58e8ce0e.png"
+    },
+    "137_0xa3fa99a148fa48d14ed51d610c367c61876997f1": {
+      "chainId": 137,
+      "address": "0xa3fa99a148fa48d14ed51d610c367c61876997f1",
+      "name": "miMATIC",
+      "symbol": "miMATIC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xa3fa99a148fa48d14ed51d610c367c61876997f1.png"
+    },
+    "137_0x27f8d03b3a2196956ed754badc28d73be8830a6e": {
+      "chainId": 137,
+      "address": "0x27f8d03b3a2196956ed754badc28d73be8830a6e",
+      "name": "Aave Matic Market DAI",
+      "symbol": "amDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x27f8d03b3a2196956ed754badc28d73be8830a6e.png"
+    },
+    "137_0xdad97f7713ae9437fa9249920ec8507e5fbb23d3": {
+      "chainId": 137,
+      "address": "0xdad97f7713ae9437fa9249920ec8507e5fbb23d3",
+      "name": "Curve USD-BTC-ETH",
+      "symbol": "crvUSDBTCETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xdad97f7713ae9437fa9249920ec8507e5fbb23d3.png"
+    },
+    "137_0x5d146d8b1dacb1ebba5cb005ae1059da8a1fbf57": {
+      "chainId": 137,
+      "address": "0x5d146d8b1dacb1ebba5cb005ae1059da8a1fbf57",
+      "name": "CAD Coin (PoS)",
+      "symbol": "CADC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x5d146d8b1dacb1ebba5cb005ae1059da8a1fbf57.png"
+    },
+    "137_0x69a8aaa4318f4803b3517f78a2ca6c859f5349f3": {
+      "chainId": 137,
+      "address": "0x69a8aaa4318f4803b3517f78a2ca6c859f5349f3",
+      "name": "Philippines Peso (Tagcash)",
+      "symbol": "PHP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x69a8aaa4318f4803b3517f78a2ca6c859f5349f3.png"
+    },
+    "137_0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f": {
+      "chainId": 137,
+      "address": "0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f",
+      "name": "L3USD",
+      "symbol": "L3USD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2c2d8a078b33bf7782a16acce2c5ba6653a90d5f.png"
+    },
+    "137_0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4": {
+      "chainId": 137,
+      "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+      "name": "Staked MATIC (PoS)",
+      "symbol": "stMATIC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4.png"
+    },
+    "137_0x2e1ad108ff1d8c782fcbbb89aad783ac49586756": {
+      "chainId": 137,
+      "address": "0x2e1ad108ff1d8c782fcbbb89aad783ac49586756",
+      "name": "TrueUSD (PoS)",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2e1ad108ff1d8c782fcbbb89aad783ac49586756.png"
+    },
+    "137_0x59d9356e565ab3a36dd77763fc0d87feaf85508c": {
+      "chainId": 137,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    "137_0x03a97594aa5ece130e2e956fc0ced2fea8ed8989": {
+      "chainId": 137,
+      "address": "0x03a97594aa5ece130e2e956fc0ced2fea8ed8989",
+      "name": "Ankr Reward Earning MATIC",
+      "symbol": "aMATICb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x03a97594aa5ece130e2e956fc0ced2fea8ed8989.png"
+    },
+    "137_0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171": {
+      "chainId": 137,
+      "address": "0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171",
+      "name": "Curve.fi amDAI/amUSDC/amUSDT",
+      "symbol": "am3CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe7a24ef0c5e95ffb0f6684b813a78f2a3ad7d171.png"
+    },
+    "137_0x361a5a4993493ce00f61c32d4ecca5512b82ce90": {
+      "chainId": 137,
+      "address": "0x361a5a4993493ce00f61c32d4ecca5512b82ce90",
+      "name": "Stake DAO Token (PoS)",
+      "symbol": "SDT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x361a5a4993493ce00f61c32d4ecca5512b82ce90.png"
+    },
+    "137_0x75289388d50364c3013583d97bd70ced0e183e32": {
+      "chainId": 137,
+      "address": "0x75289388d50364c3013583d97bd70ced0e183e32",
+      "name": "Aladdin sdCRV",
+      "symbol": "asdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x75289388d50364c3013583d97bd70ced0e183e32.png"
+    },
+    "137_0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6": {
+      "chainId": 137,
+      "address": "0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6",
+      "name": "Curve.Fi USD Stablecoin(PoS)",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6.png"
+    },
+    "137_0x172370d5cd63279efa6d502dab29171933a610af": {
+      "chainId": 137,
+      "address": "0x172370d5cd63279efa6d502dab29171933a610af",
+      "name": "CRV (PoS)",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x172370d5cd63279efa6d502dab29171933a610af.png"
+    },
+    "137_0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270": {
+      "chainId": 137,
+      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "name": "Wrapped Polygon Ecosystem Token",
+      "symbol": "WPOL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270.png"
+    },
+    "137_0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c": {
+      "chainId": 137,
+      "address": "0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c",
+      "name": "JPY Coin (PoS)",
+      "symbol": "JPYC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x6ae7dfc73e0dde2aa99ac063dcf7e8a63265108c.png"
+    },
+    "137_0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c": {
+      "chainId": 137,
+      "address": "0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c",
+      "name": "MaticX/WMatic V3",
+      "symbol": "MAT4Y24V3",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xcc9841c942ec72e6ac74da8fb2fb45cf3b1a099c.png"
+    },
+    "137_0xccb641025220251bc1ca6ba2b70c60b64db676bf": {
+      "chainId": 137,
+      "address": "0xccb641025220251bc1ca6ba2b70c60b64db676bf",
+      "name": "Staked BRZ",
+      "symbol": "stBRZ",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xccb641025220251bc1ca6ba2b70c60b64db676bf.png"
+    },
+    "137_0xc18b9df3bbe6c351a6bfc0f77d35771b0635dfb3": {
+      "chainId": 137,
+      "address": "0xc18b9df3bbe6c351a6bfc0f77d35771b0635dfb3",
+      "name": "GRANADA GROUNDS X",
+      "symbol": "GgX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc18b9df3bbe6c351a6bfc0f77d35771b0635dfb3.png"
+    },
+    "137_0x7b367a058f370c0057762280547d0b974cf3ac10": {
+      "chainId": 137,
+      "address": "0x7b367a058f370c0057762280547d0b974cf3ac10",
+      "name": "PAR Stablecoin (PoS)",
+      "symbol": "PAR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7b367a058f370c0057762280547d0b974cf3ac10.png"
+    },
+    "137_0x28424507fefb6f7f8e9d3860f56504e4e5f5f390": {
+      "chainId": 137,
+      "address": "0x28424507fefb6f7f8e9d3860f56504e4e5f5f390",
+      "name": "Aave Matic Market WETH",
+      "symbol": "amWETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x28424507fefb6f7f8e9d3860f56504e4e5f5f390.png"
+    },
+    "137_0x7e141940932e3d13bfa54b224cb4a16510519308": {
+      "chainId": 137,
+      "address": "0x7e141940932e3d13bfa54b224cb4a16510519308",
+      "name": "handleAUD",
+      "symbol": "fxAUD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7e141940932e3d13bfa54b224cb4a16510519308.png"
+    },
+    "137_0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833": {
+      "chainId": 137,
+      "address": "0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833",
+      "name": "Vote Boosted sdCRV",
+      "symbol": "vsdCRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x62d5a59e0d67c0381aad53b201b4a1b8dcd2c833.png"
+    },
+    "137_0xb5dfabd7ff7f83bab83995e72a52b97abb7bcf63": {
+      "chainId": 137,
+      "address": "0xb5dfabd7ff7f83bab83995e72a52b97abb7bcf63",
+      "name": "Real USD",
+      "symbol": "USDR",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xb5dfabd7ff7f83bab83995e72a52b97abb7bcf63.png"
+    },
+    "137_0x3c499c542cef5e3811e1192ce70d8cc03d5c3359": {
+      "chainId": 137,
+      "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.png"
+    },
+    "137_0x8ca194a3b22077359b5732de53373d4afc11dee3": {
+      "chainId": 137,
+      "address": "0x8ca194a3b22077359b5732de53373d4afc11dee3",
+      "name": "Jarvis Synthetic Canadian Dollar",
+      "symbol": "jCAD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x8ca194a3b22077359b5732de53373d4afc11dee3.png"
+    },
+    "137_0x9f6268b5efb4329a9dac59beabc4cf2df0ad8798": {
+      "chainId": 137,
+      "address": "0x9f6268b5efb4329a9dac59beabc4cf2df0ad8798",
+      "name": "BRZ-stBRZ",
+      "symbol": "stBRZv1",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x9f6268b5efb4329a9dac59beabc4cf2df0ad8798.png"
+    },
+    "137_0xcb7f1ef7246d1497b985f7fc45a1a31f04346133": {
+      "chainId": 137,
+      "address": "0xcb7f1Ef7246d1497b985f7fc45a1a31f04346133",
+      "name": "Jarvis Synthetic Australian Dollar",
+      "symbol": "jAUD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xcb7f1Ef7246d1497b985f7fc45a1a31f04346133.png"
+    },
+    "137_0x5c2ed810328349100a66b82b78a1791b101c9d61": {
+      "chainId": 137,
+      "address": "0x5c2ed810328349100a66b82b78a1791b101c9d61",
+      "name": "Aave Matic Market WBTC",
+      "symbol": "amWBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x5c2ed810328349100a66b82b78a1791b101c9d61.png"
+    },
+    "137_0x2f1b1662a895c6ba01a99dcaf56778e7d77e5609": {
+      "chainId": 137,
+      "address": "0x2f1b1662a895c6ba01a99dcaf56778e7d77e5609",
+      "name": "Spice USD",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2f1b1662a895c6ba01a99dcaf56778e7d77e5609.png"
+    },
+    "137_0x8343091f2499fd4b6174a46d067a920a3b851ff9": {
+      "chainId": 137,
+      "address": "0x8343091f2499fd4b6174a46d067a920a3b851ff9",
+      "name": "Jarvis Synthetic Japanese Yen",
+      "symbol": "jJPY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x8343091f2499fd4b6174a46d067a920a3b851ff9.png"
+    },
+    "137_0xa417507141ba12247651c873b1bea3465b282918": {
+      "chainId": 137,
+      "address": "0xa417507141ba12247651c873b1bea3465b282918",
+      "name": "ARTH Valuecoin (Polygon)",
+      "symbol": "ARTH.poly",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xa417507141ba12247651c873b1bea3465b282918.png"
+    },
+    "137_0xe111178a87a3bff0c8d18decba5798827539ae99": {
+      "chainId": 137,
+      "address": "0xe111178a87a3bff0c8d18decba5798827539ae99",
+      "name": "STASIS EURS Token (PoS)",
+      "symbol": "EURS",
+      "decimals": 2,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe111178a87a3bff0c8d18decba5798827539ae99.png"
+    },
+    "137_0xb88a5ac00917a02d82c7cd6cebd73e2852d43574": {
+      "chainId": 137,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    "137_0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c": {
+      "chainId": 137,
+      "address": "0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c",
+      "name": "Jarvis Synthetic Euro",
+      "symbol": "jEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x4e3decbb3645551b8a19f0ea1678079fcb33fb4c.png"
+    },
+    "137_0xc2132d05d31c914a87c6611c10748aeb04b58e8f": {
+      "chainId": 137,
+      "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "name": "(PoS) Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
+    },
+    "137_0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503": {
+      "chainId": 137,
+      "address": "0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503",
+      "name": "Jarvis Synthetic Singapore Dollar",
+      "symbol": "jSGD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xa926db7a4cc0cb1736d5ac60495ca8eb7214b503.png"
+    },
+    "137_0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6": {
+      "chainId": 137,
+      "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6.png"
+    },
+    "137_0x8f3cf7ad23cd3cadbd9735aff958023239c6a063": {
+      "chainId": 137,
+      "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "name": "(PoS) Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063.png"
+    },
+    "137_0x1a13f4ca1d028320a707d99520abfefca3998b7f": {
+      "chainId": 137,
+      "address": "0x1a13f4ca1d028320a707d99520abfefca3998b7f",
+      "name": "Aave Matic Market USDC",
+      "symbol": "amUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x1a13f4ca1d028320a707d99520abfefca3998b7f.png"
+    },
+    "137_0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed": {
+      "chainId": 137,
+      "address": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed.png"
+    },
+    "137_0x236aa50979d5f3de3bd1eeb40e81137f22ab794b": {
+      "chainId": 137,
+      "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "name": "Polygon tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b.png"
+    },
+    "137_0xe6469ba6d2fd6130788e0ea9c0a0515900563b59": {
+      "chainId": 137,
+      "address": "0xe6469ba6d2fd6130788e0ea9c0a0515900563b59",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe6469ba6d2fd6130788e0ea9c0a0515900563b59.png"
+    },
+    "137_0xfa68fb4628dff1028cfec22b4162fccd0d45efb6": {
+      "chainId": 137,
+      "address": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+      "name": "Liquid Staking Matic (PoS)",
+      "symbol": "MaticX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6.png"
+    },
+    "137_0x84f168e646d31f6c33fdbf284d9037f59603aa28": {
+      "chainId": 137,
+      "address": "0x84f168e646d31f6c33fdbf284d9037f59603aa28",
+      "name": "ARTH USD Rebase",
+      "symbol": "ARTH.usd",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x84f168e646d31f6c33fdbf284d9037f59603aa28.png"
+    },
+    "137_0x486880fb16408b47f928f472f57bec55ac6089d1": {
+      "chainId": 137,
+      "address": "0x486880fb16408b47f928f472f57bec55ac6089d1",
+      "name": "Jarvis Synthetic Philippine Peso",
+      "symbol": "jPHP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x486880fb16408b47f928f472f57bec55ac6089d1.png"
+    },
+    "137_0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa": {
+      "chainId": 137,
+      "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
+      "name": "deBridge USD Coin",
+      "symbol": "deUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa.png"
+    },
+    "137_0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7": {
+      "chainId": 137,
+      "address": "0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7",
+      "name": "Neutrino USD",
+      "symbol": "USDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x013f9c3fac3e2759d7e90aca4f9540f75194a0d7.png"
+    },
+    "137_0xe2aa7db6da1dae97c5f5c6914d285fbfcc32a128": {
+      "chainId": 137,
+      "address": "0xe2aa7db6da1dae97c5f5c6914d285fbfcc32a128",
+      "name": "PAR Stablecoin",
+      "symbol": "PAR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xe2aa7db6da1dae97c5f5c6914d285fbfcc32a128.png"
+    },
+    "137_0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6": {
+      "chainId": 137,
+      "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+      "name": "(PoS) Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6.png"
+    },
+    "137_0x2791bca1f2de4661ed88a30c99a7a9449aa84174": {
+      "chainId": 137,
+      "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "name": "USD Coin (PoS)",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
+    },
+    "137_0xad326c253a84e9805559b73a08724e11e49ca651": {
+      "chainId": 137,
+      "address": "0xad326c253a84e9805559b73a08724e11e49ca651",
+      "name": "Curve.fi Factory Plain Pool: 4eur",
+      "symbol": "4eur-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xad326c253a84e9805559b73a08724e11e49ca651.png"
+    },
+    "137_0x57f5e098cad7a3d1eed53991d4d66c45c9af7812": {
+      "chainId": 137,
+      "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
+    },
+    "137_0x45c32fa6df82ead1e2ef74d17b76547eddfaff89": {
+      "chainId": 137,
+      "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89.png"
+    },
+    "137_0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd": {
+      "chainId": 137,
+      "address": "0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd",
+      "name": "USDC/USDM",
+      "symbol": "usdc-usdm",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xd8001ce95a13168aa4f7d70b5298962b7cadf6dd.png"
+    },
+    "137_0xc298812164bd558268f51cc6e3b8b5daaf0b6341": {
+      "chainId": 137,
+      "address": "0xc298812164bd558268f51cc6e3b8b5daaf0b6341",
+      "name": "Plata",
+      "symbol": "PLT",
+      "decimals": 4,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xc298812164bd558268f51cc6e3b8b5daaf0b6341.png"
+    },
+    "137_0x60d55f02a771d515e077c9c2403a1ef324885cec": {
+      "chainId": 137,
+      "address": "0x60d55f02a771d515e077c9c2403a1ef324885cec",
+      "name": "Aave Matic Market USDT",
+      "symbol": "amUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x60d55f02a771d515e077c9c2403a1ef324885cec.png"
+    },
+    "137_0xbd1463f02f61676d53fd183c2b19282bff93d099": {
+      "chainId": 137,
+      "address": "0xbd1463f02f61676d53fd183c2b19282bff93d099",
+      "name": "Jarvis Synthetic Swiss Franc",
+      "symbol": "jCHF",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xbd1463f02f61676d53fd183c2b19282bff93d099.png"
+    },
+    "137_0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc": {
+      "chainId": 137,
+      "address": "0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc",
+      "name": "BRZ Token",
+      "symbol": "BRZ",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc.png"
+    },
+    "137_0x116172b2482c5dc3e6f445c16ac13367ac3fcd35": {
+      "chainId": 137,
+      "address": "0x116172b2482c5dc3e6f445c16ac13367ac3fcd35",
+      "name": "handleEUR",
+      "symbol": "fxEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x116172b2482c5dc3e6f445c16ac13367ac3fcd35.png"
+    },
+    "137_0x0000000000000000000000000000000000001010": {
+      "chainId": 137,
+      "address": "0x0000000000000000000000000000000000001010",
+      "name": "Polygon Ecosystem Token",
+      "symbol": "POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x0000000000000000000000000000000000001010.png"
+    },
+    "137_0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": {
+      "chainId": 137,
+      "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png"
+    },
+    "137_0x5e5a23b52cb48f5e70271be83079ca5bc9c9e9ac": {
+      "chainId": 137,
+      "address": "0x5e5a23b52cb48f5e70271be83079ca5bc9c9e9ac",
+      "name": "Curve.fi Factory USD Metapool: Curve FRAX3CRV Pool",
+      "symbol": "FRAX3CRV-f3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x5e5a23b52cb48f5e70271be83079ca5bc9c9e9ac.png"
+    },
+    "137_0xdbf31df14b66535af65aac99c32e9ea844e14501": {
+      "chainId": 137,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    "137_0x820802fa8a99901f52e39acd21177b0be6ee2974": {
+      "chainId": 137,
+      "address": "0x820802fa8a99901f52e39acd21177b0be6ee2974",
+      "name": "EUROe Stablecoin",
+      "symbol": "EUROe",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x820802fa8a99901f52e39acd21177b0be6ee2974.png"
+    },
+    "137_0x769434dca303597c8fc4997bf3dab233e961eda2": {
+      "chainId": 137,
+      "address": "0x769434dca303597c8fc4997bf3dab233e961eda2",
+      "name": "XSGD (PoS)",
+      "symbol": "XSGD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x769434dca303597c8fc4997bf3dab233e961eda2.png"
+    },
+    "137_0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b": {
+      "chainId": 137,
+      "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+      "name": "BOB",
+      "symbol": "BOB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png"
+    },
+    "137_0x4f604735c1cf31399c6e711d5962b2b3e0225ad3": {
+      "chainId": 137,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3.png"
+    },
+    "137_0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f": {
+      "chainId": 137,
+      "address": "0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f",
+      "name": "Euro Tether (PoS)",
+      "symbol": "EURT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f.png"
+    },
+    "137_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 137,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Polygon",
+      "symbol": "POL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   },
   "version": {
