@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-16T11:36:22.800874+00:00",
+  "timestamp": "2024-12-16T17:36:46.679103+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3239,6 +3239,14 @@
       "symbol": "USDtb",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xc139190f447e929f090edeb554d95abb8b18ac1c.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552",
+      "name": "Inception Symbiotic Restaked wstETH",
+      "symbol": "inwstETHs",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552.png"
     }
   ],
   "tokenMap": {
@@ -6473,6 +6481,14 @@
       "symbol": "USDtb",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xc139190f447e929f090edeb554d95abb8b18ac1c.png"
+    },
+    "1_0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552": {
+      "chainId": 1,
+      "address": "0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552",
+      "name": "Inception Symbiotic Restaked wstETH",
+      "symbol": "inwstETHs",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552.png"
     }
   },
   "version": {
