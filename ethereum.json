@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-15T19:48:04.106284+00:00",
+  "timestamp": "2024-12-16T11:36:22.800874+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3231,6 +3231,14 @@
       "symbol": "zunBTC",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc139190f447e929f090edeb554d95abb8b18ac1c",
+      "name": "USDtb",
+      "symbol": "USDtb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xc139190f447e929f090edeb554d95abb8b18ac1c.png"
     }
   ],
   "tokenMap": {
@@ -6457,6 +6465,14 @@
       "symbol": "zunBTC",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x0fa308ae0dde633b6ede22ba719e7e0bc45fc6db.png"
+    },
+    "1_0xc139190f447e929f090edeb554d95abb8b18ac1c": {
+      "chainId": 1,
+      "address": "0xc139190f447e929f090edeb554d95abb8b18ac1c",
+      "name": "USDtb",
+      "symbol": "USDtb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xc139190f447e929f090edeb554d95abb8b18ac1c.png"
     }
   },
   "version": {
