@@ -40,3 +40,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
         run: poetry run python upkeep.py gnosis
+
+      - name: Upload base tokenlist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRPC_KEY: ${{ secrets.DRPC_KEY }}
+        run: poetry run python upkeep.py base
