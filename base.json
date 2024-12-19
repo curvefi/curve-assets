@@ -1,0 +1,435 @@
+{
+  "name": "Curve Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/branding/logo.png",
+  "keywords": [
+    "curve",
+    "defi"
+  ],
+  "tags": {},
+  "timestamp": "2024-12-19T11:28:36.419937+00:00",
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x42069babe14fb1802c5cb0f50bb9d2ad6fef55e2",
+      "name": "frok.ai",
+      "symbol": "FROK",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x42069babe14fb1802c5cb0f50bb9d2ad6fef55e2.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x8ee73c484a26e0a5df2ee2a4960b789967dd0415",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x8ee73c484a26e0a5df2ee2a4960b789967dd0415.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x75289388d50364c3013583d97bd70ced0e183e32",
+      "name": "Stake DAO MAV",
+      "symbol": "sdMAV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x75289388d50364c3013583d97bd70ced0e183e32.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc8448941afc9e6ba122aea4a58ac5449af4d6ffd",
+      "name": "Maat",
+      "symbol": "MAAT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xc8448941afc9e6ba122aea4a58ac5449af4d6ffd.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+      "name": "Aerodrome",
+      "symbol": "AERO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x940181a94a35a4569e4529a3cdfb74e38fd98631.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x646a737b9b6024e49f5908762b3ff73e65b5160c",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x646a737b9b6024e49f5908762b3ff73e65b5160c.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+      "name": "High Yield USD",
+      "symbol": "hyUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xcc7ff230365bd730ee4b352cc2492cedac49383e.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7",
+      "name": "Maverick Token",
+      "symbol": "MAV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x417ac0e078398c154edfadd9ef675d30be60af93.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2da56acb9ea78330f947bd57c54119debda7af71",
+      "name": "Mog Coin",
+      "symbol": "Mog",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x2da56acb9ea78330f947bd57c54119debda7af71.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
+      "name": "USD+",
+      "symbol": "USD+",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xb79dd08ea68a908a97220c76d19a6aa9cbde4376.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "name": "Base tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5fd0787a5a66d24c5a868c2e6a296ca2b1452558",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5fd0787a5a66d24c5a868c2e6a296ca2b1452558.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x69420f9e38a4e60a62224c489be4bf7a94402496",
+      "name": "Defi.Money Stablecoin",
+      "symbol": "MONEY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x69420f9e38a4e60a62224c489be4bf7a94402496.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4200000000000000000000000000000000000006.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  ],
+  "tokenMap": {
+    "8453_0x42069babe14fb1802c5cb0f50bb9d2ad6fef55e2": {
+      "chainId": 8453,
+      "address": "0x42069babe14fb1802c5cb0f50bb9d2ad6fef55e2",
+      "name": "frok.ai",
+      "symbol": "FROK",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x42069babe14fb1802c5cb0f50bb9d2ad6fef55e2.png"
+    },
+    "8453_0x59d9356e565ab3a36dd77763fc0d87feaf85508c": {
+      "chainId": 8453,
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x59d9356e565ab3a36dd77763fc0d87feaf85508c.png"
+    },
+    "8453_0x8ee73c484a26e0a5df2ee2a4960b789967dd0415": {
+      "chainId": 8453,
+      "address": "0x8ee73c484a26e0a5df2ee2a4960b789967dd0415",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x8ee73c484a26e0a5df2ee2a4960b789967dd0415.png"
+    },
+    "8453_0xeb466342c4d449bc9f53a865d5cb90586f405215": {
+      "chainId": 8453,
+      "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xeb466342c4d449bc9f53a865d5cb90586f405215.png"
+    },
+    "8453_0x75289388d50364c3013583d97bd70ced0e183e32": {
+      "chainId": 8453,
+      "address": "0x75289388d50364c3013583d97bd70ced0e183e32",
+      "name": "Stake DAO MAV",
+      "symbol": "sdMAV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x75289388d50364c3013583d97bd70ced0e183e32.png"
+    },
+    "8453_0x50c5725949a6f0c72e6c4a641f24049a917db0cb": {
+      "chainId": 8453,
+      "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+    },
+    "8453_0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4": {
+      "chainId": 8453,
+      "address": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4.png"
+    },
+    "8453_0xc8448941afc9e6ba122aea4a58ac5449af4d6ffd": {
+      "chainId": 8453,
+      "address": "0xc8448941afc9e6ba122aea4a58ac5449af4d6ffd",
+      "name": "Maat",
+      "symbol": "MAAT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xc8448941afc9e6ba122aea4a58ac5449af4d6ffd.png"
+    },
+    "8453_0x940181a94a35a4569e4529a3cdfb74e38fd98631": {
+      "chainId": 8453,
+      "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+      "name": "Aerodrome",
+      "symbol": "AERO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x940181a94a35a4569e4529a3cdfb74e38fd98631.png"
+    },
+    "8453_0x646a737b9b6024e49f5908762b3ff73e65b5160c": {
+      "chainId": 8453,
+      "address": "0x646a737b9b6024e49f5908762b3ff73e65b5160c",
+      "name": "Savings crvUSD",
+      "symbol": "scrvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x646a737b9b6024e49f5908762b3ff73e65b5160c.png"
+    },
+    "8453_0xcc7ff230365bd730ee4b352cc2492cedac49383e": {
+      "chainId": 8453,
+      "address": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+      "name": "High Yield USD",
+      "symbol": "hyUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xcc7ff230365bd730ee4b352cc2492cedac49383e.png"
+    },
+    "8453_0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7": {
+      "chainId": 8453,
+      "address": "0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7",
+      "name": "Maverick Token",
+      "symbol": "MAV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7.png"
+    },
+    "8453_0x417ac0e078398c154edfadd9ef675d30be60af93": {
+      "chainId": 8453,
+      "address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x417ac0e078398c154edfadd9ef675d30be60af93.png"
+    },
+    "8453_0xb88a5ac00917a02d82c7cd6cebd73e2852d43574": {
+      "chainId": 8453,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    "8453_0x2da56acb9ea78330f947bd57c54119debda7af71": {
+      "chainId": 8453,
+      "address": "0x2da56acb9ea78330f947bd57c54119debda7af71",
+      "name": "Mog Coin",
+      "symbol": "Mog",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x2da56acb9ea78330f947bd57c54119debda7af71.png"
+    },
+    "8453_0xb79dd08ea68a908a97220c76d19a6aa9cbde4376": {
+      "chainId": 8453,
+      "address": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
+      "name": "USD+",
+      "symbol": "USD+",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xb79dd08ea68a908a97220c76d19a6aa9cbde4376.png"
+    },
+    "8453_0x236aa50979d5f3de3bd1eeb40e81137f22ab794b": {
+      "chainId": 8453,
+      "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "name": "Base tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b.png"
+    },
+    "8453_0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca": {
+      "chainId": 8453,
+      "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca.png"
+    },
+    "8453_0x5fd0787a5a66d24c5a868c2e6a296ca2b1452558": {
+      "chainId": 8453,
+      "address": "0x5fd0787a5a66d24c5a868c2e6a296ca2b1452558",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5fd0787a5a66d24c5a868c2e6a296ca2b1452558.png"
+    },
+    "8453_0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+      "chainId": 8453,
+      "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
+    },
+    "8453_0x57f5e098cad7a3d1eed53991d4d66c45c9af7812": {
+      "chainId": 8453,
+      "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x57f5e098cad7a3d1eed53991d4d66c45c9af7812.png"
+    },
+    "8453_0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf": {
+      "chainId": 8453,
+      "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.png"
+    },
+    "8453_0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22": {
+      "chainId": 8453,
+      "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22.png"
+    },
+    "8453_0x69420f9e38a4e60a62224c489be4bf7a94402496": {
+      "chainId": 8453,
+      "address": "0x69420f9e38a4e60a62224c489be4bf7a94402496",
+      "name": "Defi.Money Stablecoin",
+      "symbol": "MONEY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x69420f9e38a4e60a62224c489be4bf7a94402496.png"
+    },
+    "8453_0x4200000000000000000000000000000000000006": {
+      "chainId": 8453,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4200000000000000000000000000000000000006.png"
+    },
+    "8453_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 8453,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
