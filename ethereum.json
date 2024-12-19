@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-17T11:25:46.253455+00:00",
+  "timestamp": "2024-12-19T09:58:13.110986+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3247,6 +3247,14 @@
       "symbol": "inwstETHs",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "name": "RLUSD",
+      "symbol": "RLUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8292bb45bf1ee4d140127049757c2e0ff06317ed.png"
     }
   ],
   "tokenMap": {
@@ -6489,6 +6497,14 @@
       "symbol": "inwstETHs",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8e0789d39db454dbe9f4a77acef6dc7c69f6d552.png"
+    },
+    "1_0x8292bb45bf1ee4d140127049757c2e0ff06317ed": {
+      "chainId": 1,
+      "address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "name": "RLUSD",
+      "symbol": "RLUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8292bb45bf1ee4d140127049757c2e0ff06317ed.png"
     }
   },
   "version": {
