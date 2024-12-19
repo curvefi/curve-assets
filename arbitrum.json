@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-17T11:25:53.744368+00:00",
+  "timestamp": "2024-12-19T09:58:26.601412+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -623,6 +623,22 @@
       "symbol": "WUNIT0",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe80698d9c55d9212c4dae8bed00e1357d804c62a.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7",
+      "name": "EYWA",
+      "symbol": "EYWA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f",
+      "name": "TREN Debt Token",
+      "symbol": "XY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f.png"
     }
   ],
   "tokenMap": {
@@ -1241,6 +1257,22 @@
       "symbol": "WUNIT0",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xe80698d9c55d9212c4dae8bed00e1357d804c62a.png"
+    },
+    "42161_0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7": {
+      "chainId": 42161,
+      "address": "0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7",
+      "name": "EYWA",
+      "symbol": "EYWA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7a10f506e4c7658e6ad15fdf0443d450b7fa80d7.png"
+    },
+    "42161_0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f": {
+      "chainId": 42161,
+      "address": "0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f",
+      "name": "TREN Debt Token",
+      "symbol": "XY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f.png"
     }
   },
   "version": {
