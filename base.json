@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-19T14:44:44.973363+00:00",
+  "timestamp": "2024-12-20T05:00:05.078347+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -215,6 +215,14 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4e4e78130c6e0726d83e931763ca2cb668b031be",
+      "name": "Omnify Tether USD",
+      "symbol": "OFYUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4e4e78130c6e0726d83e931763ca2cb668b031be.png"
     }
   ],
   "tokenMap": {
@@ -425,6 +433,14 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "8453_0x4e4e78130c6e0726d83e931763ca2cb668b031be": {
+      "chainId": 8453,
+      "address": "0x4e4e78130c6e0726d83e931763ca2cb668b031be",
+      "name": "Omnify Tether USD",
+      "symbol": "OFYUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4e4e78130c6e0726d83e931763ca2cb668b031be.png"
     }
   },
   "version": {
