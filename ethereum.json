@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-20T04:59:44.503545+00:00",
+  "timestamp": "2024-12-20T16:18:21.837534+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3255,6 +3255,22 @@
       "symbol": "RLUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8292bb45bf1ee4d140127049757c2e0ff06317ed.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92",
+      "name": "Staked USDX",
+      "symbol": "sUSDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "name": "USDX",
+      "symbol": "USDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png"
     }
   ],
   "tokenMap": {
@@ -6505,6 +6521,22 @@
       "symbol": "RLUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8292bb45bf1ee4d140127049757c2e0ff06317ed.png"
+    },
+    "1_0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92": {
+      "chainId": 1,
+      "address": "0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92",
+      "name": "Staked USDX",
+      "symbol": "sUSDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92.png"
+    },
+    "1_0xf3527ef8de265eaa3716fb312c12847bfba66cef": {
+      "chainId": 1,
+      "address": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "name": "USDX",
+      "symbol": "USDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png"
     }
   },
   "version": {
