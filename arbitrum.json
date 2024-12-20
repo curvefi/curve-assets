@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2024-12-20T04:59:51.912224+00:00",
+  "timestamp": "2024-12-20T16:18:34.194211+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -639,6 +639,22 @@
       "symbol": "XY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92",
+      "name": "Staked USDX",
+      "symbol": "sUSDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "name": "USDX",
+      "symbol": "USDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png"
     }
   ],
   "tokenMap": {
@@ -1273,6 +1289,22 @@
       "symbol": "XY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xd4fe6e1e37dfcf35e9eeb54d4cca149d1c10239f.png"
+    },
+    "42161_0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92": {
+      "chainId": 42161,
+      "address": "0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92",
+      "name": "Staked USDX",
+      "symbol": "sUSDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92.png"
+    },
+    "42161_0xf3527ef8de265eaa3716fb312c12847bfba66cef": {
+      "chainId": 42161,
+      "address": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "name": "USDX",
+      "symbol": "USDX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png"
     }
   },
   "version": {
