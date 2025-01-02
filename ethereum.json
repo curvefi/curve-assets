@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-01T00:01:50.506849+00:00",
+  "timestamp": "2025-01-02T01:02:54.422274+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3279,6 +3279,22 @@
       "symbol": "yUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x1ce7d9942ff78c328a4181b9f3826fee6d845a97.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x634ed807647e07a7c038ef1956a58adbc6695f88",
+      "name": "ShezmuUSD",
+      "symbol": "ShezUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x634ed807647e07a7c038ef1956a58adbc6695f88.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ccb64623cda445aa0ce7c0caef99486ebd155ba",
+      "name": "ShezmuETH",
+      "symbol": "ShezETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8ccb64623cda445aa0ce7c0caef99486ebd155ba.png"
     }
   ],
   "tokenMap": {
@@ -6553,6 +6569,22 @@
       "symbol": "yUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x1ce7d9942ff78c328a4181b9f3826fee6d845a97.png"
+    },
+    "1_0x634ed807647e07a7c038ef1956a58adbc6695f88": {
+      "chainId": 1,
+      "address": "0x634ed807647e07a7c038ef1956a58adbc6695f88",
+      "name": "ShezmuUSD",
+      "symbol": "ShezUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x634ed807647e07a7c038ef1956a58adbc6695f88.png"
+    },
+    "1_0x8ccb64623cda445aa0ce7c0caef99486ebd155ba": {
+      "chainId": 1,
+      "address": "0x8ccb64623cda445aa0ce7c0caef99486ebd155ba",
+      "name": "ShezmuETH",
+      "symbol": "ShezETH",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8ccb64623cda445aa0ce7c0caef99486ebd155ba.png"
     }
   },
   "version": {
