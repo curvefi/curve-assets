@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-02T01:02:54.422274+00:00",
+  "timestamp": "2025-01-03T15:37:56.348084+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3295,6 +3295,14 @@
       "symbol": "ShezETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8ccb64623cda445aa0ce7c0caef99486ebd155ba.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf469fbd2abcd6b9de8e169d128226c0fc90a012e",
+      "name": "pumpBTC",
+      "symbol": "pumpBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e.png"
     }
   ],
   "tokenMap": {
@@ -6585,6 +6593,14 @@
       "symbol": "ShezETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8ccb64623cda445aa0ce7c0caef99486ebd155ba.png"
+    },
+    "1_0xf469fbd2abcd6b9de8e169d128226c0fc90a012e": {
+      "chainId": 1,
+      "address": "0xf469fbd2abcd6b9de8e169d128226c0fc90a012e",
+      "name": "pumpBTC",
+      "symbol": "pumpBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e.png"
     }
   },
   "version": {
