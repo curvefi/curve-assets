@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-02T01:02:40.670903+00:00",
+  "timestamp": "2025-01-03T15:37:43.013310+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -1727,6 +1727,14 @@
       "symbol": "POL",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xd7c8077ae454b81c451f52b01d53dc4a6b23312f",
+      "name": "GRANADA GROUNDS X(PoS)",
+      "symbol": "GgX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xd7c8077ae454b81c451f52b01d53dc4a6b23312f.png"
     }
   ],
   "tokenMap": {
@@ -3449,6 +3457,14 @@
       "symbol": "POL",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "137_0xd7c8077ae454b81c451f52b01d53dc4a6b23312f": {
+      "chainId": 137,
+      "address": "0xd7c8077ae454b81c451f52b01d53dc4a6b23312f",
+      "name": "GRANADA GROUNDS X(PoS)",
+      "symbol": "GgX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xd7c8077ae454b81c451f52b01d53dc4a6b23312f.png"
     }
   },
   "version": {
