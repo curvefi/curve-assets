@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-03T18:57:34.955499+00:00",
+  "timestamp": "2025-01-06T17:41:04.078555+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3303,6 +3303,14 @@
       "symbol": "pumpBTC",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb",
+      "name": "ynETH MAX",
+      "symbol": "ynETHx",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb.png"
     }
   ],
   "tokenMap": {
@@ -6601,6 +6609,14 @@
       "symbol": "pumpBTC",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e.png"
+    },
+    "1_0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb": {
+      "chainId": 1,
+      "address": "0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb",
+      "name": "ynETH MAX",
+      "symbol": "ynETHx",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb.png"
     }
   },
   "version": {
