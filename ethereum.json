@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-06T17:41:33.640339+00:00",
+  "timestamp": "2025-01-07T15:57:45.168012+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3311,6 +3311,14 @@
       "symbol": "ynETHx",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb58e61c3098d85632df34eecfb899a1ed80921cb",
+      "name": "Frankencoin",
+      "symbol": "ZCHF",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png"
     }
   ],
   "tokenMap": {
@@ -6617,6 +6625,14 @@
       "symbol": "ynETHx",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb.png"
+    },
+    "1_0xb58e61c3098d85632df34eecfb899a1ed80921cb": {
+      "chainId": 1,
+      "address": "0xb58e61c3098d85632df34eecfb899a1ed80921cb",
+      "name": "Frankencoin",
+      "symbol": "ZCHF",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png"
     }
   },
   "version": {
