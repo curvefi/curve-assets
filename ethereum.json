@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-07T15:57:45.168012+00:00",
+  "timestamp": "2025-01-07T22:36:17.644355+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3319,6 +3319,14 @@
       "symbol": "ZCHF",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x35ec69a77b79c255e5d47d5a3bdbefefe342630c",
+      "name": "YieldNest Restaked LSD - Eigenlayer",
+      "symbol": "ynLSDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x35ec69a77b79c255e5d47d5a3bdbefefe342630c.png"
     }
   ],
   "tokenMap": {
@@ -6633,6 +6641,14 @@
       "symbol": "ZCHF",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png"
+    },
+    "1_0x35ec69a77b79c255e5d47d5a3bdbefefe342630c": {
+      "chainId": 1,
+      "address": "0x35ec69a77b79c255e5d47d5a3bdbefefe342630c",
+      "name": "YieldNest Restaked LSD - Eigenlayer",
+      "symbol": "ynLSDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x35ec69a77b79c255e5d47d5a3bdbefefe342630c.png"
     }
   },
   "version": {
