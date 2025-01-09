@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-09T00:46:31.797499+00:00",
+  "timestamp": "2025-01-09T15:32:57.904716+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -1735,6 +1735,14 @@
       "symbol": "GgX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xd7c8077ae454b81c451f52b01d53dc4a6b23312f.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xde51b09e4c1fafcb3ef2aa9151de4b4cb357c961",
+      "name": "BRL Coin",
+      "symbol": "BRLC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xde51b09e4c1fafcb3ef2aa9151de4b4cb357c961.png"
     }
   ],
   "tokenMap": {
@@ -3465,6 +3473,14 @@
       "symbol": "GgX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xd7c8077ae454b81c451f52b01d53dc4a6b23312f.png"
+    },
+    "137_0xde51b09e4c1fafcb3ef2aa9151de4b4cb357c961": {
+      "chainId": 137,
+      "address": "0xde51b09e4c1fafcb3ef2aa9151de4b4cb357c961",
+      "name": "BRL Coin",
+      "symbol": "BRLC",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-polygon/0xde51b09e4c1fafcb3ef2aa9151de4b4cb357c961.png"
     }
   },
   "version": {
