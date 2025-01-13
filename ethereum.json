@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-09T21:30:47.184345+00:00",
+  "timestamp": "2025-01-13T16:20:13.336962+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3327,6 +3327,14 @@
       "symbol": "ynLSDe",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x35ec69a77b79c255e5d47d5a3bdbefefe342630c.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x961dd84059505d59f82ce4fb87d3c09bec65301d",
+      "name": "TenX Community JAPAN",
+      "symbol": "TXJP",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x961dd84059505d59f82ce4fb87d3c09bec65301d.png"
     }
   ],
   "tokenMap": {
@@ -6649,6 +6657,14 @@
       "symbol": "ynLSDe",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x35ec69a77b79c255e5d47d5a3bdbefefe342630c.png"
+    },
+    "1_0x961dd84059505d59f82ce4fb87d3c09bec65301d": {
+      "chainId": 1,
+      "address": "0x961dd84059505d59f82ce4fb87d3c09bec65301d",
+      "name": "TenX Community JAPAN",
+      "symbol": "TXJP",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x961dd84059505d59f82ce4fb87d3c09bec65301d.png"
     }
   },
   "version": {
