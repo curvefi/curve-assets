@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-13T16:30:26.206668+00:00",
+  "timestamp": "2025-01-13T17:19:32.409183+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3335,6 +3335,14 @@
       "symbol": "TXJP",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x961dd84059505d59f82ce4fb87d3c09bec65301d.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0",
+      "name": "Compounding Open Dollar",
+      "symbol": "cUSDO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0.png"
     }
   ],
   "tokenMap": {
@@ -6665,6 +6673,14 @@
       "symbol": "TXJP",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x961dd84059505d59f82ce4fb87d3c09bec65301d.png"
+    },
+    "1_0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0": {
+      "chainId": 1,
+      "address": "0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0",
+      "name": "Compounding Open Dollar",
+      "symbol": "cUSDO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0.png"
     }
   },
   "version": {
