@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-14T19:57:35.091730+00:00",
+  "timestamp": "2025-01-15T09:29:57.740283+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -655,6 +655,38 @@
       "symbol": "USDX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x895e15020c3f52ddd4d8e9514eb83c39f53b1579",
+      "name": "YieldFi yToken",
+      "symbol": "yUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x895e15020c3f52ddd4d8e9514eb83c39f53b1579.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
+      "name": "Usual USD",
+      "symbol": "USD0",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x35f1c5cb7fb977e669fd244c567da99d8a3a6850.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x1dd6b5f9281c6b4f043c02a83a46c2772024636c",
+      "name": "Lumi Finance USD",
+      "symbol": "LUAUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x1dd6b5f9281c6b4f043c02a83a46c2772024636c.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x2b65f9d2e4b84a2df6ff0525741b75d1276a9c2f",
+      "name": "USD0 Liquid Bond",
+      "symbol": "USD0++",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x2b65f9d2e4b84a2df6ff0525741b75d1276a9c2f.png"
     }
   ],
   "tokenMap": {
@@ -1305,6 +1337,38 @@
       "symbol": "USDX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png"
+    },
+    "42161_0x895e15020c3f52ddd4d8e9514eb83c39f53b1579": {
+      "chainId": 42161,
+      "address": "0x895e15020c3f52ddd4d8e9514eb83c39f53b1579",
+      "name": "YieldFi yToken",
+      "symbol": "yUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x895e15020c3f52ddd4d8e9514eb83c39f53b1579.png"
+    },
+    "42161_0x35f1c5cb7fb977e669fd244c567da99d8a3a6850": {
+      "chainId": 42161,
+      "address": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
+      "name": "Usual USD",
+      "symbol": "USD0",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x35f1c5cb7fb977e669fd244c567da99d8a3a6850.png"
+    },
+    "42161_0x1dd6b5f9281c6b4f043c02a83a46c2772024636c": {
+      "chainId": 42161,
+      "address": "0x1dd6b5f9281c6b4f043c02a83a46c2772024636c",
+      "name": "Lumi Finance USD",
+      "symbol": "LUAUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x1dd6b5f9281c6b4f043c02a83a46c2772024636c.png"
+    },
+    "42161_0x2b65f9d2e4b84a2df6ff0525741b75d1276a9c2f": {
+      "chainId": 42161,
+      "address": "0x2b65f9d2e4b84a2df6ff0525741b75d1276a9c2f",
+      "name": "USD0 Liquid Bond",
+      "symbol": "USD0++",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x2b65f9d2e4b84a2df6ff0525741b75d1276a9c2f.png"
     }
   },
   "version": {
