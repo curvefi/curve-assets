@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-16T03:39:03.870087+00:00",
+  "timestamp": "2025-01-16T18:12:46.397867+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3359,6 +3359,14 @@
       "symbol": "AAVE",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcacd6fd266af91b8aed52accc382b4e165586e29",
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xcacd6fd266af91b8aed52accc382b4e165586e29.png"
     }
   ],
   "tokenMap": {
@@ -6713,6 +6721,14 @@
       "symbol": "AAVE",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png"
+    },
+    "1_0xcacd6fd266af91b8aed52accc382b4e165586e29": {
+      "chainId": 1,
+      "address": "0xcacd6fd266af91b8aed52accc382b4e165586e29",
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xcacd6fd266af91b8aed52accc382b4e165586e29.png"
     }
   },
   "version": {
