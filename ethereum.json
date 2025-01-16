@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-16T18:17:30.649115+00:00",
+  "timestamp": "2025-01-16T19:44:34.928427+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3367,6 +3367,14 @@
       "symbol": "frxUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xcacd6fd266af91b8aed52accc382b4e165586e29.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x4737d9b4592b40d51e110b94c9c043c6654067ae",
+      "name": "Staked lvlUSD",
+      "symbol": "slvlUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4737d9b4592b40d51e110b94c9c043c6654067ae.png"
     }
   ],
   "tokenMap": {
@@ -6729,6 +6737,14 @@
       "symbol": "frxUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xcacd6fd266af91b8aed52accc382b4e165586e29.png"
+    },
+    "1_0x4737d9b4592b40d51e110b94c9c043c6654067ae": {
+      "chainId": 1,
+      "address": "0x4737d9b4592b40d51e110b94c9c043c6654067ae",
+      "name": "Staked lvlUSD",
+      "symbol": "slvlUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4737d9b4592b40d51e110b94c9c043c6654067ae.png"
     }
   },
   "version": {
