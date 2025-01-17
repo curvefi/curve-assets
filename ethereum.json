@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-17T09:52:58.896397+00:00",
+  "timestamp": "2025-01-17T16:57:03.984910+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3375,6 +3375,22 @@
       "symbol": "slvlUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4737d9b4592b40d51e110b94c9c043c6654067ae.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6",
+      "name": "Staked Frax USD",
+      "symbol": "sfrxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xcf62f905562626cfcdd2261162a51fd02fc9c5b6.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98",
+      "name": "Bold Stablecoin",
+      "symbol": "Bold",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98.png"
     }
   ],
   "tokenMap": {
@@ -6745,6 +6761,22 @@
       "symbol": "slvlUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x4737d9b4592b40d51e110b94c9c043c6654067ae.png"
+    },
+    "1_0xcf62f905562626cfcdd2261162a51fd02fc9c5b6": {
+      "chainId": 1,
+      "address": "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6",
+      "name": "Staked Frax USD",
+      "symbol": "sfrxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xcf62f905562626cfcdd2261162a51fd02fc9c5b6.png"
+    },
+    "1_0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98": {
+      "chainId": 1,
+      "address": "0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98",
+      "name": "Bold Stablecoin",
+      "symbol": "Bold",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98.png"
     }
   },
   "version": {
