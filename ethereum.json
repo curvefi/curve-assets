@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-17T18:04:44.556395+00:00",
+  "timestamp": "2025-01-21T13:57:15.965248+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3391,6 +3391,22 @@
       "symbol": "Bold",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8a60e489004ca22d775c5f2c657598278d17d9c2",
+      "name": "USDa",
+      "symbol": "USDa",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8a60e489004ca22d775c5f2c657598278d17d9c2.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9",
+      "name": "USDa saving token",
+      "symbol": "sUSDa",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9.png"
     }
   ],
   "tokenMap": {
@@ -6777,6 +6793,22 @@
       "symbol": "Bold",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb01dd87b29d187f3e3a4bf6cdaebfb97f3d9ab98.png"
+    },
+    "1_0x8a60e489004ca22d775c5f2c657598278d17d9c2": {
+      "chainId": 1,
+      "address": "0x8a60e489004ca22d775c5f2c657598278d17d9c2",
+      "name": "USDa",
+      "symbol": "USDa",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8a60e489004ca22d775c5f2c657598278d17d9c2.png"
+    },
+    "1_0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9": {
+      "chainId": 1,
+      "address": "0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9",
+      "name": "USDa saving token",
+      "symbol": "sUSDa",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9.png"
     }
   },
   "version": {
