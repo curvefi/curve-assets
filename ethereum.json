@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-22T18:05:12.786957+00:00",
+  "timestamp": "2025-01-23T13:10:00.240176+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3407,6 +3407,14 @@
       "symbol": "sUSDa",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5c5b196abe0d54485975d1ec29617d42d9198326",
+      "name": "Staked deUSD",
+      "symbol": "sdeUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5c5b196abe0d54485975d1ec29617d42d9198326.png"
     }
   ],
   "tokenMap": {
@@ -6809,6 +6817,14 @@
       "symbol": "sUSDa",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9.png"
+    },
+    "1_0x5c5b196abe0d54485975d1ec29617d42d9198326": {
+      "chainId": 1,
+      "address": "0x5c5b196abe0d54485975d1ec29617d42d9198326",
+      "name": "Staked deUSD",
+      "symbol": "sdeUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5c5b196abe0d54485975d1ec29617d42d9198326.png"
     }
   },
   "version": {
