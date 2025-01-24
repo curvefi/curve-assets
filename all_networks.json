@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-23T13:27:48.220622+00:00",
+  "timestamp": "2025-01-24T00:09:16.761001+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -5151,6 +5151,22 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x99999999999999cc837c997b882957dafdcb1af9",
+      "name": "Wrapped Ultimate Synthetic Delta Neutral",
+      "symbol": "WUSDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x99999999999999cc837c997b882957dafdcb1af9.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
+      "name": "Ultimate Synthetic Delta Neutral",
+      "symbol": "USDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2.png"
     }
   ],
   "tokenMap": {
@@ -10297,6 +10313,22 @@
       "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "1_0x99999999999999cc837c997b882957dafdcb1af9": {
+      "chainId": 1,
+      "address": "0x99999999999999cc837c997b882957dafdcb1af9",
+      "name": "Wrapped Ultimate Synthetic Delta Neutral",
+      "symbol": "WUSDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x99999999999999cc837c997b882957dafdcb1af9.png"
+    },
+    "1_0xde17a000ba631c5d7c2bd9fb692efea52d90dee2": {
+      "chainId": 1,
+      "address": "0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
+      "name": "Ultimate Synthetic Delta Neutral",
+      "symbol": "USDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2.png"
     }
   },
   "version": {
