@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-23T13:28:03.060489+00:00",
+  "timestamp": "2025-01-24T00:09:59.957378+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3415,6 +3415,22 @@
       "symbol": "sdeUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5c5b196abe0d54485975d1ec29617d42d9198326.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x99999999999999cc837c997b882957dafdcb1af9",
+      "name": "Wrapped Ultimate Synthetic Delta Neutral",
+      "symbol": "WUSDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x99999999999999cc837c997b882957dafdcb1af9.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
+      "name": "Ultimate Synthetic Delta Neutral",
+      "symbol": "USDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2.png"
     }
   ],
   "tokenMap": {
@@ -6825,6 +6841,22 @@
       "symbol": "sdeUSD",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5c5b196abe0d54485975d1ec29617d42d9198326.png"
+    },
+    "1_0x99999999999999cc837c997b882957dafdcb1af9": {
+      "chainId": 1,
+      "address": "0x99999999999999cc837c997b882957dafdcb1af9",
+      "name": "Wrapped Ultimate Synthetic Delta Neutral",
+      "symbol": "WUSDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x99999999999999cc837c997b882957dafdcb1af9.png"
+    },
+    "1_0xde17a000ba631c5d7c2bd9fb692efea52d90dee2": {
+      "chainId": 1,
+      "address": "0xde17a000ba631c5d7c2bd9fb692efea52d90dee2",
+      "name": "Ultimate Synthetic Delta Neutral",
+      "symbol": "USDN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2.png"
     }
   },
   "version": {
