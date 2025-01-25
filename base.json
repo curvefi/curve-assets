@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-25T00:45:50.547862+00:00",
+  "timestamp": "2025-01-25T21:47:09.745717+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -223,6 +223,14 @@
       "symbol": "OFYUSDT",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4e4e78130c6e0726d83e931763ca2cb668b031be.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3",
+      "name": "Super OETH",
+      "symbol": "superOETHb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xdbfefd2e8460a6ee4955a68582f85708baea60a3.png"
     }
   ],
   "tokenMap": {
@@ -441,6 +449,14 @@
       "symbol": "OFYUSDT",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4e4e78130c6e0726d83e931763ca2cb668b031be.png"
+    },
+    "8453_0xdbfefd2e8460a6ee4955a68582f85708baea60a3": {
+      "chainId": 8453,
+      "address": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3",
+      "name": "Super OETH",
+      "symbol": "superOETHb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xdbfefd2e8460a6ee4955a68582f85708baea60a3.png"
     }
   },
   "version": {
