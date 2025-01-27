@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-25T21:47:09.745717+00:00",
+  "timestamp": "2025-01-27T17:53:28.195103+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -231,6 +231,22 @@
       "symbol": "superOETHb",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xdbfefd2e8460a6ee4955a68582f85708baea60a3.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xc31389794ffac23331e0d9f611b7953f90aa5fdc",
+      "name": "Resolv Liquidity Provider Token",
+      "symbol": "RLP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xc31389794ffac23331e0d9f611b7953f90aa5fdc.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+      "name": "Resolv USD",
+      "symbol": "USR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x35e5db674d8e93a03d814fa0ada70731efe8a4b9.png"
     }
   ],
   "tokenMap": {
@@ -457,6 +473,22 @@
       "symbol": "superOETHb",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xdbfefd2e8460a6ee4955a68582f85708baea60a3.png"
+    },
+    "8453_0xc31389794ffac23331e0d9f611b7953f90aa5fdc": {
+      "chainId": 8453,
+      "address": "0xc31389794ffac23331e0d9f611b7953f90aa5fdc",
+      "name": "Resolv Liquidity Provider Token",
+      "symbol": "RLP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xc31389794ffac23331e0d9f611b7953f90aa5fdc.png"
+    },
+    "8453_0x35e5db674d8e93a03d814fa0ada70731efe8a4b9": {
+      "chainId": 8453,
+      "address": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+      "name": "Resolv USD",
+      "symbol": "USR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x35e5db674d8e93a03d814fa0ada70731efe8a4b9.png"
     }
   },
   "version": {
