@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-27T19:51:52.796946+00:00",
+  "timestamp": "2025-01-28T14:00:33.752578+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -247,6 +247,22 @@
       "symbol": "USR",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x35e5db674d8e93a03d814fa0ada70731efe8a4b9.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x820c137fa70c8691f0e44dc420a5e53c168921dc.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5875eee11cf8398102fdad704c9e96607675467a",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5875eee11cf8398102fdad704c9e96607675467a.png"
     }
   ],
   "tokenMap": {
@@ -489,6 +505,22 @@
       "symbol": "USR",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x35e5db674d8e93a03d814fa0ada70731efe8a4b9.png"
+    },
+    "8453_0x820c137fa70c8691f0e44dc420a5e53c168921dc": {
+      "chainId": 8453,
+      "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x820c137fa70c8691f0e44dc420a5e53c168921dc.png"
+    },
+    "8453_0x5875eee11cf8398102fdad704c9e96607675467a": {
+      "chainId": 8453,
+      "address": "0x5875eee11cf8398102fdad704c9e96607675467a",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5875eee11cf8398102fdad704c9e96607675467a.png"
     }
   },
   "version": {
