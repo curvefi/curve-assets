@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-01-28T18:36:54.582707+00:00",
+  "timestamp": "2025-01-28T18:44:50.092077+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -5167,6 +5167,14 @@
       "symbol": "USDN",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xab03644a0b996e024c79fc951e3ccca97c402f6c",
+      "name": "Rivus",
+      "symbol": "RIVUS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xab03644a0b996e024c79fc951e3ccca97c402f6c.png"
     }
   ],
   "tokenMap": {
@@ -10329,6 +10337,14 @@
       "symbol": "USDN",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xde17a000ba631c5d7c2bd9fb692efea52d90dee2.png"
+    },
+    "1_0xab03644a0b996e024c79fc951e3ccca97c402f6c": {
+      "chainId": 1,
+      "address": "0xab03644a0b996e024c79fc951e3ccca97c402f6c",
+      "name": "Rivus",
+      "symbol": "RIVUS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xab03644a0b996e024c79fc951e3ccca97c402f6c.png"
     }
   },
   "version": {
