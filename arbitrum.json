@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-07T16:32:17.727762+00:00",
+  "timestamp": "2025-02-08T15:10:00.450610+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -703,6 +703,30 @@
       "symbol": "USSD",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x33c88d4cac6ac34f77020915a2a88cd0417dc069.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+      "name": "Staked Frax USD",
+      "symbol": "sfrxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x5bff88ca1442c2496f7e475e9e7786383bc070c0.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x80eede496655fb9047dd39d9f418d5483ed600df.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x0c06ccf38114ddfc35e07427b9424adcca9f44f8",
+      "name": "Monerium EURe",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x0c06ccf38114ddfc35e07427b9424adcca9f44f8.png"
     }
   ],
   "tokenMap": {
@@ -1401,6 +1425,30 @@
       "symbol": "USSD",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x33c88d4cac6ac34f77020915a2a88cd0417dc069.png"
+    },
+    "42161_0x5bff88ca1442c2496f7e475e9e7786383bc070c0": {
+      "chainId": 42161,
+      "address": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+      "name": "Staked Frax USD",
+      "symbol": "sfrxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x5bff88ca1442c2496f7e475e9e7786383bc070c0.png"
+    },
+    "42161_0x80eede496655fb9047dd39d9f418d5483ed600df": {
+      "chainId": 42161,
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x80eede496655fb9047dd39d9f418d5483ed600df.png"
+    },
+    "42161_0x0c06ccf38114ddfc35e07427b9424adcca9f44f8": {
+      "chainId": 42161,
+      "address": "0x0c06ccf38114ddfc35e07427b9424adcca9f44f8",
+      "name": "Monerium EURe",
+      "symbol": "EURe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x0c06ccf38114ddfc35e07427b9424adcca9f44f8.png"
     }
   },
   "version": {
