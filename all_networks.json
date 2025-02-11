@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-11T00:36:18.178966+00:00",
+  "timestamp": "2025-02-11T17:22:07.664064+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -5175,6 +5175,70 @@
       "symbol": "RIVUS",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xab03644a0b996e024c79fc951e3ccca97c402f6c.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "name": "XY Oracle",
+      "symbol": "XYO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x55296f69f40ea6d20e478533c15a6b08b654e758.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6a445e9f40e0b97c92d0b8a3366cef1d67f700bf",
+      "name": "Fidu",
+      "symbol": "FIDU",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x6a445e9f40e0b97c92d0b8a3366cef1d67f700bf.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x69000dfd5025e82f48eb28325a2b88a241182ced",
+      "name": "ZAI Stablecoin",
+      "symbol": "ZAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x69000dfd5025e82f48eb28325a2b88a241182ced.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x11ebe21e9d7bf541a18e1e3ac94939018ce88f0b",
+      "name": "Pitch FXS",
+      "symbol": "pitchFXS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x11ebe21e9d7bf541a18e1e3ac94939018ce88f0b.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x823e1b82ce1dc147bbdb25a203f046afab1ce918",
+      "name": "Coil",
+      "symbol": "COIL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x823e1b82ce1dc147bbdb25a203f046afab1ce918.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd3043d66afe00344c115f7f81d18277c5c718ff8",
+      "name": "OpenMoney USD",
+      "symbol": "omUSD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xd3043d66afe00344c115f7f81d18277c5c718ff8.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5a56da75c50aa2733f5fa9a2442aaefcbc60b2e6",
+      "name": "Cortex DAO Token",
+      "symbol": "CXD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5a56da75c50aa2733f5fa9a2442aaefcbc60b2e6.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37",
+      "name": "Yelay",
+      "symbol": "YLAY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37.png"
     }
   ],
   "tokenMap": {
@@ -10345,6 +10409,70 @@
       "symbol": "RIVUS",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xab03644a0b996e024c79fc951e3ccca97c402f6c.png"
+    },
+    "1_0x55296f69f40ea6d20e478533c15a6b08b654e758": {
+      "chainId": 1,
+      "address": "0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "name": "XY Oracle",
+      "symbol": "XYO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x55296f69f40ea6d20e478533c15a6b08b654e758.png"
+    },
+    "1_0x6a445e9f40e0b97c92d0b8a3366cef1d67f700bf": {
+      "chainId": 1,
+      "address": "0x6a445e9f40e0b97c92d0b8a3366cef1d67f700bf",
+      "name": "Fidu",
+      "symbol": "FIDU",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x6a445e9f40e0b97c92d0b8a3366cef1d67f700bf.png"
+    },
+    "1_0x69000dfd5025e82f48eb28325a2b88a241182ced": {
+      "chainId": 1,
+      "address": "0x69000dfd5025e82f48eb28325a2b88a241182ced",
+      "name": "ZAI Stablecoin",
+      "symbol": "ZAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x69000dfd5025e82f48eb28325a2b88a241182ced.png"
+    },
+    "1_0x11ebe21e9d7bf541a18e1e3ac94939018ce88f0b": {
+      "chainId": 1,
+      "address": "0x11ebe21e9d7bf541a18e1e3ac94939018ce88f0b",
+      "name": "Pitch FXS",
+      "symbol": "pitchFXS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x11ebe21e9d7bf541a18e1e3ac94939018ce88f0b.png"
+    },
+    "1_0x823e1b82ce1dc147bbdb25a203f046afab1ce918": {
+      "chainId": 1,
+      "address": "0x823e1b82ce1dc147bbdb25a203f046afab1ce918",
+      "name": "Coil",
+      "symbol": "COIL",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x823e1b82ce1dc147bbdb25a203f046afab1ce918.png"
+    },
+    "1_0xd3043d66afe00344c115f7f81d18277c5c718ff8": {
+      "chainId": 1,
+      "address": "0xd3043d66afe00344c115f7f81d18277c5c718ff8",
+      "name": "OpenMoney USD",
+      "symbol": "omUSD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xd3043d66afe00344c115f7f81d18277c5c718ff8.png"
+    },
+    "1_0x5a56da75c50aa2733f5fa9a2442aaefcbc60b2e6": {
+      "chainId": 1,
+      "address": "0x5a56da75c50aa2733f5fa9a2442aaefcbc60b2e6",
+      "name": "Cortex DAO Token",
+      "symbol": "CXD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5a56da75c50aa2733f5fa9a2442aaefcbc60b2e6.png"
+    },
+    "1_0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37": {
+      "chainId": 1,
+      "address": "0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37",
+      "name": "Yelay",
+      "symbol": "YLAY",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37.png"
     }
   },
   "version": {
