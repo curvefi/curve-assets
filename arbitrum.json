@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-11T00:37:13.935564+00:00",
+  "timestamp": "2025-02-11T17:22:57.469236+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -727,6 +727,14 @@
       "symbol": "EURe",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x0c06ccf38114ddfc35e07427b9424adcca9f44f8.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33.png"
     }
   ],
   "tokenMap": {
@@ -1449,6 +1457,14 @@
       "symbol": "EURe",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x0c06ccf38114ddfc35e07427b9424adcca9f44f8.png"
+    },
+    "42161_0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33": {
+      "chainId": 42161,
+      "address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33.png"
     }
   },
   "version": {
