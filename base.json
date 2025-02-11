@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-10T17:33:02.311698+00:00",
+  "timestamp": "2025-02-11T00:32:43.137193+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -263,6 +263,22 @@
       "symbol": "sUSDS",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5875eee11cf8398102fdad704c9e96607675467a.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+      "name": "EURC",
+      "symbol": "EURC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42.png"
     }
   ],
   "tokenMap": {
@@ -521,6 +537,22 @@
       "symbol": "sUSDS",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5875eee11cf8398102fdad704c9e96607675467a.png"
+    },
+    "8453_0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee": {
+      "chainId": 8453,
+      "address": "0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee.png"
+    },
+    "8453_0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42": {
+      "chainId": 8453,
+      "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+      "name": "EURC",
+      "symbol": "EURC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42.png"
     }
   },
   "version": {
