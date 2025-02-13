@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-12T05:10:49.796549+00:00",
+  "timestamp": "2025-02-13T16:58:28.727500+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -5239,6 +5239,62 @@
       "symbol": "YLAY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x201eba5cc46d216ce6dc03f6a759e8e766e956ae.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8",
+      "name": "Wrapped Mantle",
+      "symbol": "WMNT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "name": "USDe",
+      "symbol": "USDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x0994206dfe8de6ec6920ff4d779b0d950605fb53.png"
+    },
+    {
+      "chainId": 5000,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Mantle",
+      "symbol": "MNT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   ],
   "tokenMap": {
@@ -10473,6 +10529,62 @@
       "symbol": "YLAY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37.png"
+    },
+    "5000_0x201eba5cc46d216ce6dc03f6a759e8e766e956ae": {
+      "chainId": 5000,
+      "address": "0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x201eba5cc46d216ce6dc03f6a759e8e766e956ae.png"
+    },
+    "5000_0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8": {
+      "chainId": 5000,
+      "address": "0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8",
+      "name": "Wrapped Mantle",
+      "symbol": "WMNT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8.png"
+    },
+    "5000_0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75": {
+      "chainId": 5000,
+      "address": "0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75.png"
+    },
+    "5000_0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9": {
+      "chainId": 5000,
+      "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9.png"
+    },
+    "5000_0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34": {
+      "chainId": 5000,
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "name": "USDe",
+      "symbol": "USDe",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+    },
+    "5000_0x0994206dfe8de6ec6920ff4d779b0d950605fb53": {
+      "chainId": 5000,
+      "address": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0x0994206dfe8de6ec6920ff4d779b0d950605fb53.png"
+    },
+    "5000_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 5000,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Mantle",
+      "symbol": "MNT",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   },
   "version": {
