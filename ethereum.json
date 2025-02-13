@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-12T05:11:01.492600+00:00",
+  "timestamp": "2025-02-13T16:58:44.801146+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3503,6 +3503,54 @@
       "symbol": "YLAY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x01bf66becdcfd6d59a5ca18869f494fea086cdfd",
+      "name": "US KUMA Interest Bearing Token",
+      "symbol": "USK",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x01bf66becdcfd6d59a5ca18869f494fea086cdfd.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa71d0588eaf47f12b13cf8ec750430d21df04974",
+      "name": "Shiba Predator",
+      "symbol": "QOM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xa71d0588eaf47f12b13cf8ec750430d21df04974.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc",
+      "name": "eUSD",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb53ecf1345cabee6ea1a65100ebb153cebcac40f",
+      "name": "Childhoods End",
+      "symbol": "O",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb53ecf1345cabee6ea1a65100ebb153cebcac40f.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7cd017ca5ddb86861fa983a34b5f495c6f898c41",
+      "name": "Worldwide USD",
+      "symbol": "WUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7cd017ca5ddb86861fa983a34b5f495c6f898c41.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
+      "name": "A Hunters Dream",
+      "symbol": "CAW",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf3b9569f82b18aef890de263b84189bd33ebe452.png"
     }
   ],
   "tokenMap": {
@@ -7001,6 +7049,54 @@
       "symbol": "YLAY",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xaee5913ffd19dbca4fd1ef6f3925ed0414407d37.png"
+    },
+    "1_0x01bf66becdcfd6d59a5ca18869f494fea086cdfd": {
+      "chainId": 1,
+      "address": "0x01bf66becdcfd6d59a5ca18869f494fea086cdfd",
+      "name": "US KUMA Interest Bearing Token",
+      "symbol": "USK",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x01bf66becdcfd6d59a5ca18869f494fea086cdfd.png"
+    },
+    "1_0xa71d0588eaf47f12b13cf8ec750430d21df04974": {
+      "chainId": 1,
+      "address": "0xa71d0588eaf47f12b13cf8ec750430d21df04974",
+      "name": "Shiba Predator",
+      "symbol": "QOM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xa71d0588eaf47f12b13cf8ec750430d21df04974.png"
+    },
+    "1_0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc": {
+      "chainId": 1,
+      "address": "0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc",
+      "name": "eUSD",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xdf3ac4f479375802a821f7b7b46cd7eb5e4262cc.png"
+    },
+    "1_0xb53ecf1345cabee6ea1a65100ebb153cebcac40f": {
+      "chainId": 1,
+      "address": "0xb53ecf1345cabee6ea1a65100ebb153cebcac40f",
+      "name": "Childhoods End",
+      "symbol": "O",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb53ecf1345cabee6ea1a65100ebb153cebcac40f.png"
+    },
+    "1_0x7cd017ca5ddb86861fa983a34b5f495c6f898c41": {
+      "chainId": 1,
+      "address": "0x7cd017ca5ddb86861fa983a34b5f495c6f898c41",
+      "name": "Worldwide USD",
+      "symbol": "WUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x7cd017ca5ddb86861fa983a34b5f495c6f898c41.png"
+    },
+    "1_0xf3b9569f82b18aef890de263b84189bd33ebe452": {
+      "chainId": 1,
+      "address": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
+      "name": "A Hunters Dream",
+      "symbol": "CAW",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf3b9569f82b18aef890de263b84189bd33ebe452.png"
     }
   },
   "version": {
