@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-12T05:11:21.518313+00:00",
+  "timestamp": "2025-02-13T16:59:06.714141+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -279,6 +279,14 @@
       "symbol": "EURC",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xfde4c96c8593536e31f229ea8f37b2ada2699bb2.png"
     }
   ],
   "tokenMap": {
@@ -553,6 +561,14 @@
       "symbol": "EURC",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42.png"
+    },
+    "8453_0xfde4c96c8593536e31f229ea8f37b2ada2699bb2": {
+      "chainId": 8453,
+      "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xfde4c96c8593536e31f229ea8f37b2ada2699bb2.png"
     }
   },
   "version": {
