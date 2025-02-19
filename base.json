@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-19T00:25:18.746295+00:00",
+  "timestamp": "2025-02-19T16:04:48.270344+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -287,6 +287,22 @@
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xfde4c96c8593536e31f229ea8f37b2ada2699bb2.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x5ae84075f0e34946821a8015dab5299a00992721",
+      "name": "Wrapped Cygnus USD",
+      "symbol": "wcgUSD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5ae84075f0e34946821a8015dab5299a00992721.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xca72827a3d211cfd8f6b00ac98824872b72cab49",
+      "name": "Cygnus Global USD",
+      "symbol": "cgUSD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xca72827a3d211cfd8f6b00ac98824872b72cab49.png"
     }
   ],
   "tokenMap": {
@@ -569,6 +585,22 @@
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xfde4c96c8593536e31f229ea8f37b2ada2699bb2.png"
+    },
+    "8453_0x5ae84075f0e34946821a8015dab5299a00992721": {
+      "chainId": 8453,
+      "address": "0x5ae84075f0e34946821a8015dab5299a00992721",
+      "name": "Wrapped Cygnus USD",
+      "symbol": "wcgUSD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x5ae84075f0e34946821a8015dab5299a00992721.png"
+    },
+    "8453_0xca72827a3d211cfd8f6b00ac98824872b72cab49": {
+      "chainId": 8453,
+      "address": "0xca72827a3d211cfd8f6b00ac98824872b72cab49",
+      "name": "Cygnus Global USD",
+      "symbol": "cgUSD",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xca72827a3d211cfd8f6b00ac98824872b72cab49.png"
     }
   },
   "version": {
