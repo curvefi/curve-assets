@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-19T16:04:41.150310+00:00",
+  "timestamp": "2025-02-21T01:47:58.169915+00:00",
   "tokens": [
     {
       "chainId": 100,
@@ -127,6 +127,38 @@
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x8e5bbbb09ed1ebde8674cda39a0c169401db4252.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x004626a008b1acdc4c74ab51644093b155e59a23",
+      "name": "Staked EURA",
+      "symbol": "stEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x004626a008b1acdc4c74ab51644093b155e59a23.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xf490c80aae5f2616d3e3bda2483e30c4cb21d1a0",
+      "name": "Staked GNO",
+      "symbol": "osGNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xf490c80aae5f2616d3e3bda2483e30c4cb21d1a0.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xa555d5344f6fb6c65da19e403cb4c1ec4a1a5ee3",
+      "name": "Breadchain Stablecoin",
+      "symbol": "BREAD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xa555d5344f6fb6c65da19e403cb4c1ec4a1a5ee3.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6",
+      "name": "Bridged EURC (Gnosis)",
+      "symbol": "EURC.e",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6.png"
     }
   ],
   "tokenMap": {
@@ -249,6 +281,38 @@
       "symbol": "WBTC",
       "decimals": 8,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x8e5bbbb09ed1ebde8674cda39a0c169401db4252.png"
+    },
+    "100_0x004626a008b1acdc4c74ab51644093b155e59a23": {
+      "chainId": 100,
+      "address": "0x004626a008b1acdc4c74ab51644093b155e59a23",
+      "name": "Staked EURA",
+      "symbol": "stEUR",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x004626a008b1acdc4c74ab51644093b155e59a23.png"
+    },
+    "100_0xf490c80aae5f2616d3e3bda2483e30c4cb21d1a0": {
+      "chainId": 100,
+      "address": "0xf490c80aae5f2616d3e3bda2483e30c4cb21d1a0",
+      "name": "Staked GNO",
+      "symbol": "osGNO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xf490c80aae5f2616d3e3bda2483e30c4cb21d1a0.png"
+    },
+    "100_0xa555d5344f6fb6c65da19e403cb4c1ec4a1a5ee3": {
+      "chainId": 100,
+      "address": "0xa555d5344f6fb6c65da19e403cb4c1ec4a1a5ee3",
+      "name": "Breadchain Stablecoin",
+      "symbol": "BREAD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0xa555d5344f6fb6c65da19e403cb4c1ec4a1a5ee3.png"
+    },
+    "100_0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6": {
+      "chainId": 100,
+      "address": "0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6",
+      "name": "Bridged EURC (Gnosis)",
+      "symbol": "EURC.e",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-xdai/0x54e4cb2a4fa0ee46e3d9a98d13bea119666e09f6.png"
     }
   },
   "version": {
