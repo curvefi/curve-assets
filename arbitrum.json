@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-24T16:26:10.687573+00:00",
+  "timestamp": "2025-02-27T02:18:11.384743+00:00",
   "tokens": [
     {
       "chainId": 42161,
@@ -735,6 +735,22 @@
       "symbol": "GHO",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x6491c05a82219b8d1479057361ff1654749b876b",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x6491c05a82219b8d1479057361ff1654749b876b.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xddb46999f8891663a8f2828d25298f70416d7610",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xddb46999f8891663a8f2828d25298f70416d7610.png"
     }
   ],
   "tokenMap": {
@@ -1465,6 +1481,22 @@
       "symbol": "GHO",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33.png"
+    },
+    "42161_0x6491c05a82219b8d1479057361ff1654749b876b": {
+      "chainId": 42161,
+      "address": "0x6491c05a82219b8d1479057361ff1654749b876b",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0x6491c05a82219b8d1479057361ff1654749b876b.png"
+    },
+    "42161_0xddb46999f8891663a8f2828d25298f70416d7610": {
+      "chainId": 42161,
+      "address": "0xddb46999f8891663a8f2828d25298f70416d7610",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-arbitrum/0xddb46999f8891663a8f2828d25298f70416d7610.png"
     }
   },
   "version": {
