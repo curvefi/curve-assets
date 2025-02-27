@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-02-24T16:25:45.471696+00:00",
+  "timestamp": "2025-02-27T02:17:50.380680+00:00",
   "tokens": [
     {
       "chainId": 56,
@@ -5295,6 +5295,302 @@
       "symbol": "MNT",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "name": "TetherToken",
+      "symbol": "USDt",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
+      "name": "Aave Avalanche Market USDC",
+      "symbol": "avUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x46a51127c3ce23fb7ab1de06226147f446e4a857.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a",
+      "name": "Aave Avalanche Market DAI",
+      "symbol": "avDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x4fbf0429599460d327bd5f55625e30e4fc066095",
+      "name": "TSD Stablecoin",
+      "symbol": "TSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x4fbf0429599460d327bd5f55625e30e4fc066095.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x130966628846bfd36ff31a822705796e8cb8c18d",
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x130966628846bfd36ff31a822705796e8cb8c18d.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xab05b04743e0aeaf9d2ca81e5d3b8385e4bf961e",
+      "name": "Spice USD",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xab05b04743e0aeaf9d2ca81e5d3b8385e4bf961e.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+      "name": "Wrapped Ether",
+      "symbol": "WETH.e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x28690ec942671ac8d9bc442b667ec338ede6dfd3",
+      "name": "deBridge USD Coin",
+      "symbol": "deUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x28690ec942671ac8d9bc442b667ec338ede6dfd3.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "name": "Wrapped AVAX",
+      "symbol": "WAVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC.e",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x50b7545627a5162f82a992c33b87adc75187b218.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI.e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xd586e7f844cea2f87f50152665bcbc2c279d8d70.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+      "name": "Tether USD",
+      "symbol": "USDT.e",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xc7198437980c041c805a1edcba50c1ce5db95118.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x532e6537fea298397212f09a61e03311686f548e",
+      "name": "Aave Avalanche Market USDT",
+      "symbol": "avUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x532e6537fea298397212f09a61e03311686f548e.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+      "name": "USD Coin",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+      "name": "Bitcoin",
+      "symbol": "BTC.b",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x152b9d0fdc40c096757f570a51e494bd4b943e50.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x111111111111ed1d73f860f57b2798b683f2d325",
+      "name": "YUSD Stablecoin",
+      "symbol": "YUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x111111111111ed1d73f860f57b2798b683f2d325.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xc8e9053d354976ccd78f58fdbc7df2b0a9a127e6",
+      "name": "Axon USD",
+      "symbol": "UXDA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xc8e9053d354976ccd78f58fdbc7df2b0a9a127e6.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xc25ff1af397b76252d6975b4d7649b35c0e60f69",
+      "name": "Blizz USDC",
+      "symbol": "bUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xc25ff1af397b76252d6975b4d7649b35c0e60f69.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xe0237f9e2aaabd7ffb8630be5203d573a045bca7",
+      "name": "AVAXL",
+      "symbol": "AVAX-L",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xe0237f9e2aaabd7ffb8630be5203d573a045bca7.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x264c1383ea520f73dd837f915ef3a732e204a493",
+      "name": "Binance",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x264c1383ea520f73dd837f915ef3a732e204a493.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+      "name": "Staked Frax USD",
+      "symbol": "sfrxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x5bff88ca1442c2496f7e475e9e7786383bc070c0.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x80eede496655fb9047dd39d9f418d5483ed600df.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xbdf3c7412eb426197da14ad084567c006f365d76",
+      "name": "Factor XUSD",
+      "symbol": "XUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xbdf3c7412eb426197da14ad084567c006f365d76.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x6807ed4369d9399847f306d7d835538915fa749d",
+      "name": "Blizz DAI",
+      "symbol": "bDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x6807ed4369d9399847f306d7d835538915fa749d.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x6c6f910a79639dcc94b4feef59ff507c2e843929",
+      "name": "Ankr Reward Earning AVAX",
+      "symbol": "aAVAXb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x6c6f910a79639dcc94b4feef59ff507c2e843929.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x40b393cecf8f7d7fc79b83e8fa40e850511817f6",
+      "name": "USDL",
+      "symbol": "USDL Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x40b393cecf8f7d7fc79b83e8fa40e850511817f6.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x37e72ff1f16d0e96b965bedb8fe444f0e9ec26bb",
+      "name": "Omnify BUSD Token",
+      "symbol": "OFYBUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x37e72ff1f16d0e96b965bedb8fe444f0e9ec26bb.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xe013593cea239e445d2271106836b00c9e7356ae",
+      "name": "Curve.fi Factory USD Metapool: FRAX",
+      "symbol": "FRAX3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xe013593cea239e445d2271106836b00c9e7356ae.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x5c49b268c9841aff1cc3b0a418ff5c3442ee3f3b",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x5c49b268c9841aff1cc3b0a418ff5c3442ee3f3b.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x18cb11c9f2b6f45a7ac0a95efd322ed4cf9eeebf",
+      "name": "Blizz USDT",
+      "symbol": "bUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x18cb11c9f2b6f45a7ac0a95efd322ed4cf9eeebf.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xb599c3590f42f8f995ecfa0f85d2980b76862fc1",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb599c3590f42f8f995ecfa0f85d2980b76862fc1.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xfab550568c688d5d8a52c7d794cb93edc26ec0ec",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xfab550568c688d5d8a52c7d794cb93edc26ec0ec.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   ],
   "tokenMap": {
@@ -10585,6 +10881,302 @@
       "symbol": "MNT",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-mantle/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
+    },
+    "43114_0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+      "chainId": 43114,
+      "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "name": "TetherToken",
+      "symbol": "USDt",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7.png"
+    },
+    "43114_0x46a51127c3ce23fb7ab1de06226147f446e4a857": {
+      "chainId": 43114,
+      "address": "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
+      "name": "Aave Avalanche Market USDC",
+      "symbol": "avUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x46a51127c3ce23fb7ab1de06226147f446e4a857.png"
+    },
+    "43114_0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a": {
+      "chainId": 43114,
+      "address": "0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a",
+      "name": "Aave Avalanche Market DAI",
+      "symbol": "avDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a.png"
+    },
+    "43114_0x4fbf0429599460d327bd5f55625e30e4fc066095": {
+      "chainId": 43114,
+      "address": "0x4fbf0429599460d327bd5f55625e30e4fc066095",
+      "name": "TSD Stablecoin",
+      "symbol": "TSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x4fbf0429599460d327bd5f55625e30e4fc066095.png"
+    },
+    "43114_0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64": {
+      "chainId": 43114,
+      "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64.png"
+    },
+    "43114_0x130966628846bfd36ff31a822705796e8cb8c18d": {
+      "chainId": 43114,
+      "address": "0x130966628846bfd36ff31a822705796e8cb8c18d",
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x130966628846bfd36ff31a822705796e8cb8c18d.png"
+    },
+    "43114_0xab05b04743e0aeaf9d2ca81e5d3b8385e4bf961e": {
+      "chainId": 43114,
+      "address": "0xab05b04743e0aeaf9d2ca81e5d3b8385e4bf961e",
+      "name": "Spice USD",
+      "symbol": "USDS",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xab05b04743e0aeaf9d2ca81e5d3b8385e4bf961e.png"
+    },
+    "43114_0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab": {
+      "chainId": 43114,
+      "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+      "name": "Wrapped Ether",
+      "symbol": "WETH.e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab.png"
+    },
+    "43114_0x28690ec942671ac8d9bc442b667ec338ede6dfd3": {
+      "chainId": 43114,
+      "address": "0x28690ec942671ac8d9bc442b667ec338ede6dfd3",
+      "name": "deBridge USD Coin",
+      "symbol": "deUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x28690ec942671ac8d9bc442b667ec338ede6dfd3.png"
+    },
+    "43114_0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7": {
+      "chainId": 43114,
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "name": "Wrapped AVAX",
+      "symbol": "WAVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7.png"
+    },
+    "43114_0x50b7545627a5162f82a992c33b87adc75187b218": {
+      "chainId": 43114,
+      "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC.e",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x50b7545627a5162f82a992c33b87adc75187b218.png"
+    },
+    "43114_0xd586e7f844cea2f87f50152665bcbc2c279d8d70": {
+      "chainId": 43114,
+      "address": "0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI.e",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xd586e7f844cea2f87f50152665bcbc2c279d8d70.png"
+    },
+    "43114_0xc7198437980c041c805a1edcba50c1ce5db95118": {
+      "chainId": 43114,
+      "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+      "name": "Tether USD",
+      "symbol": "USDT.e",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xc7198437980c041c805a1edcba50c1ce5db95118.png"
+    },
+    "43114_0x532e6537fea298397212f09a61e03311686f548e": {
+      "chainId": 43114,
+      "address": "0x532e6537fea298397212f09a61e03311686f548e",
+      "name": "Aave Avalanche Market USDT",
+      "symbol": "avUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x532e6537fea298397212f09a61e03311686f548e.png"
+    },
+    "43114_0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664": {
+      "chainId": 43114,
+      "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+      "name": "USD Coin",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664.png"
+    },
+    "43114_0x152b9d0fdc40c096757f570a51e494bd4b943e50": {
+      "chainId": 43114,
+      "address": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+      "name": "Bitcoin",
+      "symbol": "BTC.b",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x152b9d0fdc40c096757f570a51e494bd4b943e50.png"
+    },
+    "43114_0x111111111111ed1d73f860f57b2798b683f2d325": {
+      "chainId": 43114,
+      "address": "0x111111111111ed1d73f860f57b2798b683f2d325",
+      "name": "YUSD Stablecoin",
+      "symbol": "YUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x111111111111ed1d73f860f57b2798b683f2d325.png"
+    },
+    "43114_0xc8e9053d354976ccd78f58fdbc7df2b0a9a127e6": {
+      "chainId": 43114,
+      "address": "0xc8e9053d354976ccd78f58fdbc7df2b0a9a127e6",
+      "name": "Axon USD",
+      "symbol": "UXDA",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xc8e9053d354976ccd78f58fdbc7df2b0a9a127e6.png"
+    },
+    "43114_0xc25ff1af397b76252d6975b4d7649b35c0e60f69": {
+      "chainId": 43114,
+      "address": "0xc25ff1af397b76252d6975b4d7649b35c0e60f69",
+      "name": "Blizz USDC",
+      "symbol": "bUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xc25ff1af397b76252d6975b4d7649b35c0e60f69.png"
+    },
+    "43114_0xe0237f9e2aaabd7ffb8630be5203d573a045bca7": {
+      "chainId": 43114,
+      "address": "0xe0237f9e2aaabd7ffb8630be5203d573a045bca7",
+      "name": "AVAXL",
+      "symbol": "AVAX-L",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xe0237f9e2aaabd7ffb8630be5203d573a045bca7.png"
+    },
+    "43114_0x264c1383ea520f73dd837f915ef3a732e204a493": {
+      "chainId": 43114,
+      "address": "0x264c1383ea520f73dd837f915ef3a732e204a493",
+      "name": "Binance",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x264c1383ea520f73dd837f915ef3a732e204a493.png"
+    },
+    "43114_0x5bff88ca1442c2496f7e475e9e7786383bc070c0": {
+      "chainId": 43114,
+      "address": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+      "name": "Staked Frax USD",
+      "symbol": "sfrxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x5bff88ca1442c2496f7e475e9e7786383bc070c0.png"
+    },
+    "43114_0x80eede496655fb9047dd39d9f418d5483ed600df": {
+      "chainId": 43114,
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "name": "Frax USD",
+      "symbol": "frxUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x80eede496655fb9047dd39d9f418d5483ed600df.png"
+    },
+    "43114_0xdbf31df14b66535af65aac99c32e9ea844e14501": {
+      "chainId": 43114,
+      "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "decimals": 8,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xdbf31df14b66535af65aac99c32e9ea844e14501.png"
+    },
+    "43114_0xbdf3c7412eb426197da14ad084567c006f365d76": {
+      "chainId": 43114,
+      "address": "0xbdf3c7412eb426197da14ad084567c006f365d76",
+      "name": "Factor XUSD",
+      "symbol": "XUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xbdf3c7412eb426197da14ad084567c006f365d76.png"
+    },
+    "43114_0x6807ed4369d9399847f306d7d835538915fa749d": {
+      "chainId": 43114,
+      "address": "0x6807ed4369d9399847f306d7d835538915fa749d",
+      "name": "Blizz DAI",
+      "symbol": "bDAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x6807ed4369d9399847f306d7d835538915fa749d.png"
+    },
+    "43114_0x6c6f910a79639dcc94b4feef59ff507c2e843929": {
+      "chainId": 43114,
+      "address": "0x6c6f910a79639dcc94b4feef59ff507c2e843929",
+      "name": "Ankr Reward Earning AVAX",
+      "symbol": "aAVAXb",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x6c6f910a79639dcc94b4feef59ff507c2e843929.png"
+    },
+    "43114_0x40b393cecf8f7d7fc79b83e8fa40e850511817f6": {
+      "chainId": 43114,
+      "address": "0x40b393cecf8f7d7fc79b83e8fa40e850511817f6",
+      "name": "USDL",
+      "symbol": "USDL Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x40b393cecf8f7d7fc79b83e8fa40e850511817f6.png"
+    },
+    "43114_0x37e72ff1f16d0e96b965bedb8fe444f0e9ec26bb": {
+      "chainId": 43114,
+      "address": "0x37e72ff1f16d0e96b965bedb8fe444f0e9ec26bb",
+      "name": "Omnify BUSD Token",
+      "symbol": "OFYBUSD",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x37e72ff1f16d0e96b965bedb8fe444f0e9ec26bb.png"
+    },
+    "43114_0xe013593cea239e445d2271106836b00c9e7356ae": {
+      "chainId": 43114,
+      "address": "0xe013593cea239e445d2271106836b00c9e7356ae",
+      "name": "Curve.fi Factory USD Metapool: FRAX",
+      "symbol": "FRAX3CRV-f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xe013593cea239e445d2271106836b00c9e7356ae.png"
+    },
+    "43114_0x5c49b268c9841aff1cc3b0a418ff5c3442ee3f3b": {
+      "chainId": 43114,
+      "address": "0x5c49b268c9841aff1cc3b0a418ff5c3442ee3f3b",
+      "name": "Mai Stablecoin",
+      "symbol": "MAI",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x5c49b268c9841aff1cc3b0a418ff5c3442ee3f3b.png"
+    },
+    "43114_0x18cb11c9f2b6f45a7ac0a95efd322ed4cf9eeebf": {
+      "chainId": 43114,
+      "address": "0x18cb11c9f2b6f45a7ac0a95efd322ed4cf9eeebf",
+      "name": "Blizz USDT",
+      "symbol": "bUSDT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0x18cb11c9f2b6f45a7ac0a95efd322ed4cf9eeebf.png"
+    },
+    "43114_0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+      "chainId": 43114,
+      "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e.png"
+    },
+    "43114_0xb599c3590f42f8f995ecfa0f85d2980b76862fc1": {
+      "chainId": 43114,
+      "address": "0xb599c3590f42f8f995ecfa0f85d2980b76862fc1",
+      "name": "UST",
+      "symbol": "UST",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb599c3590f42f8f995ecfa0f85d2980b76862fc1.png"
+    },
+    "43114_0xb88a5ac00917a02d82c7cd6cebd73e2852d43574": {
+      "chainId": 43114,
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "name": "SweepCoin",
+      "symbol": "SWEEP",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xb88a5ac00917a02d82c7cd6cebd73e2852d43574.png"
+    },
+    "43114_0xfab550568c688d5d8a52c7d794cb93edc26ec0ec": {
+      "chainId": 43114,
+      "address": "0xfab550568c688d5d8a52c7d794cb93edc26ec0ec",
+      "name": "Axelar Wrapped USDC",
+      "symbol": "axlUSDC",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xfab550568c688d5d8a52c7d794cb93edc26ec0ec.png"
+    },
+    "43114_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "chainId": 43114,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-avalanche/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png"
     }
   },
   "version": {
