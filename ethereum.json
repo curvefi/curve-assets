@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-03-05T13:38:37.904785+00:00",
+  "timestamp": "2025-03-06T19:23:34.663657+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3551,6 +3551,14 @@
       "symbol": "CAW",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf3b9569f82b18aef890de263b84189bd33ebe452.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb90b2a35c65dbc466b04240097ca756ad2005295",
+      "name": "BOBO",
+      "symbol": "BOBO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb90b2a35c65dbc466b04240097ca756ad2005295.png"
     }
   ],
   "tokenMap": {
@@ -7097,6 +7105,14 @@
       "symbol": "CAW",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xf3b9569f82b18aef890de263b84189bd33ebe452.png"
+    },
+    "1_0xb90b2a35c65dbc466b04240097ca756ad2005295": {
+      "chainId": 1,
+      "address": "0xb90b2a35c65dbc466b04240097ca756ad2005295",
+      "name": "BOBO",
+      "symbol": "BOBO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb90b2a35c65dbc466b04240097ca756ad2005295.png"
     }
   },
   "version": {
