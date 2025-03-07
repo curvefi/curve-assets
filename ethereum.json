@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-03-06T19:23:34.663657+00:00",
+  "timestamp": "2025-03-07T00:08:25.565691+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3559,6 +3559,14 @@
       "symbol": "BOBO",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb90b2a35c65dbc466b04240097ca756ad2005295.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+      "name": "OriginToken",
+      "symbol": "OGN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png"
     }
   ],
   "tokenMap": {
@@ -7113,6 +7121,14 @@
       "symbol": "BOBO",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0xb90b2a35c65dbc466b04240097ca756ad2005295.png"
+    },
+    "1_0x8207c1ffc5b6804f6024322ccf34f29c3541ae26": {
+      "chainId": 1,
+      "address": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+      "name": "OriginToken",
+      "symbol": "OGN",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png"
     }
   },
   "version": {
