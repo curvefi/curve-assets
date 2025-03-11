@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-03-10T17:19:41.316815+00:00",
+  "timestamp": "2025-03-11T20:06:08.725408+00:00",
   "tokens": [
     {
       "chainId": 8453,
@@ -303,6 +303,14 @@
       "symbol": "cgUSD",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xca72827a3d211cfd8f6b00ac98824872b72cab49.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3.png"
     }
   ],
   "tokenMap": {
@@ -601,6 +609,14 @@
       "symbol": "cgUSD",
       "decimals": 6,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0xca72827a3d211cfd8f6b00ac98824872b72cab49.png"
+    },
+    "8453_0x4f604735c1cf31399c6e711d5962b2b3e0225ad3": {
+      "chainId": 8453,
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets-base/0x4f604735c1cf31399c6e711d5962b2b3e0225ad3.png"
     }
   },
   "version": {
