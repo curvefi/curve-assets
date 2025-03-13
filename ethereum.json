@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-03-13T15:15:05.732630+00:00",
+  "timestamp": "2025-03-13T18:21:23.764946+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3583,6 +3583,14 @@
       "symbol": "stELX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5a0dea3fa18d20381958ff59f6387ea89883b656.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x22de58db17d8e4c933ae9b76ce4480a74f2a66b0",
+      "name": "Rivus Staked TAO",
+      "symbol": "rsTAO",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x22de58db17d8e4c933ae9b76ce4480a74f2a66b0.png"
     }
   ],
   "tokenMap": {
@@ -7161,6 +7169,14 @@
       "symbol": "stELX",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5a0dea3fa18d20381958ff59f6387ea89883b656.png"
+    },
+    "1_0x22de58db17d8e4c933ae9b76ce4480a74f2a66b0": {
+      "chainId": 1,
+      "address": "0x22de58db17d8e4c933ae9b76ce4480a74f2a66b0",
+      "name": "Rivus Staked TAO",
+      "symbol": "rsTAO",
+      "decimals": 9,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x22de58db17d8e4c933ae9b76ce4480a74f2a66b0.png"
     }
   },
   "version": {
