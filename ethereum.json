@@ -6,7 +6,7 @@
     "defi"
   ],
   "tags": {},
-  "timestamp": "2025-03-11T20:05:46.331119+00:00",
+  "timestamp": "2025-03-13T05:47:57.042749+00:00",
   "tokens": [
     {
       "chainId": 1,
@@ -3567,6 +3567,22 @@
       "symbol": "OGN",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x89a8c847f41c0dfa6c8b88638bacca8a0b777da7",
+      "name": "Elixir",
+      "symbol": "ELX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x89a8c847f41c0dfa6c8b88638bacca8a0b777da7.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5a0dea3fa18d20381958ff59f6387ea89883b656",
+      "name": "Staked Elixir",
+      "symbol": "stELX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5a0dea3fa18d20381958ff59f6387ea89883b656.png"
     }
   ],
   "tokenMap": {
@@ -7129,6 +7145,22 @@
       "symbol": "OGN",
       "decimals": 18,
       "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png"
+    },
+    "1_0x89a8c847f41c0dfa6c8b88638bacca8a0b777da7": {
+      "chainId": 1,
+      "address": "0x89a8c847f41c0dfa6c8b88638bacca8a0b777da7",
+      "name": "Elixir",
+      "symbol": "ELX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x89a8c847f41c0dfa6c8b88638bacca8a0b777da7.png"
+    },
+    "1_0x5a0dea3fa18d20381958ff59f6387ea89883b656": {
+      "chainId": 1,
+      "address": "0x5a0dea3fa18d20381958ff59f6387ea89883b656",
+      "name": "Staked Elixir",
+      "symbol": "stELX",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/assets/0x5a0dea3fa18d20381958ff59f6387ea89883b656.png"
     }
   },
   "version": {
