@@ -105,9 +105,3 @@ jobs:
             echo "::error::${myarray[i]}"
           done
           exit 1
-
-  update_tokenlist:
-    uses: ./.github/workflows/upload-tokenlist.yml
-    needs: changed_files
-    if: ${{ !failure() }}
-    secrets: inherit
