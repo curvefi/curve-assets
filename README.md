@@ -33,3 +33,9 @@ It's simple:
 1. This is the base url: `https://cdn.jsdelivr.net/gh/curvefi/curve-assets/`
 2. Append to it the relative path of any icon in this repository: for example, for the CRV icon on Ethereum: `images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png`
 3. That's it, you can serve icon anywhere you want with the complete url: for example, for the CRV icon: [`https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png`](https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png)
+
+## Refreshing a token icon after updating it
+
+The jsDelivr CDN regularly updates its cache to reflect any changes made to your icon, so no action is needed. If you desire to update it right away after changing it, you may use jsDelivr's cache purging: https://www.jsdelivr.com/tools/purge
+
+Enter the url of the icon you want to update (as explained above) and click "Purge".
