@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     name: PR automated checks
     steps:
+      # NOTE: this job only reads filenames/diffs (grep, bash string matching) — it never
+      # executes, builds, or installs anything from the checked-out fork code, which is why
+      # the allow-unsafe-pr-checkout opt-in below is an acceptable risk for this workflow.
       - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
