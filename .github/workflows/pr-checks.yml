@@ -18,10 +18,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event.pull_request.head.sha }} # pin to exact PR commit (was missing — defaulted to base branch)
           fetch-depth: 0
-          persist-credentials: false
-          allow-unsafe-pr-checkout: true
+          persist-credentials: false # don't leave GITHUB_TOKEN usable by the checked-out fork code
+          allow-unsafe-pr-checkout: true # required opt-in since actions/checkout v7 blocks fork checkouts in pull_request_target by default
 
       - name: Get changed files
         id: changed-files
