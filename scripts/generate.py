@@ -65,16 +65,16 @@ def generate_tokenlist(
     display_summary(networks, tokens_in_folder, tokens_to_add)
 
     all_failed_tokens = {}
-    processed_tokens = []
+    all_processed_tokens = []
 
     for network in networks:
         processed_tokens, _ = process_network(network, existing_tokenlist, all_failed_tokens)
         ensure_native_token_in_list(processed_tokens, network)
 
-        processed_tokens.extend(processed_tokens)
+        all_processed_tokens.extend(processed_tokens)
 
     # Update the tokenlist after processing all networks
-    updated_tokenlist = update_tokenlist(processed_tokens, existing_tokenlist)
+    updated_tokenlist = update_tokenlist(all_processed_tokens, existing_tokenlist)
 
     # Check if there are any failed tokens
     if all_failed_tokens:
