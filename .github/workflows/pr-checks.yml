@@ -15,10 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     name: PR automated checks
     steps:
+      # NOTE: this job only reads filenames/diffs (grep, bash string matching) — it never
+      # executes, builds, or installs anything from the checked-out fork code, which is why
+      # the allow-unsafe-pr-checkout opt-in below is an acceptable risk for this workflow.
       - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }} # pin to exact PR commit (was missing — defaulted to base branch)
           fetch-depth: 0
+          persist-credentials: false # don't leave GITHUB_TOKEN usable by the checked-out fork code
+          allow-unsafe-pr-checkout: true # required opt-in since actions/checkout v7 blocks fork checkouts in pull_request_target by default
 
       - name: Get changed files
         id: changed-files
